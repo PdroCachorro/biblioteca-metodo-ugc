@@ -43,3 +43,4 @@ jobs:
           git add ranking_data.json images/products index.html
           git diff --cached --quiet || git commit -m "Atualiza ranking TikTok Shop ($(date -u +%Y-%m-%d))"
           git push
+
