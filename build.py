@@ -494,11 +494,17 @@ BODY = f"""<div class="top-nav">
     <span>&Uacute;ltima coleta: {LAST_UPDATED}</span>
     <span class="rank-next-pill">&#128337; Atualiza em <span class="rank-countdown" id="rank-countdown">--:--:--</span></span>
   </div>
-  <div class="fmt-tabs rank-type-tabs">
-      {rank_type_tabs_html}
+  <div class="rank-filter-group">
+    <span class="rank-filter-label">1. Escolha o ranking</span>
+    <div class="fmt-tabs rank-type-tabs">
+        {rank_type_tabs_html}
+    </div>
   </div>
-  <div class="fmt-tabs rank-cat-tabs">
-      {rank_cat_tabs_html}
+  <div class="rank-filter-group">
+    <span class="rank-filter-label">2. Filtre por categoria</span>
+    <div class="fmt-tabs rank-cat-tabs">
+        {rank_cat_tabs_html}
+    </div>
   </div>
   <div class="rank-panels">
 {rank_panels_html}
@@ -566,7 +572,7 @@ CSS = """
   .modal-block-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
   .modal-step{flex:none;width:22px;height:22px;border-radius:50%;background:var(--green);color:var(--green-ink);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;}
   .modal-block-head h3{font-size:14.5px;font-weight:700;font-family:'Plus Jakarta Sans',sans-serif;}
-  .modal-block textarea{width:100%;min-height:130px;resize:vertical;background:var(--bg-card);color:var(--ink-dim);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:13px;line-height:1.55;font-family:'JetBrains Mono',monospace;margin-bottom:10px;}
+  .modal-block textarea{width:100%;resize:none;overflow:hidden;background:var(--bg-card);color:var(--ink-dim);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:13px;line-height:1.55;font-family:'JetBrains Mono',monospace;margin-bottom:10px;}
   .btn-copy{appearance:none;border:none;cursor:pointer;font-family:'Unbounded',sans-serif;font-weight:700;font-size:12.5px;background:var(--green);color:var(--green-ink);padding:10px 18px;border-radius:100px;}
   .btn-copy.copied{background:var(--amber);}
   .scene-preview{margin-top:16px;padding-top:16px;border-top:1px dashed var(--line);}
@@ -588,9 +594,16 @@ CSS = """
   }
   .rank-countdown{color:#ff5c5c;font-weight:900;font-family:'JetBrains Mono',monospace;font-size:20px;letter-spacing:.02em;animation:rankPulse 2s ease-in-out infinite;}
   @keyframes rankPulse{0%,100%{opacity:1;}50%{opacity:.55;}}
-  .rank-type-tabs,.rank-cat-tabs{margin-bottom:16px;}
-  .rank-cat-tabs .fmt-tab{font-size:12px;padding:8px 14px;}
-  .rank-cat-tabs{margin-bottom:26px;}
+  .rank-filter-group{margin-bottom:22px;}
+  .rank-filter-label{
+    display:block;text-align:center;font-family:'JetBrains Mono',monospace;font-size:10.5px;
+    font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:12px;
+  }
+  .rank-type-tabs .fmt-tab{font-size:14px;padding:12px 22px;}
+  .rank-cat-tabs .fmt-tab{
+    font-size:12px;padding:8px 16px;background:transparent;border-style:dashed;color:var(--ink-faint);
+  }
+  .rank-cat-tabs .fmt-tab.active{background:var(--amber);color:var(--amber-ink);border-color:var(--amber);border-style:solid;}
   .rank-panel{display:none;}
   .rank-panel.active{display:block;}
   .rank-grid{display:flex;flex-direction:column;gap:10px;}
@@ -672,10 +685,16 @@ JS = """
   playAllAutoplay();
   ['click','touchstart','scroll'].forEach(function(evt){ document.addEventListener(evt, playAllAutoplay, {once:true, passive:true}); });
 
+  function autoSizeTextareas(modal){
+    modal.querySelectorAll('textarea').forEach(function(ta){
+      ta.style.height = 'auto';
+      ta.style.height = ta.scrollHeight + 'px';
+    });
+  }
   document.querySelectorAll('.rank-card[data-rank-modal]').forEach(function(btn){
     btn.addEventListener('click', function(){
       var modal = document.getElementById(btn.getAttribute('data-rank-modal'));
-      if(modal) modal.classList.add('open');
+      if(modal){ modal.classList.add('open'); autoSizeTextareas(modal); }
     });
   });
 
@@ -739,7 +758,7 @@ JS = """
   document.querySelectorAll('.btn-formato[data-card]').forEach(function(btn){
     btn.addEventListener('click', function(){
       var modal = document.getElementById('modal-'+btn.getAttribute('data-card'));
-      if(modal) modal.classList.add('open');
+      if(modal){ modal.classList.add('open'); autoSizeTextareas(modal); }
     });
   });
   document.querySelectorAll('.modal').forEach(function(modal){
