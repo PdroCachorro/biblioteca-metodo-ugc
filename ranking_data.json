@@ -31,7 +31,7 @@
   "vendas": {
    "todos": [
     {
-     "title": "Cor sólida padrão meteorito estilo Instagram p/ iPhone (capinha)",
+     "title": "Cor sólida padrão meteorito estilo Instagram estético minimalista p/ iPhone 18 17 16 15 14 13 12 11, shell suave alto nível",
      "price": "R$ 9,99",
      "store": "oneyeye",
      "img": "images/products/4d48e3b1a1af55df.webp",
@@ -42,7 +42,7 @@
       ],
       [
        "Variação",
-       "+3323.53%"
+       "3323.53%"
       ],
       [
        "Receita",
@@ -53,7 +53,6 @@
        "R$29.5 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737257984407733749",
      "detail": {
       "imgs": [
        "images/products/4d48e3b1a1af55df.webp"
@@ -71,7 +70,7 @@
      }
     },
     {
-     "title": "Tapete de Sprinkler Inflável (brinquedo de água)",
+     "title": "Tapete de Sprinkler Inflável Divertido! Brinquedo de Água para Gramado, Lazer ao Ar Livre para Crianças",
      "price": "R$ 13,68",
      "store": "Lecmor Home",
      "img": "images/products/4a5181d92927b512.jpg",
@@ -82,7 +81,7 @@
       ],
       [
        "Variação",
-       "+5243.75%"
+       "5243.75%"
       ],
       [
        "Receita",
@@ -93,7 +92,6 @@
        "R$60.6 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1735581263793849984",
      "detail": {
       "imgs": [
        "images/products/4a5181d92927b512.jpg"
@@ -111,7 +109,7 @@
      }
     },
     {
-     "title": "Reparador de Pontas Gloss Anti-Frizz",
+     "title": "Reparador de Pontas Gloss com Silicones Ultra Luminosos Protege Contra Raios Solares e Anti-Frizz para Todos os Tipos de Cabelos Selando As Cutículas Brilho Alto Agressores Externos Textura Leve",
      "price": "R$ 10,99",
      "store": "Semélle",
      "img": "images/products/1428b1da57540583.webp",
@@ -133,19 +131,9 @@
        "R$3.0 milhão"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495",
      "detail": {
       "imgs": [
-       "images/products/1428b1da57540583.webp",
-       "images/products/f9c96bdd91f82691.webp",
-       "images/products/18fd10b9d57e12f8.webp",
-       "images/products/17f03e4af0823b5d.webp",
-       "images/products/c52054baf6cecede.webp",
-       "images/products/602191ae06822a70.webp",
-       "images/products/07e7defe0cb9cd25.webp",
-       "images/products/337cf1391996fca1.webp",
-       "images/products/21b4fb7555e1fd9f.webp",
-       "images/products/b8b1016acdc717c1.webp"
+       "images/products/1428b1da57540583.webp"
       ],
       "rankRange": "1",
       "popularityIndex": "100",
@@ -160,7 +148,7 @@
      }
     },
     {
-     "title": "Guarda-Chuva Liso Grande Reforcado",
+     "title": "Guarda Chuva Liso Grande Reforçado Cabo Cromado Automático Contra Vento Com Proteção Solar Hastes Duplas Unissex",
      "price": "R$ 25,00",
      "store": "LOJA DA SOFIA",
      "img": "images/products/753b6c1ffabe9ce7.webp",
@@ -171,7 +159,7 @@
       ],
       [
        "Variação",
-       "+10436.84%"
+       "10436.84%"
       ],
       [
        "Receita",
@@ -182,7 +170,6 @@
        "R$60.1 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737043774959945409",
      "detail": {
       "imgs": [
        "images/products/753b6c1ffabe9ce7.webp"
@@ -200,7 +187,7 @@
      }
     },
     {
-     "title": "Saco de Lixo Lavanda Perfumado (kit)",
+     "title": "Saco de Lixo Lavanda Perfumado 34x38cm 3kg para Pia e Banheiro Neutraliza Odores Kit 40 80 120 ou 160 Sacos",
      "price": "R$ 19,80",
      "store": "Kiel Shop Armarinhos",
      "img": "images/products/a668537aade82c39.webp",
@@ -222,13 +209,26 @@
        "R$190.1 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737309673072002894",
-     "detail": null
+     "detail": {
+      "imgs": [
+       "images/products/a668537aade82c39.webp"
+      ],
+      "rankRange": "10",
+      "popularityIndex": "95",
+      "vendasTotais": "16.5 mil",
+      "gmvTotal": "R$190.1 mil",
+      "numInfluencers": "468",
+      "price": "R$ 19,80",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-02"
+     }
     }
    ],
    "roupas": [
     {
-     "title": "Camisola Feminina Bailarina c/ Calçinha e Renda",
+     "title": "Camisola Feminina Bailarina com Calcinha e Detalhes em Renda para Mulheres Estilo Elegante",
      "price": "R$ 29,99",
      "store": "Lingerie_Express",
      "img": "images/products/0d8f4039f96234b5.webp",
@@ -250,7 +250,6 @@
        "R$7.1 milhão"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731836463239693396",
      "detail": {
       "imgs": [
        "images/products/0d8f4039f96234b5.webp",
@@ -277,7 +276,7 @@
      }
     },
     {
-     "title": "Adesivos Levantadores de Peito (silicone)",
+     "title": "Adesivos Para O Peito Em Forma De Manga De Silicone Levantam Pétalas De Auto-Adesivas Sem Alças Tampa Invisível",
      "price": "R$ 16,92",
      "store": "HAIYAN111",
      "img": "images/products/dce75d877b3dff28.webp",
@@ -288,7 +287,7 @@
       ],
       [
        "Variação",
-       "+1.15%"
+       "1.15%"
       ],
       [
        "Receita",
@@ -299,7 +298,6 @@
        "R$927.8 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1735552847544026476",
      "detail": {
       "imgs": [
        "images/products/dce75d877b3dff28.webp",
@@ -321,7 +319,7 @@
      }
     },
     {
-     "title": "Blusa Feminina Gola Boba Suplex Drapeada",
+     "title": "Blusa Feminina Gola Boba Suplex Casual Versatil Social Drapeada Forrada Elegante Moda Tendencia",
      "price": "R$ 12,99",
      "store": "belezanamulher",
      "img": "images/products/a8653a4a1cf8867c.webp",
@@ -343,7 +341,6 @@
        "R$897.9 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1735604063490311875",
      "detail": {
       "imgs": [
        "images/products/a8653a4a1cf8867c.webp",
@@ -369,7 +366,7 @@
      }
     },
     {
-     "title": "Sutiã Sexy Sem Costura c/ Fecho Frontal",
+     "title": "Sutiã sexy sem costura com fecho frontal - sem armação confortável ideal para exercícios físicos e uso diário 9303",
      "price": "R$ 41,99",
      "store": "LXC",
      "img": "images/products/8fa130da49901f50.webp",
@@ -380,7 +377,7 @@
       ],
       [
        "Variação",
-       "+26.1%"
+       "26.1%"
       ],
       [
        "Receita",
@@ -391,7 +388,6 @@
        "R$2.4 milhão"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1733645254867846297",
      "detail": {
       "imgs": [
        "images/products/8fa130da49901f50.webp",
@@ -416,7 +412,7 @@
      }
     },
     {
-     "title": "Calça Jeans Wide Leg Cintura Alta Gaven",
+     "title": "Calça Jeans Feminina Wide Leg Cintura Alta Sem Lycra Marmorizada Gaven Pantalona Boca Larga Premium Caimento Perfeito Empina Bumbum Elegante Estilosa Alta Qualidade Moda Feminina Look Sofisticado Roupas da Tendência Visual Moderno Street Confortável Versáti",
      "price": "R$ 79,40",
      "store": "Gaven Jeans",
      "img": "images/products/8f137a0722f2280e.webp",
@@ -438,7 +434,6 @@
        "R$9.1 milhão"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731782218529670752",
      "detail": {
       "imgs": [
        "images/products/8f137a0722f2280e.webp",
@@ -467,7 +462,7 @@
    ],
    "beleza": [
     {
-     "title": "Reparador de Pontas Gloss Anti-Frizz",
+     "title": "Reparador de Pontas Gloss com Silicones Ultra Luminosos Protege Contra Raios Solares e Anti-Frizz para Todos os Tipos de Cabelos Selando As Cutículas Brilho Alto Agressores Externos Textura Leve",
      "price": "R$ 10,99",
      "store": "Semélle",
      "img": "images/products/1428b1da57540583.webp",
@@ -489,19 +484,9 @@
        "R$3.0 milhão"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495",
      "detail": {
       "imgs": [
-       "images/products/1428b1da57540583.webp",
-       "images/products/f9c96bdd91f82691.webp",
-       "images/products/18fd10b9d57e12f8.webp",
-       "images/products/17f03e4af0823b5d.webp",
-       "images/products/c52054baf6cecede.webp",
-       "images/products/602191ae06822a70.webp",
-       "images/products/07e7defe0cb9cd25.webp",
-       "images/products/337cf1391996fca1.webp",
-       "images/products/21b4fb7555e1fd9f.webp",
-       "images/products/b8b1016acdc717c1.webp"
+       "images/products/1428b1da57540583.webp"
       ],
       "rankRange": "1",
       "popularityIndex": "100",
@@ -516,7 +501,7 @@
      }
     },
     {
-     "title": "Body Splash Árabe Amber Royale 100ml",
+     "title": "Body Splash Feminino Árabe Amber Royale 100ml By Primacial - Perfume Oriental Amadeirada",
      "price": "R$ 19,90",
      "store": "Primacial",
      "img": "images/products/03d39dff6271e903.webp",
@@ -527,7 +512,7 @@
       ],
       [
        "Variação",
-       "+15.47%"
+       "15.47%"
       ],
       [
        "Receita",
@@ -538,7 +523,6 @@
        "R$2.5 milhão"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1734697355718395125",
      "detail": {
       "imgs": [
        "images/products/03d39dff6271e903.webp",
@@ -562,7 +546,7 @@
      }
     },
     {
-     "title": "Kit 6 Pente Colorido Giz de Cabelo",
+     "title": "Kit 06 Pente Colorido Giz De Cabelo Com 06 Cores Temporárias Para Festas Criativo",
      "price": "R$ 24,99",
      "store": "K Y PRIMEIRO",
      "img": "images/products/b1006b8275e45f51.webp",
@@ -573,7 +557,7 @@
       ],
       [
        "Variação",
-       "+67.01%"
+       "67.01%"
       ],
       [
        "Receita",
@@ -584,7 +568,6 @@
        "R$118.3 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1735194896404153740",
      "detail": {
       "imgs": [
        "images/products/b1006b8275e45f51.webp"
@@ -602,7 +585,7 @@
      }
     },
     {
-     "title": "Kit Capilar Completo Karssely (4 itens)",
+     "title": "Kit Capilar Completo 4 Itens Karssely Colágeno e Rícino Shampoo e Condicionador 1L Máscara 500g e Óleo 7ml",
      "price": "R$ 49,99",
      "store": "Vitrine360",
      "img": "images/products/bb4510ba7c345edc.webp",
@@ -613,7 +596,7 @@
       ],
       [
        "Variação",
-       "+28.36%"
+       "28.36%"
       ],
       [
        "Receita",
@@ -624,7 +607,6 @@
        "R$182.4 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737295606439249805",
      "detail": {
       "imgs": [
        "images/products/bb4510ba7c345edc.webp"
@@ -642,7 +624,7 @@
      }
     },
     {
-     "title": "Hidrabene Protetor Solar Facial FPS 70",
+     "title": "Hidrabene Protetor solar facial fps 70 Uniformizador",
      "price": "R$ 36,90",
      "store": "Hidrabene",
      "img": "images/products/3a299e11b248e91c.jpg",
@@ -664,7 +646,6 @@
        "R$5.9 milhão"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731665066105865445",
      "detail": {
       "imgs": [
        "images/products/3a299e11b248e91c.jpg",
@@ -688,7 +669,7 @@
   "novos": {
    "todos": [
     {
-     "title": "Squishy Dumpling Pão Bao (fidget toy)",
+     "title": "Squishy Dumpling Pão Bao Bolinho Surpresa Brinquedo Antiestresse Sensorial Fidget Toy Macio com Caixa",
      "price": "R$ 12,20",
      "store": "Casa & Vida",
      "img": "images/products/b817d05b2e257890.webp",
@@ -710,7 +691,6 @@
        "R$119.4 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737494369095485369",
      "detail": {
       "imgs": [
        "images/products/b817d05b2e257890.webp"
@@ -728,7 +708,7 @@
      }
     },
     {
-     "title": "Cortador 16 em 1 de Legumes e Frutas",
+     "title": "Cortador 16 em 1 Multifuncional de Legumes e Frutas | Fatiador com Lâminas Intercambiáveis de Aço Inoxidável, Material Seguro para Alimentos, Ideal para Cozinha Doméstica, Preparo de Saladas e Refeições Rápidas",
      "price": "R$ 23,33",
      "store": "Loja de variedades Wang",
      "img": "images/products/02dfa66bcea3cd77.webp",
@@ -750,7 +730,6 @@
        "R$43.6 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737440525111165972",
      "detail": {
       "imgs": [
        "images/products/02dfa66bcea3cd77.webp"
@@ -768,7 +747,7 @@
      }
     },
     {
-     "title": "Esmerilhadeira POWAPAL 650W",
+     "title": "POWAPAL Esmerilhadeira 650W com Motor de Escovas e Enrolamento de Cobre, Disco 115mm, Alta Rotação para Corte, Desbaste e Polimento",
      "price": "R$ 89,00",
      "store": "POWAPAL",
      "img": "images/products/80e1a63113dd197b.webp",
@@ -790,7 +769,6 @@
        "R$300.0 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737497766751274750",
      "detail": {
       "imgs": [
        "images/products/80e1a63113dd197b.webp"
@@ -808,7 +786,7 @@
      }
     },
     {
-     "title": "Cortina Quarto/Sala Antonella c/ Ilhós",
+     "title": "Cortina quarto e sala Antonella quarto e sala com ilhós 3,00 x 2,40",
      "price": "R$ 21,99",
      "store": "Decora Casa Enxovais",
      "img": "images/products/3a6b24df81dc7674.webp",
@@ -830,7 +808,6 @@
        "R$37.7 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510829214237855",
      "detail": {
       "imgs": [
        "images/products/3a6b24df81dc7674.webp"
@@ -848,7 +825,7 @@
      }
     },
     {
-     "title": "Bolsa Tote Feminina TOMI MITO",
+     "title": "TOMI MITO Bolsa Tote Feminina Versátil com Duas Alças de Mão, Alça de Ombro Ajustável e Design Elegante para Rotina TM9242",
      "price": "R$ 71,99",
      "store": "TomiMitoo",
      "img": "images/products/eb7cf8f65af93637.webp",
@@ -870,7 +847,6 @@
        "R$54.2 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737092233904752292",
      "detail": {
       "imgs": [
        "images/products/eb7cf8f65af93637.webp"
@@ -890,7 +866,7 @@
    ],
    "roupas": [
     {
-     "title": "Macacão Feminino Risca de Giz Longo",
+     "title": "Macacão Feminino Risca de Giz Longo Social Elegante Duna",
      "price": "R$ 27,14",
      "store": "Galan Modas",
      "img": "images/products/4d2dd7545bdb4bf8.jpg",
@@ -912,7 +888,6 @@
        "R$28.6 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737521190894864077",
      "detail": {
       "imgs": [
        "images/products/4d2dd7545bdb4bf8.jpg"
@@ -930,7 +905,7 @@
      }
     },
     {
-     "title": "Kit 2 T-shirt Lisa Peruana Cotton Pima",
+     "title": "Kit 2 T-shirt Lisa Peruana 40.1 Cotton Pima Sem Estampa Feminina Baby Look Tee Camisa Unissex Blusinha",
      "price": "R$ 25,97",
      "store": "JJ Confecções",
      "img": "images/products/74e9ea30357003a4.webp",
@@ -952,7 +927,6 @@
        "R$17.5 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737008957264201155",
      "detail": {
       "imgs": [
        "images/products/74e9ea30357003a4.webp"
@@ -970,7 +944,7 @@
      }
     },
     {
-     "title": "Calça Legging Canelada Cintura Alta",
+     "title": "Calça Legging Canelada de Cintura Alta Sem Costura para Academia Feminina, Elástica e Fitness",
      "price": "R$ 14,49",
      "store": "Abusada Fashion",
      "img": "images/products/eae0287ac7e9d939.webp",
@@ -992,7 +966,6 @@
        "R$6.6 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737494881368048928",
      "detail": {
       "imgs": [
        "images/products/eae0287ac7e9d939.webp"
@@ -1010,7 +983,7 @@
      }
     },
     {
-     "title": "Kit até 3 Top Sutiã Canelado c/ Bojo",
+     "title": "Kit Até 3 Top Sutiã Canelado Confort Com Bojo Cores",
      "price": "R$ 11,99",
      "store": "Madame Oliver",
      "img": "images/products/a42a97c9000d7dd5.webp",
@@ -1032,7 +1005,6 @@
        "R$2.9 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510644905903380",
      "detail": {
       "imgs": [
        "images/products/a42a97c9000d7dd5.webp"
@@ -1050,9 +1022,9 @@
      }
     },
     {
-     "title": "Vestido Curto Regata em Linho",
+     "title": "Vestido Curto Feminino Regata em Linho Elegante com Bolsos Forro e Zíper Invisível",
      "price": "R$ 54,99",
-     "store": "Pitanga Confecções",
+     "store": "Pitanga Confecções - Fábrica",
      "img": "images/products/1793d8b4556d799f.webp",
      "metrics": [
       [
@@ -1072,7 +1044,6 @@
        "R$13.6 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510693342971697",
      "detail": {
       "imgs": [
        "images/products/1793d8b4556d799f.webp"
@@ -1092,7 +1063,7 @@
    ],
    "beleza": [
     {
-     "title": "Kit Reve Eternel & Please Call Me 100ml",
+     "title": "Kit Reve Eternel & Please Call me - Real Time 100ml cada",
      "price": "R$ 155,00",
      "store": "Lider Parfum",
      "img": "images/products/2a814fee0ae7e12e.webp",
@@ -1114,7 +1085,6 @@
        "R$36.1 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737497351028246081",
      "detail": {
       "imgs": [
        "images/products/2a814fee0ae7e12e.webp"
@@ -1132,7 +1102,7 @@
      }
     },
     {
-     "title": "Perfume La Rive Poetique EDP 90ml",
+     "title": "Perfume La Rive Poetique Edp Feminino 90ml",
      "price": "R$ 143,65",
      "store": "Eon Fragances",
      "img": "images/products/52b6e779d8cac1a4.webp",
@@ -1154,7 +1124,6 @@
        "R$38.9 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510743409788639",
      "detail": {
       "imgs": [
        "images/products/52b6e779d8cac1a4.webp"
@@ -1172,7 +1141,7 @@
      }
     },
     {
-     "title": "Perfume Árabe Ard Al Zafaran",
+     "title": "Perfume Arabe Feminino European Mega Collection - Ard al zafaran",
      "price": "R$ 143,65",
      "store": "Eon Fragances",
      "img": "images/products/d67699c59ca8250e.jpg",
@@ -1194,7 +1163,6 @@
        "R$27.4 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737509329518560991",
      "detail": {
       "imgs": [
        "images/products/d67699c59ca8250e.jpg"
@@ -1212,7 +1180,7 @@
      }
     },
     {
-     "title": "Perfume Árabe Night Teasen 80ml",
+     "title": "Perfume Arabe feminino Night Teasen EDP 80ML Feminino - Mega Collection",
      "price": "R$ 143,65",
      "store": "Eon Fragances",
      "img": "images/products/bc5fa8bc1d00028e.webp",
@@ -1234,7 +1202,6 @@
        "R$21.7 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510726912018143",
      "detail": {
       "imgs": [
        "images/products/bc5fa8bc1d00028e.webp"
@@ -1252,7 +1219,7 @@
      }
     },
     {
-     "title": "Kit Sabonete em Barra de Enxofre Tropical",
+     "title": "Kit Sabonete em Barra de Enxofre em Barra Tropical - Controle da Oleosidade e Acne 90gr",
      "price": "R$ 9,90",
      "store": "Tatu Toys",
      "img": "images/products/77cf24ba5c9fa502.webp",
@@ -1263,7 +1230,7 @@
       ],
       [
        "Receita 3d",
-       "R$851"
+       "R$851.4"
       ],
       [
        "Vendas totais",
@@ -1271,10 +1238,9 @@
       ],
       [
        "GMV total",
-       "R$851"
+       "R$851.4"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737293240846353421",
      "detail": {
       "imgs": [
        "images/products/77cf24ba5c9fa502.webp"
@@ -1296,7 +1262,7 @@
   "video": {
    "todos": [
     {
-     "title": "Óculos de Sol Oval Feminino Siena",
+     "title": "Óculos de Sol Oval Feminino Siena Brown Turtle Retrô Elegante Estilo Vintage Proteção UV400 Moda Feminina",
      "price": "R$ 57,05",
      "store": "Richelle",
      "img": "images/products/adea1bd8d0d7c117.webp",
@@ -1318,7 +1284,6 @@
        "5.0 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731467505477715483",
      "detail": {
       "imgs": [
        "images/products/adea1bd8d0d7c117.webp",
@@ -1343,9 +1308,9 @@
      }
     },
     {
-     "title": "Capa de Chuva Motoqueiro Emborrachada",
+     "title": "CAPA ROUPA CHUVA IMPERMEÁVEL CONJUNTO MOTOQUEIRO MOTO EMBORRACHADA REFORÇADA PIONEIRA COMBAT MOTOBOY PVC FRIO CHUVA CONFORTÁVEL RESISTENTE SIMILAR A ALBA, BRASCAMP, PANTANEIRO, DELTA, NAVE",
      "price": "R$ 89,63",
-     "store": "Britz Recomenda",
+     "store": "• Britz Recomenda•",
      "img": "images/products/fb0b542b5d9e996c.jpg",
      "metrics": [
       [
@@ -1365,7 +1330,6 @@
        "1.1 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731368704908888054",
      "detail": {
       "imgs": [
        "images/products/fb0b542b5d9e996c.jpg",
@@ -1390,8 +1354,8 @@
      }
     },
     {
-     "title": "Chibel Tinta de Ferrugem / Removedor",
-     "price": "R$ 13,49",
+     "title": "Chibel 300gTinta De Ferrugem , Pasta Removedor Primer À Base De Água , Barreira Protetora Anti-Não Porosa",
+     "price": "R$ 26,99",
      "store": "Melhores achadinhos",
      "img": "images/products/e1acaef59a52c0f6.webp",
      "metrics": [
@@ -1412,7 +1376,6 @@
        "6.1 mil"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731377596809119317",
      "detail": {
       "imgs": [
        "images/products/e1acaef59a52c0f6.webp",
@@ -1439,7 +1402,7 @@
      }
     },
     {
-     "title": "Fone Bluetooth BETTDOW TWS",
+     "title": "BETTDOW Fone de ouvido sem fio Bluetooth 5.3 intra-auricular TWS/adequado para Android + ios/à prova de suor/esportes e fitness",
      "price": "R$ 53,00",
      "store": "moni_shopcreator",
      "img": "images/products/5ab0c0c266c81edb.webp",
@@ -1461,7 +1424,6 @@
        "737"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731255009746191852",
      "detail": {
       "imgs": [
        "images/products/5ab0c0c266c81edb.webp",
@@ -1488,7 +1450,7 @@
      }
     },
     {
-     "title": "Cabide de 5 Ganchos Para Armário",
+     "title": "Cabide de 5 Ganchos Para Armario",
      "price": "R$ 11,00",
      "store": "tzs0nmx1z2",
      "img": "images/products/ddb71e5ace44ba6f.jpg",
@@ -1510,7 +1472,6 @@
        "280"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731388350551917646",
      "detail": {
       "imgs": [
        "images/products/ddb71e5ace44ba6f.jpg"
@@ -1530,7 +1491,7 @@
    ],
    "roupas": [
     {
-     "title": "Conjunto Terno Casual c/ Colete",
+     "title": "Conjunto de Terno Casual de com Colete de e Calça para Mulheres,/DD075",
      "price": "R$ 79,99",
      "store": "Aline Rudnick",
      "img": "images/products/5e930e38a73c2b66.jpg",
@@ -1552,7 +1513,6 @@
        "531"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731253094613092312",
      "detail": {
       "imgs": [
        "images/products/5e930e38a73c2b66.jpg",
@@ -1578,7 +1538,7 @@
      }
     },
     {
-     "title": "Blusa Poá Bolinhas Pipoca Manga Babado",
+     "title": "Blusa Blusinha poa bolinhas pipoca manga dois babados moda",
      "price": "R$ 26,99",
      "store": "Maria",
      "img": "images/products/a097cd9c7959b47f.jpg",
@@ -1600,7 +1560,6 @@
        "340"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731370808326391519",
      "detail": {
       "imgs": [
        "images/products/a097cd9c7959b47f.jpg"
@@ -1618,7 +1577,7 @@
      }
     },
     {
-     "title": "Conjunto Alfaiataria SJD Moda Lady",
+     "title": "SJD MODA LADY conjunto alfaiataria feminino,terno uniform social,colete com botões e bolso falso,calca pantalona wide leg,tecido twil viscose confortável,roupa com caimento perfeito,visual refinado,moda casual e prático,look elegante minimalista,ideal para eventos trabalho e escritorio,uso diário",
      "price": "R$ 109,99",
      "store": "Karine",
      "img": "images/products/d9de9e2d89d99b48.webp",
@@ -1640,7 +1599,6 @@
        "439"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731457991572030927",
      "detail": {
       "imgs": [
        "images/products/d9de9e2d89d99b48.webp",
@@ -1666,7 +1624,7 @@
      }
     },
     {
-     "title": "Kit 5 Calçinha Cintura Alta Microfibra",
+     "title": "Kit 5 Calcinha Cintura Alta Cós Alto Segura Barriga Microfibra Conforto Reforçada Barato",
      "price": "R$ 19,39",
      "store": "Liliane Alves",
      "img": "images/products/e41f01d877427066.webp",
@@ -1688,7 +1646,6 @@
        "286"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731485024695781001",
      "detail": {
       "imgs": [
        "images/products/e41f01d877427066.webp",
@@ -1714,7 +1671,7 @@
      }
     },
     {
-     "title": "Calça Wide Leg Feminina Modelagem Solta",
+     "title": "Calça Wide Leg Feminina - Modelagem Solta e Moderna para Looks Elegantes",
      "price": "R$ 73,81",
      "store": "Ana Maria Giro",
      "img": "images/products/24b0ff57d802b6d4.jpg",
@@ -1736,7 +1693,6 @@
        "824"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731254618241205295",
      "detail": {
       "imgs": [
        "images/products/24b0ff57d802b6d4.jpg",
@@ -1764,7 +1720,7 @@
    ],
    "beleza": [
     {
-     "title": "Caneta Sobrancelha/Barba à Prova D'água",
+     "title": "Caneta Sobrancelha Barba À Prova D 'água Fio a Fio Microblanding Preenchimento Preciso Uso Diário Henna Cobre Falhas",
      "price": "R$ 16,96",
      "store": "Paranormal Star",
      "img": "images/products/3cbe7f4770ac6b68.jpg",
@@ -1786,7 +1742,6 @@
        "727"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731370441690417076",
      "detail": {
       "imgs": [
        "images/products/3cbe7f4770ac6b68.jpg",
@@ -1810,7 +1765,7 @@
      }
     },
     {
-     "title": "Ollie Protetor Solar em Bastao FPS 95",
+     "title": "Ollie Protetor Solar em Bastão Com Cor FPS 95",
      "price": "R$ 139,00",
      "store": "maycaskin",
      "img": "images/products/9c43280874cc13c6.webp",
@@ -1832,7 +1787,6 @@
        "410"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731361024426149505",
      "detail": {
       "imgs": [
        "images/products/9c43280874cc13c6.webp",
@@ -1857,7 +1811,7 @@
      }
     },
     {
-     "title": "Meu Liso Spray Defrizante Protetor Térmico",
+     "title": "Meu Liso Muito + Liso Spray Defrizante Protetor Térmico 240ml",
      "price": "R$ 23,10",
      "store": "sheilacicutti",
      "img": "images/products/624be56882e05eb2.webp",
@@ -1879,7 +1833,6 @@
        "455"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731361258605544976",
      "detail": {
       "imgs": [
        "images/products/624be56882e05eb2.webp",
@@ -1901,9 +1854,9 @@
      }
     },
     {
-     "title": "Máscara Ultra Hidratante Forever Liss 350g",
+     "title": "Máscara Ultra Hidratante Desmaia Cabelo 350G Forever Liss",
      "price": "R$ 46,90",
-     "store": "Amanda",
+     "store": "Amanda ✨",
      "img": "images/products/453e1340f5626f8c.jpg",
      "metrics": [
       [
@@ -1923,7 +1876,6 @@
        "307"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731292545588168259",
      "detail": {
       "imgs": [
        "images/products/453e1340f5626f8c.jpg",
@@ -1947,9 +1899,9 @@
      }
     },
     {
-     "title": "Body Splash Afrodite Garden Aura Beauty",
+     "title": "Body Splash Afrodite Garden - Aura Beauty 200ml",
      "price": "R$ 77,00",
-     "store": "Dani",
+     "store": "Dani 🥰",
      "img": "images/products/b44ffd17053ae3c5.jpg",
      "metrics": [
       [
@@ -1969,7 +1921,6 @@
        "378"
       ]
      ],
-     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731364119532111263",
      "detail": {
       "imgs": [
        "images/products/b44ffd17053ae3c5.jpg",
