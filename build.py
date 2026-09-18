@@ -484,10 +484,11 @@ CSS = """
   .rank-metrics{display:flex;flex-wrap:wrap;gap:5px;}
   .rank-metric{font-size:10px;color:var(--ink-faint);background:var(--bg-raised);border:1px solid var(--line-soft);border-radius:100px;padding:3px 8px;}
   .rank-metric b{color:var(--ink-dim);font-weight:700;}
-  .rank-modal-inner{max-width:560px;}
-  .rank-gallery{display:flex;gap:10px;flex-wrap:wrap;}
-  .rank-gallery-item{position:relative;flex:none;}
-  .rank-gallery-item img{width:96px;height:96px;object-fit:cover;border-radius:10px;border:1px solid var(--line);display:block;}
+  .rank-modal-inner{max-width:640px;}
+  .rank-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .rank-gallery-item{position:relative;}
+  .rank-gallery-item img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;border:1px solid var(--line);display:block;}
+  .rank-gallery-item .btn-copy-img{width:28px;height:28px;font-size:13px;bottom:8px;right:8px;}
   .rank-report{display:flex;flex-direction:column;gap:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;}
   .rank-report-row{display:flex;justify-content:space-between;gap:12px;padding:9px 14px;font-size:12.5px;border-bottom:1px solid var(--line-soft);background:var(--bg-card);}
   .rank-report-row:last-child{border-bottom:none;}
