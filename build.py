@@ -263,10 +263,16 @@ def modal_html(key, c):
 modals_html = "\n".join(modal_html(key, c) for key, c in CARDS.items())
 
 
+RANK_MEDALS = {1: ("#ffd257", "\U0001f947"), 2: ("#d7dde3", "\U0001f948"), 3: ("#e3a15f", "\U0001f949")}
+
+
 def rank_card_html(modal_id, i, row):
     metrics = "".join(f'<span class="rank-metric"><b>{esc(l)}</b> {esc(v)}</span>' for l, v in row["metrics"])
-    return f'''<button class="rank-card" data-rank-modal="{modal_id}" type="button">
-        <span class="rank-num">{i}</span>
+    top3 = i in RANK_MEDALS
+    num_style = f' style="background:{RANK_MEDALS[i][0]};color:#241a02;"' if top3 else ""
+    card_cls = "rank-card top3" if top3 else "rank-card"
+    return f'''<button class="{card_cls}" data-rank-modal="{modal_id}" type="button">
+        <span class="rank-num"{num_style}>{i}</span>
         <img class="rank-img" src="{row["img"]}" alt="{esc(row["title"])}" loading="lazy">
         <div class="rank-info">
           <h4>{esc(row["title"])}</h4>
@@ -285,7 +291,99 @@ REPORT_FIELDS = [
 ]
 
 
-def rank_modal_html(modal_id, row):
+def parse_metric_num(s):
+    s = (s or "").strip()
+    neg = s.startswith("-")
+    s2 = s.lstrip("+-").replace("R$", "").replace("%", "").strip()
+    mult = 1
+    if "milhão" in s2:
+        mult = 1_000_000
+        s2 = s2.split("milh")[0].strip()
+    elif "mil" in s2:
+        mult = 1_000
+        s2 = s2.split("mil")[0].strip()
+    s2 = s2.replace(".", "").replace(",", ".") if s2.count(",") else s2
+    try:
+        val = float(s2) * mult
+    except ValueError:
+        return 0.0
+    return -val if neg else val
+
+
+def short_title(t, maxlen=26):
+    t = t.strip()
+    return t if len(t) <= maxlen else t[: maxlen - 1].rstrip() + "…"
+
+
+def compare_chart_html(rows, current_row):
+    label = current_row["metrics"][0][0]
+    parsed = [(r, parse_metric_num(r["metrics"][0][1])) for r in rows]
+    max_val = max((v for _, v in parsed), default=1) or 1
+    bars = "".join(
+        f'''<div class="cmp-row{" current" if r is current_row else ""}">
+          <span class="cmp-label">{esc(short_title(r["title"]))}</span>
+          <div class="cmp-track"><div class="cmp-fill" style="width:{max(4, v / max_val * 100):.0f}%"></div></div>
+          <span class="cmp-val">{esc(r["metrics"][0][1])}</span>
+        </div>'''
+        for r, v in parsed
+    )
+    return f'''<div class="modal-block">
+      <div class="modal-block-head"><h3>Compara&ccedil;&atilde;o no Top 5 ({esc(label)})</h3></div>
+      <div class="cmp-chart">{bars}</div>
+    </div>'''
+
+
+def popularity_bar_html(d):
+    if not d or not d.get("popularityIndex"):
+        return ""
+    try:
+        val = max(0.0, min(100.0, float(str(d["popularityIndex"]).replace(",", "."))))
+    except ValueError:
+        return ""
+    return f'''<div class="modal-block">
+      <div class="modal-block-head"><h3>Índice de popularidade</h3></div>
+      <div class="pop-gauge">
+        <div class="pop-track"><div class="pop-fill" style="width:{val:.0f}%"></div></div>
+        <span class="pop-val">{val:.0f}/100</span>
+      </div>
+    </div>'''
+
+
+def short_name(title, maxwords=3):
+    return " ".join(title.split()[:maxwords])
+
+
+def fit(s, limit=50):
+    s = s.strip()
+    return s if len(s) <= limit else s[: limit - 1].rstrip() + "…"
+
+
+def generate_headlines(row):
+    name2 = short_name(row["title"], 2)
+    name3 = short_name(row["title"], 3)
+    price = row["price"]
+    _, metric_val = row["metrics"][0]
+    return [
+        fit(f"Achei {name2} por {price} e travei"),
+        fit(f"{name3} tá bombando no TikTok Shop"),
+        fit(f"{metric_val} pessoas comprando {name2} agora"),
+        fit("Ninguém tinha me falado desse aqui"),
+        fit(f"Parei o scroll só de ver esse preço"),
+    ]
+
+
+def headlines_html(row):
+    items = "".join(
+        f'<div class="hl-item"><span class="hl-text">{esc(h)}</span><button class="btn-copy hl-copy" data-copy-inline="{esc(h)}">Copiar</button></div>'
+        for h in generate_headlines(row)
+    )
+    return f'''<div class="modal-block">
+      <div class="modal-block-head"><h3>5 ideias de headline pra esse produto</h3></div>
+      <div class="hl-list">{items}</div>
+    </div>'''
+
+
+def rank_modal_html(modal_id, row, rows):
     d = row.get("detail")
     imgs = (d["imgs"] if d else None) or [row["img"]]
     gallery = "".join(
@@ -302,13 +400,19 @@ def rank_modal_html(modal_id, row):
     else:
         report_rows = '<p class="modal-note">Relatório detalhado indisponível pra este produto no momento.</p>'
     list_metrics = "".join(f'<span class="rank-metric"><b>{esc(l)}</b> {esc(v)}</span>' for l, v in row["metrics"])
+    tiktok_url = row.get("tiktok_url")
+    tiktok_btn = (
+        f'<a class="btn-tiktok" href="{tiktok_url}" target="_blank" rel="noopener">Ver na TikTok Shop &rarr;</a>'
+        if tiktok_url else ""
+    )
     return f'''<div class="modal" id="{modal_id}">
   <div class="modal-inner rank-modal-inner">
     <button class="modal-close" data-close>&times;</button>
     <span class="modal-tag">{esc(row["store"])}</span>
     <h2>{esc(row["title"])}</h2>
-    <div class="rank-report" style="margin-bottom:18px;"><div class="rank-report-row"><span>Loja</span><b>{esc(row["store"])}</b></div><div class="rank-report-row"><span>Pre&ccedil;o de venda</span><b>{esc(row["price"])}</b></div></div>
-    <div class="modal-block">
+    <div class="rank-report" style="margin-bottom:14px;"><div class="rank-report-row"><span>Loja</span><b>{esc(row["store"])}</b></div><div class="rank-report-row"><span>Pre&ccedil;o de venda</span><b>{esc(row["price"])}</b></div></div>
+    {tiktok_btn}
+    <div class="modal-block" style="margin-top:22px;">
       <div class="modal-block-head"><h3>Imagens liberadas &mdash; clique pra copiar</h3></div>
       <div class="rank-gallery">{gallery}</div>
     </div>
@@ -316,6 +420,9 @@ def rank_modal_html(modal_id, row):
       <div class="modal-block-head"><h3>Métricas do ranking</h3></div>
       <div class="rank-metrics">{list_metrics}</div>
     </div>
+    {compare_chart_html(rows, row)}
+    {popularity_bar_html(d)}
+    {headlines_html(row)}
     <div class="modal-block">
       <div class="modal-block-head"><h3>Relatório do produto</h3></div>
       <div class="rank-report">{report_rows}</div>
@@ -342,7 +449,7 @@ for rid, _ in RANK_TYPES:
         for i, r in enumerate(rows):
             modal_id = f"rank-modal-{rid}-{cid}-{i}"
             cards.append(rank_card_html(modal_id, i + 1, r))
-            rank_modals.append(rank_modal_html(modal_id, r))
+            rank_modals.append(rank_modal_html(modal_id, r, rows))
         cards_html = "\n    ".join(cards)
         active = "active" if (rid == RANK_TYPES[0][0] and cid == CATEGORIES[0][0]) else ""
         rank_panels.append(f'''<div class="rank-panel {active}" data-rank="{rid}" data-cat="{cid}">
@@ -385,7 +492,7 @@ BODY = f"""<div class="top-nav">
   </div>
   <div class="rank-meta">
     <span>&Uacute;ltima coleta: {LAST_UPDATED}</span>
-    <span>Pr&oacute;xima atualiza&ccedil;&atilde;o em <span class="rank-countdown" id="rank-countdown">--:--:--</span></span>
+    <span class="rank-next-pill">&#128337; Atualiza em <span class="rank-countdown" id="rank-countdown">--:--:--</span></span>
   </div>
   <div class="fmt-tabs rank-type-tabs">
       {rank_type_tabs_html}
@@ -465,21 +572,36 @@ CSS = """
   .top-nav-btn.active{background:var(--amber);color:var(--amber-ink);border-color:var(--amber);}
   .section{display:none;}
   .section.active{display:block;}
-  .rank-meta{display:flex;justify-content:center;align-items:center;gap:18px;flex-wrap:wrap;margin:-8px 0 26px;font-size:13px;color:var(--ink-dim);}
-  .rank-countdown{color:#ff4949;font-weight:800;font-family:'JetBrains Mono',monospace;font-size:15px;background:rgba(255,73,73,.1);border:1px solid rgba(255,73,73,.35);border-radius:8px;padding:3px 9px;}
+  .rank-meta{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap;margin:-8px 0 26px;font-size:13px;color:var(--ink-dim);}
+  .rank-next-pill{
+    display:inline-flex;align-items:center;gap:10px;background:rgba(255,73,73,.12);
+    border:1px solid rgba(255,73,73,.4);border-radius:100px;padding:8px 18px;
+  }
+  .rank-countdown{color:#ff5c5c;font-weight:900;font-family:'JetBrains Mono',monospace;font-size:20px;letter-spacing:.02em;animation:rankPulse 2s ease-in-out infinite;}
+  @keyframes rankPulse{0%,100%{opacity:1;}50%{opacity:.55;}}
   .rank-type-tabs,.rank-cat-tabs{margin-bottom:16px;}
   .rank-cat-tabs .fmt-tab{font-size:12px;padding:8px 14px;}
   .rank-cat-tabs{margin-bottom:26px;}
   .rank-panel{display:none;}
   .rank-panel.active{display:block;}
-  .rank-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;}
-  .rank-card{appearance:none;font-family:inherit;text-align:left;cursor:pointer;display:flex;gap:12px;background:var(--bg-card);border:1px solid var(--line);border-radius:14px;padding:12px;position:relative;transition:border-color .15s ease,transform .15s ease;}
+  .rank-grid{display:flex;flex-direction:column;gap:10px;}
+  .rank-card{
+    appearance:none;font-family:inherit;text-align:left;cursor:pointer;width:100%;
+    display:flex;align-items:center;gap:16px;background:var(--bg-card);border:1px solid var(--line);
+    border-radius:14px;padding:12px 16px;position:relative;transition:border-color .15s ease,transform .15s ease;
+  }
   .rank-card:hover{border-color:var(--green);transform:translateY(-1px);}
-  .rank-num{position:absolute;top:8px;left:8px;background:var(--green);color:var(--green-ink);width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;z-index:2;}
-  .rank-img{width:64px;height:64px;object-fit:cover;border-radius:10px;flex:none;background:#0f1310;display:block;}
+  .rank-card.top3{border-color:rgba(255,200,69,.4);background:linear-gradient(90deg,rgba(255,200,69,.08),var(--bg-card) 40%);}
+  .rank-num{
+    flex:none;background:var(--green);color:var(--green-ink);width:28px;height:28px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;
+  }
+  .rank-card.top3 .rank-num{width:38px;height:38px;font-size:18px;font-weight:900;box-shadow:0 0 0 3px rgba(255,200,69,.18);}
+  .rank-img{width:56px;height:56px;object-fit:cover;border-radius:10px;flex:none;background:#0f1310;display:block;}
   .btn-copy-img.small{width:18px;height:18px;font-size:9px;bottom:3px;right:3px;}
-  .rank-info{min-width:0;}
-  .rank-info h4{font-size:12.5px;font-weight:700;margin:0 0 5px;line-height:1.32;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+  .rank-info{min-width:0;flex:1;}
+  .rank-info h4{font-size:13.5px;font-weight:700;margin:0 0 5px;line-height:1.32;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .rank-card.top3 .rank-info h4{font-size:14.5px;}
   .rank-price{font-size:11.5px;color:var(--ink-dim);margin-bottom:7px;}
   .rank-metrics{display:flex;flex-wrap:wrap;gap:5px;}
   .rank-metric{font-size:10px;color:var(--ink-faint);background:var(--bg-raised);border:1px solid var(--line-soft);border-radius:100px;padding:3px 8px;}
@@ -494,6 +616,31 @@ CSS = """
   .rank-report-row:last-child{border-bottom:none;}
   .rank-report-row span{color:var(--ink-faint);}
   .rank-report-row b{color:var(--ink);font-weight:700;text-align:right;}
+  .btn-tiktok{
+    display:inline-flex;align-items:center;gap:8px;font-family:'Unbounded',sans-serif;font-weight:700;
+    font-size:12.5px;text-decoration:none;background:var(--amber);color:var(--amber-ink);
+    padding:11px 20px;border-radius:100px;transition:transform .15s ease,filter .15s ease;
+  }
+  .btn-tiktok:hover{transform:translateY(-1px);filter:brightness(1.06);}
+  .cmp-chart{display:flex;flex-direction:column;gap:8px;}
+  .cmp-row{display:grid;grid-template-columns:110px 1fr auto;align-items:center;gap:10px;font-size:11.5px;}
+  .cmp-label{color:var(--ink-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .cmp-track{height:10px;border-radius:100px;background:var(--bg-card);border:1px solid var(--line-soft);overflow:hidden;}
+  .cmp-fill{height:100%;background:var(--green);border-radius:100px;}
+  .cmp-row.current .cmp-label{color:var(--amber);font-weight:700;}
+  .cmp-row.current .cmp-fill{background:var(--amber);}
+  .cmp-val{color:var(--ink-faint);font-family:'JetBrains Mono',monospace;font-size:10.5px;white-space:nowrap;}
+  .pop-gauge{display:flex;align-items:center;gap:12px;}
+  .pop-track{flex:1;height:14px;border-radius:100px;background:var(--bg-card);border:1px solid var(--line-soft);overflow:hidden;}
+  .pop-fill{height:100%;background:linear-gradient(90deg,var(--green),var(--amber));border-radius:100px;}
+  .pop-val{font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:700;color:var(--ink);}
+  .hl-list{display:flex;flex-direction:column;gap:8px;}
+  .hl-item{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--bg-card);
+    border:1px solid var(--line);border-radius:10px;padding:10px 12px;
+  }
+  .hl-text{font-size:12.5px;color:var(--ink);}
+  .hl-copy{padding:6px 14px;font-size:11px;flex:none;}
 """
 
 JS = """
@@ -610,8 +757,14 @@ JS = """
   });
   document.querySelectorAll('.btn-copy').forEach(function(btn){
     btn.addEventListener('click', function(){
-      var block = btn.closest('.modal-block');
-      var text = block.querySelector('textarea').value;
+      var inline = btn.getAttribute('data-copy-inline');
+      var text;
+      if(inline !== null){
+        text = inline;
+      } else {
+        var block = btn.closest('.modal-block');
+        text = block.querySelector('textarea').value;
+      }
       navigator.clipboard.writeText(text).then(function(){
         btn.classList.add('copied');
         var old = btn.textContent;

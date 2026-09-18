@@ -208,6 +208,8 @@ async function main() {
       detail.imgs = localImgs.length ? localImgs : [row.img];
     }
     row.detail = detail || null;
+    const idMatch = (row.detail_url || '').match(/detail\/(\d+)/);
+    row.tiktok_url = idMatch ? `https://shop.tiktok.com/view/product/${idMatch[1]}?region=BR&locale=en&source=agency` : null;
     delete row.detail_url;
   }
 
