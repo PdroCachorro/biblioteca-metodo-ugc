@@ -512,6 +512,15 @@ BODY = f"""<div class="top-nav">
 CSS = """
   :root{--bg:#0a0c09;--bg-raised:#12160f;--bg-card:#171c13;--line:#2a3122;--line-soft:#1d2317;--ink:#f3f5ee;--ink-dim:#a7ae9c;--ink-faint:#6f7566;--green:#35e17e;--green-ink:#04120a;--amber:#ffc845;--amber-ink:#241a02;}
   *{box-sizing:border-box;}
+  html{scrollbar-width:thin;scrollbar-color:var(--line) var(--bg);}
+  ::-webkit-scrollbar{width:11px;height:11px;}
+  ::-webkit-scrollbar-track{background:var(--bg);}
+  ::-webkit-scrollbar-thumb{background:var(--line);border-radius:100px;border:2px solid var(--bg);}
+  ::-webkit-scrollbar-thumb:hover{background:var(--green);}
+  ::-webkit-scrollbar-corner{background:var(--bg);}
+  .modal-inner{scrollbar-width:thin;scrollbar-color:var(--line-soft) var(--bg-raised);}
+  .modal-inner::-webkit-scrollbar-track{background:var(--bg-raised);}
+  .modal-inner::-webkit-scrollbar-thumb{background:var(--line-soft);border:2px solid var(--bg-raised);}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
   h1,h2,h3{font-family:'Unbounded','Plus Jakarta Sans',sans-serif;margin:0;}
   .eyebrow{font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--green);}
