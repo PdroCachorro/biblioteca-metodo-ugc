@@ -1,0 +1,1997 @@
+{
+ "rank_types": [
+  [
+   "vendas",
+   "Ranking de vendas"
+  ],
+  [
+   "novos",
+   "Ranking de novos produtos"
+  ],
+  [
+   "video",
+   "Ranking de produtos em vídeo"
+  ]
+ ],
+ "categories": [
+  [
+   "todos",
+   "Todos"
+  ],
+  [
+   "roupas",
+   "Roupas femininas"
+  ],
+  [
+   "beleza",
+   "Beleza e cuidados pessoais"
+  ]
+ ],
+ "rankings": {
+  "vendas": {
+   "todos": [
+    {
+     "title": "Cor sólida padrão meteorito estilo Instagram p/ iPhone (capinha)",
+     "price": "R$ 9,99",
+     "store": "oneyeye",
+     "img": "images/products/4d48e3b1a1af55df.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.9 mil"
+      ],
+      [
+       "Variação",
+       "+3323.53%"
+      ],
+      [
+       "Receita",
+       "R$29.0 mil"
+      ],
+      [
+       "GMV total",
+       "R$29.5 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737257984407733749",
+     "detail": {
+      "imgs": [
+       "images/products/4d48e3b1a1af55df.webp"
+      ],
+      "rankRange": "20k - 30k",
+      "popularityIndex": "30",
+      "vendasTotais": "3.0 mil",
+      "gmvTotal": "R$29.5 mil",
+      "numInfluencers": "81",
+      "price": "R$ 9,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-17"
+     }
+    },
+    {
+     "title": "Tapete de Sprinkler Inflável (brinquedo de água)",
+     "price": "R$ 13,68",
+     "store": "Lecmor Home",
+     "img": "images/products/4a5181d92927b512.jpg",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.5 mil"
+      ],
+      [
+       "Variação",
+       "+5243.75%"
+      ],
+      [
+       "Receita",
+       "R$35.0 mil"
+      ],
+      [
+       "GMV total",
+       "R$60.6 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1735581263793849984",
+     "detail": {
+      "imgs": [
+       "images/products/4a5181d92927b512.jpg"
+      ],
+      "rankRange": "40k - 50k",
+      "popularityIndex": "30",
+      "vendasTotais": "3.6 mil",
+      "gmvTotal": "R$60.6 mil",
+      "numInfluencers": "449",
+      "price": "R$ 13,68",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10.5%",
+      "dataUpload": "2026-06-02"
+     }
+    },
+    {
+     "title": "Reparador de Pontas Gloss Anti-Frizz",
+     "price": "R$ 10,99",
+     "store": "Semélle",
+     "img": "images/products/1428b1da57540583.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.3 mil"
+      ],
+      [
+       "Variação",
+       "-27.01%"
+      ],
+      [
+       "Receita",
+       "R$26.1 mil"
+      ],
+      [
+       "GMV total",
+       "R$3.0 milhão"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495",
+     "detail": {
+      "imgs": [
+       "images/products/1428b1da57540583.webp",
+       "images/products/f9c96bdd91f82691.webp",
+       "images/products/18fd10b9d57e12f8.webp",
+       "images/products/17f03e4af0823b5d.webp",
+       "images/products/c52054baf6cecede.webp",
+       "images/products/602191ae06822a70.webp",
+       "images/products/07e7defe0cb9cd25.webp",
+       "images/products/337cf1391996fca1.webp",
+       "images/products/21b4fb7555e1fd9f.webp",
+       "images/products/b8b1016acdc717c1.webp"
+      ],
+      "rankRange": "1",
+      "popularityIndex": "100",
+      "vendasTotais": "285.2 mil",
+      "gmvTotal": "R$3.0 milhão",
+      "numInfluencers": "11.7 mil",
+      "price": "R$ 10,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-12-18"
+     }
+    },
+    {
+     "title": "Guarda-Chuva Liso Grande Reforcado",
+     "price": "R$ 25,00",
+     "store": "LOJA DA SOFIA",
+     "img": "images/products/753b6c1ffabe9ce7.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.0 mil"
+      ],
+      [
+       "Variação",
+       "+10436.84%"
+      ],
+      [
+       "Receita",
+       "R$50.0 mil"
+      ],
+      [
+       "GMV total",
+       "R$60.1 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737043774959945409",
+     "detail": {
+      "imgs": [
+       "images/products/753b6c1ffabe9ce7.webp"
+      ],
+      "rankRange": "10k - 20k",
+      "popularityIndex": "30",
+      "vendasTotais": "2.3 mil",
+      "gmvTotal": "R$60.1 mil",
+      "numInfluencers": "65",
+      "price": "R$ 25,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-08-18"
+     }
+    },
+    {
+     "title": "Saco de Lixo Lavanda Perfumado (kit)",
+     "price": "R$ 19,80",
+     "store": "Kiel Shop Armarinhos",
+     "img": "images/products/a668537aade82c39.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.0 mil"
+      ],
+      [
+       "Variação",
+       "-57.37%"
+      ],
+      [
+       "Receita",
+       "R$39.5 mil"
+      ],
+      [
+       "GMV total",
+       "R$190.1 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737309673072002894",
+     "detail": null
+    }
+   ],
+   "roupas": [
+    {
+     "title": "Camisola Feminina Bailarina c/ Calçinha e Renda",
+     "price": "R$ 29,99",
+     "store": "Lingerie_Express",
+     "img": "images/products/0d8f4039f96234b5.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.4 mil"
+      ],
+      [
+       "Variação",
+       "-13.84%"
+      ],
+      [
+       "Receita",
+       "R$42.7 mil"
+      ],
+      [
+       "GMV total",
+       "R$7.1 milhão"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731836463239693396",
+     "detail": {
+      "imgs": [
+       "images/products/0d8f4039f96234b5.webp",
+       "images/products/79353cc1e9907ab3.jpg",
+       "images/products/9a445d4147898d5c.jpg",
+       "images/products/cdf04d10341bb328.jpg",
+       "images/products/02a463bc87d9bdda.jpg",
+       "images/products/51c798e6668c6e37.jpg",
+       "images/products/17f4c6df594be1d8.jpg",
+       "images/products/8ca29d1db991b3b8.jpg",
+       "images/products/e7781611ef369681.jpg",
+       "images/products/05c87393fc83622a.webp"
+      ],
+      "rankRange": "16",
+      "popularityIndex": "100",
+      "vendasTotais": "261.7 mil",
+      "gmvTotal": "R$7.1 milhão",
+      "numInfluencers": "8.5 mil",
+      "price": "R$ 29,99",
+      "frete": "From R$ 9,60",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-08-22"
+     }
+    },
+    {
+     "title": "Adesivos Levantadores de Peito (silicone)",
+     "price": "R$ 16,92",
+     "store": "HAIYAN111",
+     "img": "images/products/dce75d877b3dff28.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.0 mil"
+      ],
+      [
+       "Variação",
+       "+1.15%"
+      ],
+      [
+       "Receita",
+       "R$17.9 mil"
+      ],
+      [
+       "GMV total",
+       "R$927.8 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1735552847544026476",
+     "detail": {
+      "imgs": [
+       "images/products/dce75d877b3dff28.webp",
+       "images/products/89feea6c3429d737.webp",
+       "images/products/4010405dbedc6abc.webp",
+       "images/products/062e3bfe9cff2e47.webp",
+       "images/products/0b535a118dbfdece.webp"
+      ],
+      "rankRange": "29",
+      "popularityIndex": "100",
+      "vendasTotais": "57.9 mil",
+      "gmvTotal": "R$927.8 mil",
+      "numInfluencers": "792",
+      "price": "R$ 16,92",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "15%",
+      "dataUpload": "2026-06-11"
+     }
+    },
+    {
+     "title": "Blusa Feminina Gola Boba Suplex Drapeada",
+     "price": "R$ 12,99",
+     "store": "belezanamulher",
+     "img": "images/products/a8653a4a1cf8867c.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.0 mil"
+      ],
+      [
+       "Variação",
+       "-61.92%"
+      ],
+      [
+       "Receita",
+       "R$20.7 mil"
+      ],
+      [
+       "GMV total",
+       "R$897.9 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1735604063490311875",
+     "detail": {
+      "imgs": [
+       "images/products/a8653a4a1cf8867c.webp",
+       "images/products/1d4703d504641e4b.webp",
+       "images/products/e7c02af1bd308627.webp",
+       "images/products/393dcb22507aa958.webp",
+       "images/products/d971cd6b309d32a4.webp",
+       "images/products/bc140c1ab75ea611.webp",
+       "images/products/02d237175699a688.webp",
+       "images/products/b120d3591f9208c6.webp",
+       "images/products/3c63b698b23eb98a.webp"
+      ],
+      "rankRange": "11",
+      "popularityIndex": "100",
+      "vendasTotais": "56.6 mil",
+      "gmvTotal": "R$897.9 mil",
+      "numInfluencers": "3.7 mil",
+      "price": "R$ 12,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10.5%",
+      "dataUpload": "2026-05-21"
+     }
+    },
+    {
+     "title": "Sutiã Sexy Sem Costura c/ Fecho Frontal",
+     "price": "R$ 41,99",
+     "store": "LXC",
+     "img": "images/products/8fa130da49901f50.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "913"
+      ],
+      [
+       "Variação",
+       "+26.1%"
+      ],
+      [
+       "Receita",
+       "R$38.3 mil"
+      ],
+      [
+       "GMV total",
+       "R$2.4 milhão"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1733645254867846297",
+     "detail": {
+      "imgs": [
+       "images/products/8fa130da49901f50.webp",
+       "images/products/165094cfe739ae2a.jpg",
+       "images/products/de1562838097e6ed.jpg",
+       "images/products/4ac6f75cc26d899c.jpg",
+       "images/products/4ca40bed926b7399.jpg",
+       "images/products/8b19a8d4849a881a.webp",
+       "images/products/5cd24a50e5bec40e.webp",
+       "images/products/7c90b59705e5c301.webp"
+      ],
+      "rankRange": "28",
+      "popularityIndex": "100",
+      "vendasTotais": "76.4 mil",
+      "gmvTotal": "R$2.4 milhão",
+      "numInfluencers": "1.3 mil",
+      "price": "R$ 41,99",
+      "frete": "From R$ 13,20",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-12-27"
+     }
+    },
+    {
+     "title": "Calça Jeans Wide Leg Cintura Alta Gaven",
+     "price": "R$ 79,40",
+     "store": "Gaven Jeans",
+     "img": "images/products/8f137a0722f2280e.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "872"
+      ],
+      [
+       "Variação",
+       "-6.54%"
+      ],
+      [
+       "Receita",
+       "R$69.6 mil"
+      ],
+      [
+       "GMV total",
+       "R$9.1 milhão"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731782218529670752",
+     "detail": {
+      "imgs": [
+       "images/products/8f137a0722f2280e.webp",
+       "images/products/fdcb143ce6f70ca4.webp",
+       "images/products/42c2fe30cccd66d7.webp",
+       "images/products/b275e73ba3cfc918.webp",
+       "images/products/f8f15c86a3dfe823.webp",
+       "images/products/cc4be4427d4987b6.webp",
+       "images/products/ef0dc84a1f9a5674.webp",
+       "images/products/a692deb6eadf6e47.webp",
+       "images/products/8ecb20dc1b728182.webp",
+       "images/products/0a32e4efab47ee1e.webp"
+      ],
+      "rankRange": "52",
+      "popularityIndex": "100",
+      "vendasTotais": "134.4 mil",
+      "gmvTotal": "R$9.1 milhão",
+      "numInfluencers": "12.0 mil",
+      "price": "R$ 79,40",
+      "frete": "From R$ 13,20",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-07-14"
+     }
+    }
+   ],
+   "beleza": [
+    {
+     "title": "Reparador de Pontas Gloss Anti-Frizz",
+     "price": "R$ 10,99",
+     "store": "Semélle",
+     "img": "images/products/1428b1da57540583.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.3 mil"
+      ],
+      [
+       "Variação",
+       "-27.01%"
+      ],
+      [
+       "Receita",
+       "R$26.1 mil"
+      ],
+      [
+       "GMV total",
+       "R$3.0 milhão"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495",
+     "detail": {
+      "imgs": [
+       "images/products/1428b1da57540583.webp",
+       "images/products/f9c96bdd91f82691.webp",
+       "images/products/18fd10b9d57e12f8.webp",
+       "images/products/17f03e4af0823b5d.webp",
+       "images/products/c52054baf6cecede.webp",
+       "images/products/602191ae06822a70.webp",
+       "images/products/07e7defe0cb9cd25.webp",
+       "images/products/337cf1391996fca1.webp",
+       "images/products/21b4fb7555e1fd9f.webp",
+       "images/products/b8b1016acdc717c1.webp"
+      ],
+      "rankRange": "1",
+      "popularityIndex": "100",
+      "vendasTotais": "285.2 mil",
+      "gmvTotal": "R$3.0 milhão",
+      "numInfluencers": "11.7 mil",
+      "price": "R$ 10,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-12-18"
+     }
+    },
+    {
+     "title": "Body Splash Árabe Amber Royale 100ml",
+     "price": "R$ 19,90",
+     "store": "Primacial",
+     "img": "images/products/03d39dff6271e903.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.6 mil"
+      ],
+      [
+       "Variação",
+       "+15.47%"
+      ],
+      [
+       "Receita",
+       "R$32.5 mil"
+      ],
+      [
+       "GMV total",
+       "R$2.5 milhão"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1734697355718395125",
+     "detail": {
+      "imgs": [
+       "images/products/03d39dff6271e903.webp",
+       "images/products/6b1de66db96bfe41.webp",
+       "images/products/8d3fc47b25567fa6.webp",
+       "images/products/82d56a5cdb60a123.webp",
+       "images/products/8921ba2a1f915d63.webp",
+       "images/products/f13dbb2a98e2271c.webp",
+       "images/products/144ea59efe0a3b2e.webp"
+      ],
+      "rankRange": "39",
+      "popularityIndex": "100",
+      "vendasTotais": "125.1 mil",
+      "gmvTotal": "R$2.5 milhão",
+      "numInfluencers": "3.6 mil",
+      "price": "R$ 19,90",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "12%",
+      "dataUpload": "2026-03-18"
+     }
+    },
+    {
+     "title": "Kit 6 Pente Colorido Giz de Cabelo",
+     "price": "R$ 24,99",
+     "store": "K Y PRIMEIRO",
+     "img": "images/products/b1006b8275e45f51.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.4 mil"
+      ],
+      [
+       "Variação",
+       "+67.01%"
+      ],
+      [
+       "Receita",
+       "R$36.6 mil"
+      ],
+      [
+       "GMV total",
+       "R$118.3 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1735194896404153740",
+     "detail": {
+      "imgs": [
+       "images/products/b1006b8275e45f51.webp"
+      ],
+      "rankRange": "525",
+      "popularityIndex": "37",
+      "vendasTotais": "4.9 mil",
+      "gmvTotal": "R$118.3 mil",
+      "numInfluencers": "181",
+      "price": "R$ 24,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-04-25"
+     }
+    },
+    {
+     "title": "Kit Capilar Completo Karssely (4 itens)",
+     "price": "R$ 49,99",
+     "store": "Vitrine360",
+     "img": "images/products/bb4510ba7c345edc.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.3 mil"
+      ],
+      [
+       "Variação",
+       "+28.36%"
+      ],
+      [
+       "Receita",
+       "R$68.7 mil"
+      ],
+      [
+       "GMV total",
+       "R$182.4 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737295606439249805",
+     "detail": {
+      "imgs": [
+       "images/products/bb4510ba7c345edc.webp"
+      ],
+      "rankRange": "339",
+      "popularityIndex": "31",
+      "vendasTotais": "4.2 mil",
+      "gmvTotal": "R$182.4 mil",
+      "numInfluencers": "114",
+      "price": "R$ 49,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "6%",
+      "dataUpload": "2026-09-05"
+     }
+    },
+    {
+     "title": "Hidrabene Protetor Solar Facial FPS 70",
+     "price": "R$ 36,90",
+     "store": "Hidrabene",
+     "img": "images/products/3a299e11b248e91c.jpg",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.3 mil"
+      ],
+      [
+       "Variação",
+       "-31.62%"
+      ],
+      [
+       "Receita",
+       "R$50.5 mil"
+      ],
+      [
+       "GMV total",
+       "R$5.9 milhão"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731665066105865445",
+     "detail": {
+      "imgs": [
+       "images/products/3a299e11b248e91c.jpg",
+       "images/products/4b2cdfac563c1bb1.webp",
+       "images/products/02c7b7eb0f4e7b29.webp"
+      ],
+      "rankRange": "5",
+      "popularityIndex": "100",
+      "vendasTotais": "226.7 mil",
+      "gmvTotal": "R$5.9 milhão",
+      "numInfluencers": "10.3 mil",
+      "price": "R$ 36,90",
+      "frete": "From R$ 27,25",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "15%",
+      "dataUpload": "2025-07-13"
+     }
+    }
+   ]
+  },
+  "novos": {
+   "todos": [
+    {
+     "title": "Squishy Dumpling Pão Bao (fidget toy)",
+     "price": "R$ 12,20",
+     "store": "Casa & Vida",
+     "img": "images/products/b817d05b2e257890.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "5.0 mil"
+      ],
+      [
+       "Receita 3d",
+       "R$111.1 mil"
+      ],
+      [
+       "Vendas totais",
+       "5.4 mil"
+      ],
+      [
+       "GMV total",
+       "R$119.4 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737494369095485369",
+     "detail": {
+      "imgs": [
+       "images/products/b817d05b2e257890.webp"
+      ],
+      "rankRange": "123",
+      "popularityIndex": "64",
+      "vendasTotais": "6.2 mil",
+      "gmvTotal": "R$129.0 mil",
+      "numInfluencers": "385",
+      "price": "R$ 12,20",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Cortador 16 em 1 de Legumes e Frutas",
+     "price": "R$ 23,33",
+     "store": "Loja de variedades Wang",
+     "img": "images/products/02dfa66bcea3cd77.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "1.9 mil"
+      ],
+      [
+       "Receita 3d",
+       "R$43.6 mil"
+      ],
+      [
+       "Vendas totais",
+       "1.9 mil"
+      ],
+      [
+       "GMV total",
+       "R$43.6 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737440525111165972",
+     "detail": {
+      "imgs": [
+       "images/products/02dfa66bcea3cd77.webp"
+      ],
+      "rankRange": "632",
+      "popularityIndex": "30",
+      "vendasTotais": "1.9 mil",
+      "gmvTotal": "R$44.0 mil",
+      "numInfluencers": "123",
+      "price": "R$ 23,33",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "9.5%",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Esmerilhadeira POWAPAL 650W",
+     "price": "R$ 89,00",
+     "store": "POWAPAL",
+     "img": "images/products/80e1a63113dd197b.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "1.7 mil"
+      ],
+      [
+       "Receita 3d",
+       "R$136.6 mil"
+      ],
+      [
+       "Vendas totais",
+       "4.1 mil"
+      ],
+      [
+       "GMV total",
+       "R$300.0 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737497766751274750",
+     "detail": {
+      "imgs": [
+       "images/products/80e1a63113dd197b.webp"
+      ],
+      "rankRange": "514",
+      "popularityIndex": "35",
+      "vendasTotais": "4.2 mil",
+      "gmvTotal": "R$310.0 mil",
+      "numInfluencers": "162",
+      "price": "R$ 89,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Cortina Quarto/Sala Antonella c/ Ilhós",
+     "price": "R$ 21,99",
+     "store": "Decora Casa Enxovais",
+     "img": "images/products/3a6b24df81dc7674.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "945"
+      ],
+      [
+       "Receita 3d",
+       "R$37.7 mil"
+      ],
+      [
+       "Vendas totais",
+       "945"
+      ],
+      [
+       "GMV total",
+       "R$37.7 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510829214237855",
+     "detail": {
+      "imgs": [
+       "images/products/3a6b24df81dc7674.webp"
+      ],
+      "rankRange": "1883",
+      "popularityIndex": "30",
+      "vendasTotais": "1.0 mil",
+      "gmvTotal": "R$39.5 mil",
+      "numInfluencers": "1",
+      "price": "R$ 21,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Bolsa Tote Feminina TOMI MITO",
+     "price": "R$ 71,99",
+     "store": "TomiMitoo",
+     "img": "images/products/eb7cf8f65af93637.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "754"
+      ],
+      [
+       "Receita 3d",
+       "R$54.2 mil"
+      ],
+      [
+       "Vendas totais",
+       "754"
+      ],
+      [
+       "GMV total",
+       "R$54.2 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737092233904752292",
+     "detail": {
+      "imgs": [
+       "images/products/eb7cf8f65af93637.webp"
+      ],
+      "rankRange": "2550",
+      "popularityIndex": "30",
+      "vendasTotais": "758",
+      "gmvTotal": "R$54.5 mil",
+      "numInfluencers": "41",
+      "price": "R$ 71,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2026-09-15"
+     }
+    }
+   ],
+   "roupas": [
+    {
+     "title": "Macacão Feminino Risca de Giz Longo",
+     "price": "R$ 27,14",
+     "store": "Galan Modas",
+     "img": "images/products/4d2dd7545bdb4bf8.jpg",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "550"
+      ],
+      [
+       "Receita 3d",
+       "R$28.6 mil"
+      ],
+      [
+       "Vendas totais",
+       "550"
+      ],
+      [
+       "GMV total",
+       "R$28.6 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737521190894864077",
+     "detail": {
+      "imgs": [
+       "images/products/4d2dd7545bdb4bf8.jpg"
+      ],
+      "rankRange": "3955",
+      "popularityIndex": "30",
+      "vendasTotais": "633",
+      "gmvTotal": "R$33.0 mil",
+      "numInfluencers": "31",
+      "price": "R$ 27,14",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "8%",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Kit 2 T-shirt Lisa Peruana Cotton Pima",
+     "price": "R$ 25,97",
+     "store": "JJ Confecções",
+     "img": "images/products/74e9ea30357003a4.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "343"
+      ],
+      [
+       "Receita 3d",
+       "R$8.9 mil"
+      ],
+      [
+       "Vendas totais",
+       "675"
+      ],
+      [
+       "GMV total",
+       "R$17.5 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737008957264201155",
+     "detail": {
+      "imgs": [
+       "images/products/74e9ea30357003a4.webp"
+      ],
+      "rankRange": "5k - 10k",
+      "popularityIndex": "30",
+      "vendasTotais": "1.0 mil",
+      "gmvTotal": "R$26.9 mil",
+      "numInfluencers": "23",
+      "price": "R$ 25,97",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Calça Legging Canelada Cintura Alta",
+     "price": "R$ 14,49",
+     "store": "Abusada Fashion",
+     "img": "images/products/eae0287ac7e9d939.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "306"
+      ],
+      [
+       "Receita 3d",
+       "R$6.6 mil"
+      ],
+      [
+       "Vendas totais",
+       "306"
+      ],
+      [
+       "GMV total",
+       "R$6.6 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737494881368048928",
+     "detail": {
+      "imgs": [
+       "images/products/eae0287ac7e9d939.webp"
+      ],
+      "rankRange": "5k - 10k",
+      "popularityIndex": "30",
+      "vendasTotais": "392",
+      "gmvTotal": "R$7.8 mil",
+      "numInfluencers": "13",
+      "price": "R$ 14,49",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Kit até 3 Top Sutiã Canelado c/ Bojo",
+     "price": "R$ 11,99",
+     "store": "Madame Oliver",
+     "img": "images/products/a42a97c9000d7dd5.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "242"
+      ],
+      [
+       "Receita 3d",
+       "R$2.9 mil"
+      ],
+      [
+       "Vendas totais",
+       "242"
+      ],
+      [
+       "GMV total",
+       "R$2.9 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510644905903380",
+     "detail": {
+      "imgs": [
+       "images/products/a42a97c9000d7dd5.webp"
+      ],
+      "rankRange": "5k - 10k",
+      "popularityIndex": "30",
+      "vendasTotais": "248",
+      "gmvTotal": "R$2.9 mil",
+      "numInfluencers": "5",
+      "price": "R$ 11,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Vestido Curto Regata em Linho",
+     "price": "R$ 54,99",
+     "store": "Pitanga Confecções",
+     "img": "images/products/1793d8b4556d799f.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "233"
+      ],
+      [
+       "Receita 3d",
+       "R$13.6 mil"
+      ],
+      [
+       "Vendas totais",
+       "233"
+      ],
+      [
+       "GMV total",
+       "R$13.6 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510693342971697",
+     "detail": {
+      "imgs": [
+       "images/products/1793d8b4556d799f.webp"
+      ],
+      "rankRange": "10k - 20k",
+      "popularityIndex": "30",
+      "vendasTotais": "248",
+      "gmvTotal": "R$14.7 mil",
+      "numInfluencers": "47",
+      "price": "R$ 54,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    }
+   ],
+   "beleza": [
+    {
+     "title": "Kit Reve Eternel & Please Call Me 100ml",
+     "price": "R$ 155,00",
+     "store": "Lider Parfum",
+     "img": "images/products/2a814fee0ae7e12e.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "233"
+      ],
+      [
+       "Receita 3d",
+       "R$36.1 mil"
+      ],
+      [
+       "Vendas totais",
+       "233"
+      ],
+      [
+       "GMV total",
+       "R$36.1 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737497351028246081",
+     "detail": {
+      "imgs": [
+       "images/products/2a814fee0ae7e12e.webp"
+      ],
+      "rankRange": "10k - 20k",
+      "popularityIndex": "30",
+      "vendasTotais": "233",
+      "gmvTotal": "R$36.1 mil",
+      "numInfluencers": "3",
+      "price": "R$ 155,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Perfume La Rive Poetique EDP 90ml",
+     "price": "R$ 143,65",
+     "store": "Eon Fragances",
+     "img": "images/products/52b6e779d8cac1a4.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "117"
+      ],
+      [
+       "Receita 3d",
+       "R$22.1 mil"
+      ],
+      [
+       "Vendas totais",
+       "201"
+      ],
+      [
+       "GMV total",
+       "R$38.9 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510743409788639",
+     "detail": {
+      "imgs": [
+       "images/products/52b6e779d8cac1a4.webp"
+      ],
+      "rankRange": "20k - 30k",
+      "popularityIndex": "30",
+      "vendasTotais": "201",
+      "gmvTotal": "R$38.9 mil",
+      "numInfluencers": "4",
+      "price": "R$ 143,65",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Perfume Árabe Ard Al Zafaran",
+     "price": "R$ 143,65",
+     "store": "Eon Fragances",
+     "img": "images/products/d67699c59ca8250e.jpg",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "115"
+      ],
+      [
+       "Receita 3d",
+       "R$20.7 mil"
+      ],
+      [
+       "Vendas totais",
+       "152"
+      ],
+      [
+       "GMV total",
+       "R$27.4 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737509329518560991",
+     "detail": {
+      "imgs": [
+       "images/products/d67699c59ca8250e.jpg"
+      ],
+      "rankRange": "60k - 70k",
+      "popularityIndex": "30",
+      "vendasTotais": "152",
+      "gmvTotal": "R$27.4 mil",
+      "numInfluencers": "12",
+      "price": "R$ 143,65",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Perfume Árabe Night Teasen 80ml",
+     "price": "R$ 143,65",
+     "store": "Eon Fragances",
+     "img": "images/products/bc5fa8bc1d00028e.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "112"
+      ],
+      [
+       "Receita 3d",
+       "R$21.7 mil"
+      ],
+      [
+       "Vendas totais",
+       "112"
+      ],
+      [
+       "GMV total",
+       "R$21.7 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737510726912018143",
+     "detail": {
+      "imgs": [
+       "images/products/bc5fa8bc1d00028e.webp"
+      ],
+      "rankRange": "20k - 30k",
+      "popularityIndex": "30",
+      "vendasTotais": "112",
+      "gmvTotal": "R$21.7 mil",
+      "numInfluencers": "5",
+      "price": "R$ 143,65",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    },
+    {
+     "title": "Kit Sabonete em Barra de Enxofre Tropical",
+     "price": "R$ 9,90",
+     "store": "Tatu Toys",
+     "img": "images/products/77cf24ba5c9fa502.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "86"
+      ],
+      [
+       "Receita 3d",
+       "R$851"
+      ],
+      [
+       "Vendas totais",
+       "86"
+      ],
+      [
+       "GMV total",
+       "R$851"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1737293240846353421",
+     "detail": {
+      "imgs": [
+       "images/products/77cf24ba5c9fa502.webp"
+      ],
+      "rankRange": "20k - 30k",
+      "popularityIndex": "30",
+      "vendasTotais": "94",
+      "gmvTotal": "R$930.6",
+      "numInfluencers": "2",
+      "price": "R$ 9,90",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-15"
+     }
+    }
+   ]
+  },
+  "video": {
+   "todos": [
+    {
+     "title": "Óculos de Sol Oval Feminino Siena",
+     "price": "R$ 57,05",
+     "store": "Richelle",
+     "img": "images/products/adea1bd8d0d7c117.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "637"
+      ],
+      [
+       "GMV",
+       "R$47.9 mil"
+      ],
+      [
+       "Views",
+       "237.8 mil"
+      ],
+      [
+       "Curtidas",
+       "5.0 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731467505477715483",
+     "detail": {
+      "imgs": [
+       "images/products/adea1bd8d0d7c117.webp",
+       "images/products/2ff0f42f1b927a0b.webp",
+       "images/products/bf0a78a8f4a50197.webp",
+       "images/products/85c9e82d82e66876.webp",
+       "images/products/f8877b94f0da463a.webp",
+       "images/products/e9588809364158aa.webp",
+       "images/products/d11ce31c21215eb5.webp",
+       "images/products/57c1317af3595d20.webp"
+      ],
+      "rankRange": "780",
+      "popularityIndex": "37",
+      "vendasTotais": "12.4 mil",
+      "gmvTotal": "R$826.3 mil",
+      "numInfluencers": "1.2 mil",
+      "price": "R$ 57,05",
+      "frete": "From R$ 19,25",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "8%",
+      "dataUpload": "2026-02-16"
+     }
+    },
+    {
+     "title": "Capa de Chuva Motoqueiro Emborrachada",
+     "price": "R$ 89,63",
+     "store": "Britz Recomenda",
+     "img": "images/products/fb0b542b5d9e996c.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "629"
+      ],
+      [
+       "GMV",
+       "R$54.1 mil"
+      ],
+      [
+       "Views",
+       "257.2 mil"
+      ],
+      [
+       "Curtidas",
+       "1.1 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731368704908888054",
+     "detail": {
+      "imgs": [
+       "images/products/fb0b542b5d9e996c.jpg",
+       "images/products/59f36ba53f4e4510.jpg",
+       "images/products/be170b26383ba048.jpg",
+       "images/products/75cc4cae3a123b27.jpg",
+       "images/products/9ad68e787cb9039a.jpg",
+       "images/products/3ae8e4547fdf1e5e.jpg",
+       "images/products/bdf6faea2db32173.jpg",
+       "images/products/3c568738271c6ae5.jpg"
+      ],
+      "rankRange": "711",
+      "popularityIndex": "37",
+      "vendasTotais": "28.8 mil",
+      "gmvTotal": "R$2.4 milhão",
+      "numInfluencers": "801",
+      "price": "R$ 89,63",
+      "frete": "From R$ 15,70",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "8%",
+      "dataUpload": "2025-06-12"
+     }
+    },
+    {
+     "title": "Chibel Tinta de Ferrugem / Removedor",
+     "price": "R$ 13,49",
+     "store": "Melhores achadinhos",
+     "img": "images/products/e1acaef59a52c0f6.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "548"
+      ],
+      [
+       "GMV",
+       "R$19.2 mil"
+      ],
+      [
+       "Views",
+       "795.6 mil"
+      ],
+      [
+       "Curtidas",
+       "6.1 mil"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731377596809119317",
+     "detail": {
+      "imgs": [
+       "images/products/e1acaef59a52c0f6.webp",
+       "images/products/9b679620acdd06c0.jpg",
+       "images/products/f99fad3d3939e0f1.jpg",
+       "images/products/2c9e0072ebe595a9.jpg",
+       "images/products/81ef3de7a9abd297.jpg",
+       "images/products/0554270661797866.jpg",
+       "images/products/7dabbabe0f272697.jpg",
+       "images/products/515338564fff5937.jpg",
+       "images/products/68b764e33c177a4e.jpg",
+       "images/products/886dd10472e971f8.jpg"
+      ],
+      "rankRange": "1210",
+      "popularityIndex": "30",
+      "vendasTotais": "21.4 mil",
+      "gmvTotal": "R$818.9 mil",
+      "numInfluencers": "635",
+      "price": "R$ 26,99",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-05-31"
+     }
+    },
+    {
+     "title": "Fone Bluetooth BETTDOW TWS",
+     "price": "R$ 53,00",
+     "store": "moni_shopcreator",
+     "img": "images/products/5ab0c0c266c81edb.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "265"
+      ],
+      [
+       "GMV",
+       "R$13.9 mil"
+      ],
+      [
+       "Views",
+       "129.5 mil"
+      ],
+      [
+       "Curtidas",
+       "737"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731255009746191852",
+     "detail": {
+      "imgs": [
+       "images/products/5ab0c0c266c81edb.webp",
+       "images/products/aba67975daafae0f.jpg",
+       "images/products/c7d3863715bf9a09.jpg",
+       "images/products/8533014f5a332705.jpg",
+       "images/products/59f219abbf4cefe6.jpg",
+       "images/products/f522dc1aa3943e1e.jpg",
+       "images/products/7bcd5b5288030a51.jpg",
+       "images/products/a8b256353702b9c6.jpg",
+       "images/products/8918395a93173b38.jpg",
+       "images/products/aaf06c6d8335da7b.jpg"
+      ],
+      "rankRange": "568",
+      "popularityIndex": "42",
+      "vendasTotais": "23.2 mil",
+      "gmvTotal": "R$1.0 milhão",
+      "numInfluencers": "818",
+      "price": "R$ 53,00",
+      "frete": "From R$ 9,60",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "8%",
+      "dataUpload": "2025-08-23"
+     }
+    },
+    {
+     "title": "Cabide de 5 Ganchos Para Armário",
+     "price": "R$ 11,00",
+     "store": "tzs0nmx1z2",
+     "img": "images/products/ddb71e5ace44ba6f.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "203"
+      ],
+      [
+       "GMV",
+       "R$2.2 mil"
+      ],
+      [
+       "Views",
+       "82.6 mil"
+      ],
+      [
+       "Curtidas",
+       "280"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731388350551917646",
+     "detail": {
+      "imgs": [
+       "images/products/ddb71e5ace44ba6f.jpg"
+      ],
+      "rankRange": "1038",
+      "popularityIndex": "30",
+      "vendasTotais": "1.8 mil",
+      "gmvTotal": "R$20.5 mil",
+      "numInfluencers": "52",
+      "price": "R$ 11,00",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "7%",
+      "dataUpload": "2025-07-30"
+     }
+    }
+   ],
+   "roupas": [
+    {
+     "title": "Conjunto Terno Casual c/ Colete",
+     "price": "R$ 79,99",
+     "store": "Aline Rudnick",
+     "img": "images/products/5e930e38a73c2b66.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "73"
+      ],
+      [
+       "GMV",
+       "R$4.9 mil"
+      ],
+      [
+       "Views",
+       "32.1 mil"
+      ],
+      [
+       "Curtidas",
+       "531"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731253094613092312",
+     "detail": {
+      "imgs": [
+       "images/products/5e930e38a73c2b66.jpg",
+       "images/products/578b8b5cb1e68fc4.jpg",
+       "images/products/281a3f5c718ce26f.jpg",
+       "images/products/0f42a3e25c90e180.jpg",
+       "images/products/3451bdafa8203e46.jpg",
+       "images/products/d7e964a2fb4e9753.jpg",
+       "images/products/27f0b050b4e039a4.jpg",
+       "images/products/23df0ad349721d32.jpg",
+       "images/products/54dde7fd934bc157.jpg"
+      ],
+      "rankRange": "2036",
+      "popularityIndex": "30",
+      "vendasTotais": "84.1 mil",
+      "gmvTotal": "R$5.9 milhão",
+      "numInfluencers": "6.1 mil",
+      "price": "R$ 79,99",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-05-19"
+     }
+    },
+    {
+     "title": "Blusa Poá Bolinhas Pipoca Manga Babado",
+     "price": "R$ 26,99",
+     "store": "Maria",
+     "img": "images/products/a097cd9c7959b47f.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "56"
+      ],
+      [
+       "GMV",
+       "R$1.2 mil"
+      ],
+      [
+       "Views",
+       "31.0 mil"
+      ],
+      [
+       "Curtidas",
+       "340"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731370808326391519",
+     "detail": {
+      "imgs": [
+       "images/products/a097cd9c7959b47f.jpg"
+      ],
+      "rankRange": "10k - 20k",
+      "popularityIndex": "30",
+      "vendasTotais": "498",
+      "gmvTotal": "R$11.7 mil",
+      "numInfluencers": "52",
+      "price": "R$ 26,99",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-01-26"
+     }
+    },
+    {
+     "title": "Conjunto Alfaiataria SJD Moda Lady",
+     "price": "R$ 109,99",
+     "store": "Karine",
+     "img": "images/products/d9de9e2d89d99b48.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "55"
+      ],
+      [
+       "GMV",
+       "R$5.2 mil"
+      ],
+      [
+       "Views",
+       "29.6 mil"
+      ],
+      [
+       "Curtidas",
+       "439"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731457991572030927",
+     "detail": {
+      "imgs": [
+       "images/products/d9de9e2d89d99b48.webp",
+       "images/products/a09b1cf06e052c65.webp",
+       "images/products/6883a07252f47506.webp",
+       "images/products/45230b9b47e7c217.webp",
+       "images/products/ad442b99bfc4f171.webp",
+       "images/products/225280417c24c00a.webp",
+       "images/products/ea399cdc156e58d2.webp",
+       "images/products/f8609458b21b7899.webp",
+       "images/products/072be015e0ea673f.webp"
+      ],
+      "rankRange": "3784",
+      "popularityIndex": "30",
+      "vendasTotais": "8.2 mil",
+      "gmvTotal": "R$863.3 mil",
+      "numInfluencers": "29",
+      "price": "R$ 109,99",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2025-06-06"
+     }
+    },
+    {
+     "title": "Kit 5 Calçinha Cintura Alta Microfibra",
+     "price": "R$ 19,39",
+     "store": "Liliane Alves",
+     "img": "images/products/e41f01d877427066.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "51"
+      ],
+      [
+       "GMV",
+       "R$1.5 mil"
+      ],
+      [
+       "Views",
+       "27.2 mil"
+      ],
+      [
+       "Curtidas",
+       "286"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731485024695781001",
+     "detail": {
+      "imgs": [
+       "images/products/e41f01d877427066.webp",
+       "images/products/70599cbad7f60c82.webp",
+       "images/products/9caa75f915b6f98a.webp",
+       "images/products/80cf3209467a02e8.webp",
+       "images/products/072b76a3056ffed2.webp",
+       "images/products/9b663da7b109fdd7.webp",
+       "images/products/4675a64260be09e2.webp",
+       "images/products/d43b130f94973bb6.webp",
+       "images/products/735c80d1c7f6a605.webp"
+      ],
+      "rankRange": "2254",
+      "popularityIndex": "30",
+      "vendasTotais": "2.9 mil",
+      "gmvTotal": "R$80.3 mil",
+      "numInfluencers": "108",
+      "price": "R$ 19,39",
+      "frete": "From R$ 9,60",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2025-08-09"
+     }
+    },
+    {
+     "title": "Calça Wide Leg Feminina Modelagem Solta",
+     "price": "R$ 73,81",
+     "store": "Ana Maria Giro",
+     "img": "images/products/24b0ff57d802b6d4.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "48"
+      ],
+      [
+       "GMV",
+       "R$3.9 mil"
+      ],
+      [
+       "Views",
+       "23.4 mil"
+      ],
+      [
+       "Curtidas",
+       "824"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731254618241205295",
+     "detail": {
+      "imgs": [
+       "images/products/24b0ff57d802b6d4.jpg",
+       "images/products/4772c5053170cd2d.jpg",
+       "images/products/0708ccdb6548cf61.jpg",
+       "images/products/208814727f7704d7.jpg",
+       "images/products/85cd00ccd236fd41.jpg",
+       "images/products/3741fc42f7646abc.jpg",
+       "images/products/366e866461174d25.jpg",
+       "images/products/b32b76511a968acb.jpg",
+       "images/products/cdc0cc3c650c42fd.jpg"
+      ],
+      "rankRange": "4760",
+      "popularityIndex": "30",
+      "vendasTotais": "96.8 mil",
+      "gmvTotal": "R$6.6 milhão",
+      "numInfluencers": "4.9 mil",
+      "price": "R$ 73,81",
+      "frete": "From R$ 13,20",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "7%",
+      "dataUpload": "2025-05-28"
+     }
+    }
+   ],
+   "beleza": [
+    {
+     "title": "Caneta Sobrancelha/Barba à Prova D'água",
+     "price": "R$ 16,96",
+     "store": "Paranormal Star",
+     "img": "images/products/3cbe7f4770ac6b68.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "172"
+      ],
+      [
+       "GMV",
+       "R$2.9 mil"
+      ],
+      [
+       "Views",
+       "87.0 mil"
+      ],
+      [
+       "Curtidas",
+       "727"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731370441690417076",
+     "detail": {
+      "imgs": [
+       "images/products/3cbe7f4770ac6b68.jpg",
+       "images/products/509d3619a0613dd0.jpg",
+       "images/products/f50f70f1d0e79a5b.jpg",
+       "images/products/ff2c6dc385289e73.jpg",
+       "images/products/878cd26ce20a9727.jpg",
+       "images/products/7957118ae87330d6.jpg",
+       "images/products/57a70b6b1b3dfc6d.jpg"
+      ],
+      "rankRange": "538",
+      "popularityIndex": "37",
+      "vendasTotais": "53.1 mil",
+      "gmvTotal": "R$835.7 mil",
+      "numInfluencers": "1.0 mil",
+      "price": "R$ 16,96",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-06-08"
+     }
+    },
+    {
+     "title": "Ollie Protetor Solar em Bastao FPS 95",
+     "price": "R$ 139,00",
+     "store": "maycaskin",
+     "img": "images/products/9c43280874cc13c6.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "135"
+      ],
+      [
+       "GMV",
+       "R$18.9 mil"
+      ],
+      [
+       "Views",
+       "105.5 mil"
+      ],
+      [
+       "Curtidas",
+       "410"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731361024426149505",
+     "detail": {
+      "imgs": [
+       "images/products/9c43280874cc13c6.webp",
+       "images/products/9ae8d58ffcb12f3b.jpg",
+       "images/products/145974e9171e5e0f.jpg",
+       "images/products/74531bf260aa78b5.jpg",
+       "images/products/88e5f7f27d8d2a4d.jpg",
+       "images/products/ba68570c30bb2672.jpg",
+       "images/products/d21be5a6e73ba443.jpg",
+       "images/products/8e6a86d0731e413e.jpg"
+      ],
+      "rankRange": "4724",
+      "popularityIndex": "30",
+      "vendasTotais": "17.1 mil",
+      "gmvTotal": "R$3.3 milhão",
+      "numInfluencers": "3.2 mil",
+      "price": "R$ 139,00",
+      "frete": "From R$ 10,10",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-05-20"
+     }
+    },
+    {
+     "title": "Meu Liso Spray Defrizante Protetor Térmico",
+     "price": "R$ 23,10",
+     "store": "sheilacicutti",
+     "img": "images/products/624be56882e05eb2.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "116"
+      ],
+      [
+       "GMV",
+       "R$2.6 mil"
+      ],
+      [
+       "Views",
+       "39.4 mil"
+      ],
+      [
+       "Curtidas",
+       "455"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731361258605544976",
+     "detail": {
+      "imgs": [
+       "images/products/624be56882e05eb2.webp",
+       "images/products/554388ceded60c0c.jpg",
+       "images/products/37d4003c2297eb46.jpg",
+       "images/products/0d1c3c1cd852e3c1.jpg",
+       "images/products/3af38db33551f65d.jpg"
+      ],
+      "rankRange": "5k - 10k",
+      "popularityIndex": "30",
+      "vendasTotais": "7.1 mil",
+      "gmvTotal": "R$162.6 mil",
+      "numInfluencers": "243",
+      "price": "R$ 23,10",
+      "frete": "From R$ 9,60",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "12%",
+      "dataUpload": "2025-05-15"
+     }
+    },
+    {
+     "title": "Máscara Ultra Hidratante Forever Liss 350g",
+     "price": "R$ 46,90",
+     "store": "Amanda",
+     "img": "images/products/453e1340f5626f8c.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "87"
+      ],
+      [
+       "GMV",
+       "R$3.7 mil"
+      ],
+      [
+       "Views",
+       "57.4 mil"
+      ],
+      [
+       "Curtidas",
+       "307"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731292545588168259",
+     "detail": {
+      "imgs": [
+       "images/products/453e1340f5626f8c.jpg",
+       "images/products/0f274dece37a607b.jpg",
+       "images/products/f6ed12a5b8cd5536.jpg",
+       "images/products/2bcf9321ba515ac5.jpg",
+       "images/products/94e3397031f8f851.jpg",
+       "images/products/2a4fda9c37fe1067.jpg",
+       "images/products/90ac0b8f79cfdb14.jpg"
+      ],
+      "rankRange": "5k - 10k",
+      "popularityIndex": "30",
+      "vendasTotais": "15.1 mil",
+      "gmvTotal": "R$704.4 mil",
+      "numInfluencers": "757",
+      "price": "R$ 46,90",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-05-14"
+     }
+    },
+    {
+     "title": "Body Splash Afrodite Garden Aura Beauty",
+     "price": "R$ 77,00",
+     "store": "Dani",
+     "img": "images/products/b44ffd17053ae3c5.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "68"
+      ],
+      [
+       "GMV",
+       "R$6.4 mil"
+      ],
+      [
+       "Views",
+       "45.2 mil"
+      ],
+      [
+       "Curtidas",
+       "378"
+      ]
+     ],
+     "detail_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731364119532111263",
+     "detail": {
+      "imgs": [
+       "images/products/b44ffd17053ae3c5.jpg",
+       "images/products/50f268eba2b09ce6.jpg",
+       "images/products/03ea0caaee3d4567.jpg",
+       "images/products/d11f0af5c708916c.jpg",
+       "images/products/91dd086029ebffaf.jpg"
+      ],
+      "rankRange": "715",
+      "popularityIndex": "40",
+      "vendasTotais": "126.9 mil",
+      "gmvTotal": "R$9.7 milhão",
+      "numInfluencers": "9.3 mil",
+      "price": "R$ 77,00",
+      "frete": "From R$ 10,10",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "9%",
+      "dataUpload": "2025-05-14"
+     }
+    }
+   ]
+  }
+ },
+ "last_updated": "18/09/2026"
+}
