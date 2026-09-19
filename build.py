@@ -25,7 +25,6 @@ VIDS = {
     "ugc_cta": "videos/lib_ugc_cta.mp4",
     "mirror1": "videos/fmt_mirror1_hq.mp4",
     "mirror_cabelo": "videos/lib_mirror_cabelo.mp4",
-    "pov1": "videos/fmt_pov1_hq.mp4",
     "pov_colocar": "videos/lib_pov_colocar.mp4",
     "pov_esticar": "videos/lib_pov_esticar.mp4",
     "story1": "videos/fmt_story1_hq.mp4",
@@ -71,9 +70,6 @@ CARDS = {
     "mirror1": {"tag": "MOVIMENTO NATURAL", "title": "Showcase completo", "tool": "Kling 3 / Veo 3", "reqs": ["model", "scene"],
         "image_prompt": "Use image reference 1 (the model) for identity and image reference 2 (the scenario photo below) for the room — she is photographing her own reflection in that exact mirror, matching its real position, framing, and ambient light. Her iPhone's camera flash is turned on, held clearly in her hand overlapping her torso in the reflection, and the flash's light is visible reflecting off the mirror glass as a small bright flare. Full outfit visible knees to head, casual fit (fitted top, denim shorts). Slight natural rotation of the hips, imperfect off-center framing like a real handheld mirror shot — not tripod-centered. Visible skin texture, no studio lighting, no beauty filter added on top of the scenario's real light. No on-screen text, no captions, no watermarks.",
         "motion_prompt": "Animate this exact photo. She holds the phone steady with the flash lit, tilts her head slightly and touches her hair/shoulder with her free hand as she adjusts her pose, small natural repositioning of the phone angle, and settles into a warm genuine smile by the end. Slight natural rotation of the hips, imperfect handheld mirror-shot wobble — no cuts, no zoom. ~9-10 seconds. No on-screen text, no captions, no subtitles, no watermarks."},
-    "pov1": {"tag": "POV", "title": "Produto visto de cima", "tool": "Seedance 2", "reqs": ["model", "scene"],
-        "image_prompt": "Use image reference 1 (the model) to match her real hand/skin tone and image reference 2 (the scenario photo below) for the exact rug, plant, and light — a top-down POV flat-lay photo, shot from directly above, of her hands arranging a clothing item on that rug, a pair of sunglasses and a thin belt placed next to the garment as styling props. Hands have visible skin texture and natural nail polish, casual bracelets. Authentic phone-camera top-down framing, slightly imperfect angle, matching the scenario's real shadows. No on-screen text, no captions, no watermarks.",
-        "motion_prompt": "Animate this exact photo. The hands slowly slide the garment slightly to re-center it, then one hand places the sunglasses down beside it while the other smooths a wrinkle out of the fabric — calm, deliberate top-down product-styling motion, camera locked directly overhead with no movement. ~4-5 seconds. No on-screen text, no captions, no subtitles, no watermarks."},
     "story1": {"tag": "STORYBOARD", "title": "Apenas uma cor", "tool": "Kling 3 / Veo 3", "reqs": ["model", "scene"],
         "image_prompt": "Use image reference 1 (the model) for identity and image reference 2 (the scenario photo below) for the room — a frontal portrait UGC photo of her standing centered inside that exact room, matching its real light and camera height, facing the camera directly, knee-to-head framing, wearing a fitted solid-color slip dress. Relaxed confident stance, one hand resting near her hip. Visible skin texture, no studio lighting, no beauty filter added on top of the scenario's real light. No on-screen text, no captions, no watermarks.",
         "motion_prompt": "Animate this exact photo. She runs one hand through her hair and lets it settle back down, gives a slight confident shift of weight and turn of the shoulders, fabric of the dress moving naturally with the motion. Camera locked, no zoom, no cuts. ~4-5 seconds. No on-screen text, no captions, no subtitles, no watermarks."},
@@ -116,7 +112,7 @@ CARDS = {
 TABS = [
     ("ugc", "UGC", ["ugc_celular", "ugc_pacote", "ugc_blusa", "ugc_giro360", "ugc_posefofa", "ugc_look", "ugc_cta"]),
     ("mirror", "Mirror Selfie", ["mirror1", "mirror_cabelo"]),
-    ("pov", "POV", ["pov1", "pov_colocar", "pov_esticar"]),
+    ("pov", "POV", ["pov_colocar", "pov_esticar"]),
     ("story", "Storyboard", ["story1", "story_cores"]),
 ]
 PLACEHOLDER_COUNTS = {"ugc": 0, "mirror": 0, "pov": 0, "story": 0}
