@@ -264,15 +264,33 @@ modals_html = "\n".join(modal_html(key, c) for key, c in CARDS.items())
 
 
 RANK_MEDALS = {1: ("#ffd257", "\U0001f947"), 2: ("#d7dde3", "\U0001f948"), 3: ("#e3a15f", "\U0001f949")}
+RANK_TYPE_ICONS = {"vendas": "\U0001f4c8", "novos": "\U0001f195", "video": "\U0001f3ac"}
+CATEGORY_ICONS = {"todos": "\U0001f6cd️", "roupas": "\U0001f457", "beleza": "\U0001f484"}
+
+
+def rank_feat_card_html(modal_id, i, row):
+    color, medal = RANK_MEDALS[i]
+    metrics = "".join(f'<span class="rank-metric"><b>{esc(l)}</b> {esc(v)}</span>' for l, v in row["metrics"][:2])
+    return f'''<button class="rank-card rank-feat" data-rank-modal="{modal_id}" type="button" style="--feat-color:{color};background:linear-gradient(165deg,{color}2e,var(--bg-card) 55%);border-color:{color}55;">
+        <span class="rank-feat-badge">{medal} #{i}</span>
+        <div class="rank-feat-media">
+          <img src="{row["img"]}" alt="{esc(row["title"])}" loading="lazy">
+          <div class="rank-feat-shade"></div>
+          <div class="rank-feat-overlay">
+            <h4>{esc(row["title"])}</h4>
+            <div class="rank-feat-price">{esc(row["price"])}</div>
+          </div>
+        </div>
+        <div class="rank-feat-footer">
+          <div class="rank-metrics">{metrics}</div>
+        </div>
+      </button>'''
 
 
 def rank_card_html(modal_id, i, row):
     metrics = "".join(f'<span class="rank-metric"><b>{esc(l)}</b> {esc(v)}</span>' for l, v in row["metrics"])
-    top3 = i in RANK_MEDALS
-    num_style = f' style="background:{RANK_MEDALS[i][0]};color:#241a02;"' if top3 else ""
-    card_cls = "rank-card top3" if top3 else "rank-card"
-    return f'''<button class="{card_cls}" data-rank-modal="{modal_id}" type="button">
-        <span class="rank-num"{num_style}>{i}</span>
+    return f'''<button class="rank-card" data-rank-modal="{modal_id}" type="button">
+        <span class="rank-num">{i}</span>
         <img class="rank-img" src="{row["img"]}" alt="{esc(row["title"])}" loading="lazy">
         <div class="rank-info">
           <h4>{esc(row["title"])}</h4>
@@ -364,21 +382,28 @@ def generate_headlines(row):
     price = row["price"]
     _, metric_val = row["metrics"][0]
     return [
-        fit(f"Achei {name2} por {price} e travei"),
-        fit(f"{name3} tá bombando no TikTok Shop"),
-        fit(f"{metric_val} pessoas comprando {name2} agora"),
-        fit("Ninguém tinha me falado desse aqui"),
-        fit(f"Parei o scroll só de ver esse preço"),
+        (fit(f"Achei {name2} por {price} e travei"), "Hook de curiosidade"),
+        (fit(f"{name3} tá bombando no TikTok Shop"), "Prova social"),
+        (fit(f"{metric_val} pessoas comprando {name2} agora"), "Prova social"),
+        (fit("Ninguém tinha me falado desse aqui"), "Hook de curiosidade"),
+        (fit("Parei o scroll só de ver esse preço"), "Benefício direto"),
     ]
 
 
 def headlines_html(row):
     items = "".join(
-        f'<div class="hl-item"><span class="hl-text">{esc(h)}</span><button class="btn-copy hl-copy" data-copy-inline="{esc(h)}">Copiar</button></div>'
-        for h in generate_headlines(row)
+        f'''<div class="hl-item">
+          <span class="hl-angle">{esc(angle)}</span>
+          <div class="hl-mock">
+            <span class="hl-mock-text">{esc(h)}</span>
+            <button class="btn-copy hl-copy" data-copy-inline="{esc(h)}" title="Copiar">&#128203;</button>
+          </div>
+        </div>'''
+        for h, angle in generate_headlines(row)
     )
     return f'''<div class="modal-block">
-      <div class="modal-block-head"><h3>5 ideias de headline pra esse produto</h3></div>
+      <div class="modal-block-head"><h3>5 headlines pra queimar na tela</h3></div>
+      <p class="modal-note">Mesmo estilo da edi&ccedil;&atilde;o de v&iacute;deo: branco bold com contorno preto, centralizado, sem anima&ccedil;&atilde;o.</p>
       <div class="hl-list">{items}</div>
     </div>'''
 
@@ -432,11 +457,11 @@ def rank_modal_html(modal_id, row, rows):
 
 
 rank_type_tabs_html = "\n      ".join(
-    f'<button class="fmt-tab{" active" if i == 0 else ""}" data-rank="{rid}">{label}</button>'
+    f'<button class="fmt-tab{" active" if i == 0 else ""}" data-rank="{rid}">{RANK_TYPE_ICONS.get(rid, "")} {label}</button>'
     for i, (rid, label) in enumerate(RANK_TYPES)
 )
 rank_cat_tabs_html = "\n      ".join(
-    f'<button class="fmt-tab{" active" if i == 0 else ""}" data-cat="{cid}">{label}</button>'
+    f'<button class="fmt-tab{" active" if i == 0 else ""}" data-cat="{cid}">{CATEGORY_ICONS.get(cid, "")} {label}</button>'
     for i, (cid, label) in enumerate(CATEGORIES)
 )
 
@@ -445,17 +470,27 @@ rank_modals = []
 for rid, _ in RANK_TYPES:
     for cid, _ in CATEGORIES:
         rows = RANKINGS[rid][cid]
-        cards = []
+        feat_cards, rest_cards = [], []
         for i, r in enumerate(rows):
             modal_id = f"rank-modal-{rid}-{cid}-{i}"
-            cards.append(rank_card_html(modal_id, i + 1, r))
+            n = i + 1
+            if n in RANK_MEDALS:
+                feat_cards.append(rank_feat_card_html(modal_id, n, r))
+            else:
+                rest_cards.append(rank_card_html(modal_id, n, r))
             rank_modals.append(rank_modal_html(modal_id, r, rows))
-        cards_html = "\n    ".join(cards)
+        feat_html = "\n    ".join(feat_cards)
+        rest_html = "\n    ".join(rest_cards)
+        rest_block = f'''<div class="rank-list-label">Tamb&eacute;m no Top 5</div>
+    <div class="rank-grid">
+    {rest_html}
+    </div>''' if rest_cards else ""
         active = "active" if (rid == RANK_TYPES[0][0] and cid == CATEGORIES[0][0]) else ""
         rank_panels.append(f'''<div class="rank-panel {active}" data-rank="{rid}" data-cat="{cid}">
-    <div class="rank-grid">
-    {cards_html}
+    <div class="rank-featured-row">
+    {feat_html}
     </div>
+    {rest_block}
   </div>''')
 rank_panels_html = "\n".join(rank_panels)
 rank_modals_html = "\n".join(rank_modals)
@@ -587,7 +622,11 @@ CSS = """
   .top-nav-btn.active{background:var(--amber);color:var(--amber-ink);border-color:var(--amber);}
   .section{display:none;}
   .section.active{display:block;}
-  .rank-meta{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap;margin:-8px 0 26px;font-size:13px;color:var(--ink-dim);}
+  .rank-meta{
+    display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;
+    margin:-8px 0 26px;font-size:13px;color:var(--ink-dim);background:linear-gradient(90deg,var(--bg-card),var(--bg-raised));
+    border:1px solid var(--line);border-radius:16px;padding:14px 22px;
+  }
   .rank-next-pill{
     display:inline-flex;align-items:center;gap:10px;background:rgba(255,73,73,.12);
     border:1px solid rgba(255,73,73,.4);border-radius:100px;padding:8px 18px;
@@ -606,6 +645,33 @@ CSS = """
   .rank-cat-tabs .fmt-tab.active{background:var(--amber);color:var(--amber-ink);border-color:var(--amber);border-style:solid;}
   .rank-panel{display:none;}
   .rank-panel.active{display:block;}
+  .rank-featured-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:26px;}
+  @media (max-width:760px){ .rank-featured-row{grid-template-columns:1fr;} }
+  .rank-feat{
+    appearance:none;font-family:inherit;text-align:left;cursor:pointer;padding:0;
+    display:flex;flex-direction:column;border:1px solid var(--line);border-radius:18px;overflow:hidden;
+    position:relative;transition:transform .18s ease,box-shadow .18s ease;
+  }
+  .rank-feat:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(0,0,0,.4),0 0 0 1px var(--feat-color, var(--green));}
+  .rank-feat-badge{
+    position:absolute;top:12px;left:12px;z-index:2;background:var(--feat-color,var(--amber));color:#241a02;
+    font-weight:900;font-size:12px;padding:5px 12px;border-radius:100px;box-shadow:0 3px 10px rgba(0,0,0,.45);
+    font-family:'JetBrains Mono',monospace;letter-spacing:.02em;
+  }
+  .rank-feat-media{position:relative;aspect-ratio:1/1;overflow:hidden;background:#0f1310;}
+  .rank-feat-media img{width:100%;height:100%;object-fit:cover;display:block;}
+  .rank-feat-shade{position:absolute;inset:0;background:linear-gradient(180deg,transparent 38%,rgba(0,0,0,.9) 100%);}
+  .rank-feat-overlay{position:absolute;left:0;right:0;bottom:0;padding:14px 16px;}
+  .rank-feat-overlay h4{
+    font-size:14px;font-weight:800;color:#fff;margin:0 0 5px;line-height:1.28;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  .rank-feat-price{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:15px;color:var(--feat-color,var(--amber));}
+  .rank-feat-footer{padding:12px 16px 16px;}
+  .rank-list-label{
+    font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-faint);margin:0 0 12px;
+  }
   .rank-grid{display:flex;flex-direction:column;gap:10px;}
   .rank-card{
     appearance:none;font-family:inherit;text-align:left;cursor:pointer;width:100%;
@@ -613,17 +679,14 @@ CSS = """
     border-radius:14px;padding:12px 16px;position:relative;transition:border-color .15s ease,transform .15s ease;
   }
   .rank-card:hover{border-color:var(--green);transform:translateY(-1px);}
-  .rank-card.top3{border-color:rgba(255,200,69,.4);background:linear-gradient(90deg,rgba(255,200,69,.08),var(--bg-card) 40%);}
   .rank-num{
     flex:none;background:var(--green);color:var(--green-ink);width:28px;height:28px;border-radius:50%;
     display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;
   }
-  .rank-card.top3 .rank-num{width:38px;height:38px;font-size:18px;font-weight:900;box-shadow:0 0 0 3px rgba(255,200,69,.18);}
   .rank-img{width:56px;height:56px;object-fit:cover;border-radius:10px;flex:none;background:#0f1310;display:block;}
   .btn-copy-img.small{width:18px;height:18px;font-size:9px;bottom:3px;right:3px;}
   .rank-info{min-width:0;flex:1;}
   .rank-info h4{font-size:13.5px;font-weight:700;margin:0 0 5px;line-height:1.32;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-  .rank-card.top3 .rank-info h4{font-size:14.5px;}
   .rank-price{font-size:11.5px;color:var(--ink-dim);margin-bottom:7px;}
   .rank-metrics{display:flex;flex-wrap:wrap;gap:5px;}
   .rank-metric{font-size:10px;color:var(--ink-faint);background:var(--bg-raised);border:1px solid var(--line-soft);border-radius:100px;padding:3px 8px;}
@@ -656,13 +719,30 @@ CSS = """
   .pop-track{flex:1;height:14px;border-radius:100px;background:var(--bg-card);border:1px solid var(--line-soft);overflow:hidden;}
   .pop-fill{height:100%;background:linear-gradient(90deg,var(--green),var(--amber));border-radius:100px;}
   .pop-val{font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:700;color:var(--ink);}
-  .hl-list{display:flex;flex-direction:column;gap:8px;}
-  .hl-item{
-    display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--bg-card);
-    border:1px solid var(--line);border-radius:10px;padding:10px 12px;
+  .hl-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
+  @media (max-width:560px){ .hl-list{grid-template-columns:1fr;} }
+  .hl-item{display:flex;flex-direction:column;gap:6px;}
+  .hl-angle{
+    font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--amber);
   }
-  .hl-text{font-size:12.5px;color:var(--ink);}
-  .hl-copy{padding:6px 14px;font-size:11px;flex:none;}
+  .hl-mock{
+    position:relative;display:flex;align-items:center;justify-content:center;text-align:center;
+    aspect-ratio:16/8;border-radius:12px;padding:10px 34px 10px 12px;overflow:hidden;
+    background:
+      radial-gradient(120% 140% at 15% 15%, rgba(53,225,126,.16), transparent 55%),
+      radial-gradient(120% 140% at 85% 85%, rgba(255,200,69,.14), transparent 55%),
+      linear-gradient(160deg,#1c2117,#0d100b);
+    border:1px solid var(--line);
+  }
+  .hl-mock-text{
+    font-family:'Unbounded','Plus Jakarta Sans',sans-serif;font-weight:800;font-size:14px;line-height:1.3;color:#fff;
+    text-shadow:-1.5px -1.5px 0 #000,1.5px -1.5px 0 #000,-1.5px 1.5px 0 #000,1.5px 1.5px 0 #000,0 0 10px rgba(0,0,0,.5);
+  }
+  .hl-copy{
+    position:absolute;top:8px;right:8px;width:24px;height:24px;padding:0;font-size:11px;flex:none;
+    border-radius:8px;background:rgba(10,12,9,.7);border:1px solid rgba(255,255,255,.18);
+  }
 """
 
 JS = """
