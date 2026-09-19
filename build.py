@@ -369,33 +369,101 @@ def popularity_bar_html(d):
 
 # Titles from FastMoss are keyword-stuffed for SEO (color/style/model list
 # first, real product type often buried at the end, e.g. "...p/ iPhone 18 17
-# 16..., shell suave alto nível"). Blindly taking the first N words grabs
-# marketing fluff instead of the actual product, so look up a real product
-# noun first and only fall back to word-slicing if nothing matches.
-PRODUCT_NOUNS = [
-    ("saco de lixo", "saco de lixo"), ("reparador de pontas", "reparador de pontas"),
-    ("guarda-chuva", "guarda-chuva"), ("guarda chuva", "guarda-chuva"),
-    ("capa de celular", "capinha de celular"), ("capinha", "capinha de celular"), ("shell", "capinha de celular"),
-    ("tapete", "tapete"), ("umidificador", "umidificador"), ("organizador", "organizador"),
-    ("luminária", "luminária"), ("luminaria", "luminária"), ("suporte", "suporte"),
-    ("carregador", "carregador"), ("fone de ouvido", "fone de ouvido"), ("fone", "fone"),
-    ("relógio", "relógio"), ("relogio", "relógio"), ("pulseira", "pulseira"), ("colar", "colar"),
-    ("brinco", "brinco"), ("bolsa", "bolsa"), ("tênis", "tênis"), ("tenis", "tênis"),
-    ("sandália", "sandália"), ("sandalia", "sandália"), ("biquíni", "biquíni"), ("biquini", "biquíni"),
-    ("conjunto", "conjunto"), ("vestido", "vestido"), ("blusa", "blusa"), ("calça", "calça"),
-    ("gloss", "gloss labial"), ("batom", "batom"), ("sérum", "sérum"), ("serum", "sérum"),
-    ("hidratante", "hidratante"), ("máscara facial", "máscara facial"), ("máscara", "máscara"),
-    ("creme", "creme"), ("escova", "escova"), ("secador", "secador"), ("chapinha", "chapinha"),
-    ("esponja", "esponja"), ("perfume", "perfume"), ("brinquedo", "brinquedo"), ("almofada", "almofada"),
+# 16..., shell suave alto nível"), so we can't just slice the first N words.
+# Beyond naming the product right, generic one-size-fits-all headline templates
+# read as forced -- a perfume and a phone case don't share a pain point or
+# social angle. Each keyword below also carries the grammatical gender (for
+# "esse/essa", "o/a" agreement) and an archetype that picks which headline
+# angle bank fits how people actually talk about that kind of product.
+# Longest keyword wins so specific phrases ("calça jeans") beat generic ones
+# ("calça") -- see PRODUCT_TYPES_SORTED.
+PRODUCT_TYPES = [
+    # beauty / personal care -- angle: resultado, cheiro, autoestima, elogio
+    ("body splash", "body splash", "m", "beauty"),
+    ("protetor solar", "protetor solar", "m", "beauty"),
+    ("perfume", "perfume", "m", "beauty"),
+    ("hidratante", "hidratante", "m", "beauty"),
+    ("sérum", "sérum", "m", "beauty"), ("serum", "sérum", "m", "beauty"),
+    ("máscara ultra hidratante", "máscara capilar", "f", "beauty"),
+    ("máscara capilar", "máscara capilar", "f", "beauty"), ("mascara capilar", "máscara capilar", "f", "beauty"),
+    ("máscara facial", "máscara facial", "f", "beauty"),
+    ("reparador de pontas", "reparador de pontas", "m", "beauty"),
+    ("spray defrizante", "spray defrizante", "m", "beauty"), ("defrizante", "spray defrizante", "m", "beauty"),
+    ("shampoo", "shampoo", "m", "beauty"), ("condicionador", "condicionador", "m", "beauty"),
+    ("kit capilar", "kit capilar", "m", "beauty"),
+    ("sabonete", "sabonete", "m", "beauty"),
+    ("caneta sobrancelha", "caneta de sobrancelha", "f", "beauty"),
+    ("giz de cabelo", "giz de cabelo colorido", "m", "beauty"),
+    ("gloss", "gloss labial", "m", "beauty"), ("batom", "batom", "m", "beauty"),
+    # fashion / acessórios -- angle: caimento, elogio, "parece caro"
+    ("calça jeans", "calça jeans", "f", "fashion"), ("calça legging", "calça legging", "f", "fashion"),
+    ("calça wide leg", "calça wide leg", "f", "fashion"), ("calça", "calça", "f", "fashion"),
+    ("blusa", "blusa", "f", "fashion"), ("camisola", "camisola", "f", "fashion"),
+    ("vestido", "vestido", "m", "fashion"),
+    ("macacão", "macacão", "m", "fashion"), ("macacao", "macacão", "m", "fashion"),
+    ("conjunto de terno", "conjunto", "m", "fashion"), ("conjunto alfaiataria", "conjunto", "m", "fashion"),
+    ("conjunto", "conjunto", "m", "fashion"),
+    ("jaqueta", "jaqueta", "f", "fashion"), ("casaco", "casaco", "m", "fashion"), ("moletom", "moletom", "m", "fashion"),
+    ("saia", "saia", "f", "fashion"),
+    ("sutiã", "sutiã", "m", "fashion"), ("sutia", "sutiã", "m", "fashion"), ("top sutiã", "top", "m", "fashion"),
+    ("calcinha", "calcinha", "f", "fashion"),
+    ("adesivos para o peito", "adesivo de peito", "m", "fashion"),
+    ("bolsa", "bolsa", "f", "fashion"),
+    ("óculos de sol", "óculos de sol", "m", "fashion"), ("oculos de sol", "óculos de sol", "m", "fashion"),
+    ("capa roupa chuva", "capa de chuva", "f", "fashion"),
+    ("biquíni", "biquíni", "m", "fashion"), ("biquini", "biquíni", "m", "fashion"),
+    ("tênis", "tênis", "m", "fashion"), ("tenis", "tênis", "m", "fashion"),
+    ("sandália", "sandália", "f", "fashion"), ("sandalia", "sandália", "f", "fashion"),
+    ("relógio", "relógio", "m", "fashion"), ("relogio", "relógio", "m", "fashion"),
+    ("pulseira", "pulseira", "f", "fashion"), ("colar", "colar", "m", "fashion"), ("brinco", "brinco", "m", "fashion"),
+    # casa / utilidades -- angle: resolve um perrengue, praticidade, custo-benefício
+    ("cortina", "cortina", "f", "home"), ("cabide", "cabide", "m", "home"),
+    ("saco de lixo", "saco de lixo", "m", "home"),
+    ("guarda-chuva", "guarda-chuva", "m", "home"), ("guarda chuva", "guarda-chuva", "m", "home"),
+    ("cortador", "cortador de legumes", "m", "home"),
+    ("esmerilhadeira", "esmerilhadeira", "f", "home"),
+    ("organizador", "organizador", "m", "home"), ("umidificador", "umidificador", "m", "home"),
+    ("luminária", "luminária", "f", "home"), ("luminaria", "luminária", "f", "home"),
+    ("almofada", "almofada", "f", "home"),
+    # infantil -- angle: diversão dos filhos, verão, os pais aprovam
+    ("squishy", "brinquedo squishy", "m", "kids"),
+    ("tapete de sprinkler", "tapete de água", "m", "kids"), ("brinquedo de água", "tapete de água", "m", "kids"),
+    ("brinquedo", "brinquedo", "m", "kids"),
+    # tech / celular -- angle: proteção, praticidade, combina com tudo
+    ("capa de celular", "capinha de celular", "f", "tech"), ("capinha", "capinha de celular", "f", "tech"),
+    ("shell", "capinha de celular", "f", "tech"),
+    ("fone de ouvido", "fone de ouvido", "m", "tech"), ("fone", "fone de ouvido", "m", "tech"),
+    ("carregador", "carregador", "m", "tech"), ("suporte", "suporte", "m", "tech"),
 ]
+PRODUCT_TYPES_SORTED = sorted(PRODUCT_TYPES, key=lambda x: -len(x[0]))
 
 
-def short_name(title, maxwords=3):
+def classify_product(title):
     t = title.lower()
-    for kw, label in PRODUCT_NOUNS:
+    for kw, noun, gender, archetype in PRODUCT_TYPES_SORTED:
         if kw in t:
-            return label
-    return " ".join(title.split()[:maxwords])
+            return noun, gender, archetype
+    return " ".join(title.split()[:3]), None, None
+
+
+def cap(s):
+    return s[:1].upper() + s[1:] if s else s
+
+
+def esse(g):
+    return "essa" if g == "f" else "esse"
+
+
+def desse(g):
+    return "dessa" if g == "f" else "desse"
+
+
+def art(g):
+    return "a" if g == "f" else "o"
+
+
+def prep_in(g):
+    return "nessa" if g == "f" else "nesse"
 
 
 def fit(s, limit=50):
@@ -403,18 +471,80 @@ def fit(s, limit=50):
     return s if len(s) <= limit else s[: limit - 1].rstrip() + "…"
 
 
+def gen_headlines_beauty(noun, g, price, metric_val):
+    return [
+        (fit(f"Como assim {esse(g)} {noun} custa só {price}? \U0001f60d"), "Hook de curiosidade"),
+        (fit(f"{cap(noun)} que todo mundo tá comentando o resultado"), "Prova social"),
+        (fit(f"Gente, {metric_val} pessoas já compraram {esse(g)} {noun} \U0001f440"), "Prova social"),
+        (fit(f"Achei {esse(g)} {noun} incrível por {price}"), "Benefício direto"),
+        (fit(f"POV: elogiaram você e era {esse(g)} {noun}"), "Formato POV"),
+    ]
+
+
+def gen_headlines_fashion(noun, g, price, metric_val):
+    return [
+        (fit(f"Como assim {esse(g)} {noun} por só {price}? \U0001f633"), "Hook de curiosidade"),
+        (fit(f"{cap(noun)} tem cara de caro e custa {price}"), "Percepção de valor"),
+        (fit(f"Gente, {metric_val} vendidos {prep_in(g)} {noun} \U0001f440"), "Prova social"),
+        (fit(f"Achei {esse(g)} {noun} incrível quase de graça"), "Benefício direto"),
+        (fit(f"POV: você achou {art(g)} {noun} perfeit{'a' if g == 'f' else 'o'} por menos de {price}"), "Formato POV"),
+    ]
+
+
+def gen_headlines_home(noun, g, price, metric_val):
+    return [
+        (fit(f"Como assim {esse(g)} {noun} resolve isso por só {price}? \U0001f633"), "Hook de curiosidade"),
+        (fit(f"{cap(noun)} que eu não sabia que precisava"), "Hook de curiosidade"),
+        (fit(f"Gente, {metric_val} pessoas já compraram {esse(g)} {noun} \U0001f440"), "Prova social"),
+        (fit(f"Achei {esse(g)} {noun} que resolveu meu perrengue por {price}"), "Benefício direto"),
+        (fit(f"POV: você parou de sofrer com isso depois {desse(g)} {noun}"), "Formato POV"),
+    ]
+
+
+def gen_headlines_kids(noun, g, price, metric_val):
+    return [
+        (fit(f"Como assim {esse(g)} {noun} custa só {price}? \U0001f633"), "Hook de curiosidade"),
+        (fit(f"As crianças não largam {art(g)} {noun} nem um minuto"), "Prova social"),
+        (fit(f"Gente, {metric_val} pais já compraram {esse(g)} {noun} \U0001f440"), "Prova social"),
+        (fit(f"Achei {esse(g)} {noun} que salvou minhas férias por {price}"), "Benefício direto"),
+        (fit(f"POV: seu filho pediu {esse(g)} {noun} e valeu cada centavo"), "Formato POV"),
+    ]
+
+
+def gen_headlines_tech(noun, g, price, metric_val):
+    return [
+        (fit(f"Como assim {esse(g)} {noun} custa só {price}? \U0001f633"), "Hook de curiosidade"),
+        (fit(f"{cap(noun)} que deixa tudo mais bonito e ainda protege"), "Benefício direto"),
+        (fit(f"Gente, {metric_val} pessoas já compraram {esse(g)} {noun} \U0001f440"), "Prova social"),
+        (fit(f"Achei {esse(g)} {noun} que combina com tudo por {price}"), "Benefício direto"),
+        (fit(f"POV: parou de se preocupar depois {desse(g)} {noun}"), "Formato POV"),
+    ]
+
+
+def gen_headlines_generic(noun, price, metric_val):
+    return [
+        (fit(f"Como assim {noun} custa só {price}? \U0001f633"), "Hook de curiosidade"),
+        (fit(f"{cap(noun)} tá bombando no TikTok Shop"), "Prova social"),
+        (fit(f"Gente, {metric_val} pessoas comprando {noun} agora"), "Prova social"),
+        (fit(f"Achei {noun} quase de graça"), "Benefício direto"),
+        (fit(f"POV: você achou {noun} perfeito por menos de {price}"), "Formato POV"),
+    ]
+
+
+ARCHETYPE_GENERATORS = {
+    "beauty": gen_headlines_beauty, "fashion": gen_headlines_fashion, "home": gen_headlines_home,
+    "kids": gen_headlines_kids, "tech": gen_headlines_tech,
+}
+
+
 def generate_headlines(row):
-    name2 = short_name(row["title"], 2)
-    name3 = short_name(row["title"], 3)
     price = row["price"]
     _, metric_val = row["metrics"][0]
-    return [
-        (fit(f"Achei {name2} por {price} e travei"), "Hook de curiosidade"),
-        (fit(f"{name3} tá bombando no TikTok Shop"), "Prova social"),
-        (fit(f"{metric_val} pessoas comprando {name2} agora"), "Prova social"),
-        (fit("Ninguém tinha me falado desse aqui"), "Hook de curiosidade"),
-        (fit("Parei o scroll só de ver esse preço"), "Benefício direto"),
-    ]
+    noun, gender, archetype = classify_product(row["title"])
+    gen_fn = ARCHETYPE_GENERATORS.get(archetype)
+    if gen_fn is None:
+        return gen_headlines_generic(noun, price, metric_val)
+    return gen_fn(noun, gender, price, metric_val)
 
 
 def headlines_html(row):
