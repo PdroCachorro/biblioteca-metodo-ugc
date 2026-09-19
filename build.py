@@ -211,6 +211,48 @@ def reqs_html(c):
     </div>'''
 
 
+MODEL_PROMPTS = [
+    {
+        "title": "Modelo em fundo branco",
+        "note": "Retrato de cintura pra cima, fundo branco liso &mdash; sua refer&ecirc;ncia clara antes de colocar a modelo em qualquer cen&aacute;rio.",
+        "prompt": (
+            "Using the uploaded reference photo as the identity source, generate a clean waist-up portrait of the same woman on a seamless pure white background (#ffffff).\n"
+            "The subject must face the camera directly in a fully front-facing position. Keep the camera at eye level. Her head, face, shoulders, chest, and torso should be square to the camera, with both shoulders equally visible and no noticeable body rotation. Avoid 3/4 views, side angles, profile views, turned shoulders, or a tilted torso.\n"
+            "Pose: neutral standing posture, shoulders relaxed, body centered, natural relaxed expression, looking directly into the camera. No forced smile.\n"
+            "Wardrobe: simple beige cardigan over a plain white t-shirt.\n"
+            "Lighting: soft, even studio lighting from the front-left with gentle fill from the opposite side. Balanced exposure, no harsh shadows, no dramatic contrast, and no color cast.\n"
+            "Realism: preserve the identity, facial structure, and natural proportions from the reference image. Show realistic skin texture, visible pores, subtle imperfections, and natural asymmetry. No beauty filter, no excessive retouching, no AI smoothing, and no plastic or waxy skin.\n"
+            "Composition: vertical waist-up portrait, centered subject, straightforward frontal composition, seamless pure white background, 4:5 aspect ratio, no text, no watermark."
+        ),
+    },
+    {
+        "title": "Ficha de referência (4 ângulos)",
+        "note": "Frente, perfil e costas numa composi&ccedil;&atilde;o s&oacute; &mdash; trava a identidade antes de gerar qualquer coisa nova.",
+        "prompt": (
+            "Create a hyper-realistic UGC model reference sheet designed as a neutral identity matrix for future TikTok Shop and ecommerce content. Show the same person consistently across multiple angles in one clean composition. Include a full-body front view on the left, a centered close-up front portrait, a right-facing side profile, and a rear three-quarter or back-angle profile. The goal is to establish a strong visual identity anchor for future image and video generation in any angle.\n"
+            "The person should have a broadly marketable, relatable UGC creator look with natural commercial appeal, visually neutral and adaptable across many ecommerce niches. Do not stylize the subject too much. Keep the appearance balanced, versatile, and realistic. Natural skin texture with visible pores and subtle imperfections, natural unstyled hair, realistic facial proportions, realistic body proportions, clean everyday outfit in solid neutral colors such as a fitted plain t-shirt and simple pants, no logos, no accessories that dominate the look, no extreme fashion elements.\n"
+            "Expression should be neutral and calm, with a slight natural closed-mouth expression. Maintain strong identity consistency across every angle, preserving the exact same face, hair, body shape, and outfit. Pose should be stable and reference-like, similar to a professional model turnaround sheet. Background should be plain light gray or soft neutral studio backdrop, clean and minimal. No text, no captions, no UI, no phone frame, no Instagram story elements, no iPhone HUD, no watermarks.\n"
+            "Style: modern iPhone camera quality, unedited realism, zero bokeh, zero depth of field, sharp focus across the entire frame, soft even lighting, subtle studio realism, highly detailed, clean composition, reference-sheet aesthetic, 16:9 aspect ratio."
+        ),
+    },
+]
+
+
+def model_prompt_card_html(i, item):
+    return f'''<div class="modal-block model-prompt-card">
+      <div class="modal-block-head">
+        <span class="modal-step">{i}</span>
+        <h3>{esc(item["title"])}</h3>
+      </div>
+      <p class="modal-note">{item["note"]}</p>
+      <textarea readonly>{esc(item["prompt"])}</textarea>
+      <button class="btn-copy">Copiar Prompt</button>
+    </div>'''
+
+
+model_prompts_html = "\n".join(model_prompt_card_html(i + 1, item) for i, item in enumerate(MODEL_PROMPTS))
+
+
 CLOTHING_SWAP_PROMPT = (
     "Using the photo above as the base image, change ONLY her outfit: "
     "dress her in the exact clothing item from the product photo you "
@@ -690,6 +732,16 @@ BODY = f"""<div class="top-nav">
   <div class="fmt-panels">
 {panels_html}
   </div>
+  <div class="model-prompts-section">
+    <div class="head" style="margin-bottom:24px;">
+      <span class="eyebrow">Antes de tudo</span>
+      <h2>Criando sua modelo</h2>
+      <p>Prompts prontos pra gerar a base da sua modelo antes de aplicar qualquer formato.</p>
+    </div>
+    <div class="model-prompts-grid">
+{model_prompts_html}
+    </div>
+  </div>
 </div>
 {modals_html}
 </div>
@@ -744,6 +796,7 @@ CSS = """
   .wrap{max-width:1080px;margin:0 auto;padding:48px 24px;}
   .head{max-width:640px;margin:0 auto 40px;text-align:center;}
   .head h1{font-size:clamp(26px,4vw,36px);font-weight:800;margin-top:12px;}
+  .head h2{font-size:clamp(20px,3vw,26px);font-weight:800;margin-top:10px;}
   .head p{color:var(--ink-dim);margin-top:12px;font-size:15.5px;line-height:1.6;}
   .fmt-tabs{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:0 auto 30px;}
   .fmt-tab{appearance:none;border:1px solid var(--line);cursor:pointer;background:var(--bg-card);color:var(--ink-dim);font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:13.5px;padding:10px 18px;border-radius:100px;transition:all .15s ease;}
@@ -797,6 +850,10 @@ CSS = """
   .modal-block-head h3{font-size:14.5px;font-weight:700;font-family:'Plus Jakarta Sans',sans-serif;}
   .modal-block textarea{width:100%;resize:none;overflow:hidden;background:var(--bg-card);color:var(--ink-dim);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:13px;line-height:1.55;font-family:'JetBrains Mono',monospace;margin-bottom:10px;}
   .btn-copy{appearance:none;border:none;cursor:pointer;font-family:'Unbounded',sans-serif;font-weight:700;font-size:12.5px;background:var(--green);color:var(--green-ink);padding:10px 18px;border-radius:100px;}
+  .model-prompts-section{max-width:920px;margin:44px auto 0;}
+  .model-prompts-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+  @media (max-width:760px){ .model-prompts-grid{grid-template-columns:1fr;} }
+  .model-prompt-card{background:var(--bg-card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:0;}
   .btn-copy.copied{background:var(--amber);}
   .scene-preview{margin-top:16px;padding-top:16px;border-top:1px dashed var(--line);}
   .scene-preview-label{display:block;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:10px;}
@@ -966,6 +1023,8 @@ JS = """
       if(modal){ modal.classList.add('open'); autoSizeTextareas(modal); }
     });
   });
+  var modelPromptsSection = document.querySelector('.model-prompts-section');
+  if(modelPromptsSection) autoSizeTextareas(modelPromptsSection);
 
   document.querySelectorAll('.top-nav-btn').forEach(function(btn){
     btn.addEventListener('click', function(){
