@@ -119,7 +119,7 @@ TABS = [
     ("pov", "POV", ["pov1", "pov_colocar", "pov_esticar"]),
     ("story", "Storyboard", ["story1", "story_cores"]),
 ]
-PLACEHOLDER_COUNTS = {"ugc": 0, "mirror": 0, "pov": 1, "story": 0}
+PLACEHOLDER_COUNTS = {"ugc": 0, "mirror": 0, "pov": 0, "story": 0}
 
 
 def esc(s):
