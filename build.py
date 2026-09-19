@@ -466,9 +466,32 @@ def prep_in(g):
     return "nessa" if g == "f" else "nesse"
 
 
-def fit(s, limit=50):
+def fit(s, limit=72):
     s = s.strip()
     return s if len(s) <= limit else s[: limit - 1].rstrip() + "…"
+
+
+# The user wants the headline emojis to always look like iPhone (Apple) emoji,
+# regardless of what OS/browser renders the page -- a plain unicode emoji
+# character is drawn by the visitor's own emoji font (e.g. Segoe UI Emoji on
+# Windows), which looks nothing like Apple's. Rendering the known emoji as
+# <img> pulled from the emoji-datasource-apple asset set (Apple-style PNGs,
+# used the same way by Slack/emoji-mart) forces the Apple look everywhere.
+# The literal unicode character is kept in data-copy-inline so pasting the
+# headline elsewhere still carries a real emoji, rendered by whatever device
+# the person pastes it on.
+APPLE_EMOJI_CDN = "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64"
+EMOJI_CODEPOINTS = {"\U0001f633": "1f633", "\U0001f60d": "1f60d", "\U0001f440": "1f440"}
+
+
+def apple_emoji_html(text):
+    text = text.rstrip()
+    if text and text[-1] in EMOJI_CODEPOINTS:
+        emoji = text[-1]
+        rest = text[:-1].rstrip()
+        cp = EMOJI_CODEPOINTS[emoji]
+        return f'{esc(rest)} <img class="hl-emoji" src="{APPLE_EMOJI_CDN}/{cp}.png" alt="{emoji}">'
+    return esc(text)
 
 
 def gen_headlines_beauty(noun, g, price, metric_val):
@@ -552,7 +575,7 @@ def headlines_html(row):
         f'''<div class="hl-item">
           <span class="hl-angle">{esc(angle)}</span>
           <div class="hl-mock">
-            <span class="hl-mock-text">{esc(h)}</span>
+            <span class="hl-mock-text">{apple_emoji_html(h)}</span>
             <button class="btn-copy hl-copy" data-copy-inline="{esc(h)}" title="Copiar">&#128203;</button>
           </div>
         </div>'''
@@ -896,6 +919,7 @@ CSS = """
     font-family:'Unbounded','Plus Jakarta Sans',sans-serif;font-weight:800;font-size:14px;line-height:1.3;color:#fff;
     text-shadow:-1.5px -1.5px 0 #000,1.5px -1.5px 0 #000,-1.5px 1.5px 0 #000,1.5px 1.5px 0 #000,0 0 10px rgba(0,0,0,.5);
   }
+  .hl-emoji{width:1.15em;height:1.15em;vertical-align:-0.2em;display:inline-block;}
   .hl-copy{
     position:absolute;top:8px;right:8px;width:24px;height:24px;padding:0;font-size:11px;flex:none;
     border-radius:8px;background:rgba(10,12,9,.7);border:1px solid rgba(255,255,255,.18);
