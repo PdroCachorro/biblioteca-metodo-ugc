@@ -367,7 +367,34 @@ def popularity_bar_html(d):
     </div>'''
 
 
+# Titles from FastMoss are keyword-stuffed for SEO (color/style/model list
+# first, real product type often buried at the end, e.g. "...p/ iPhone 18 17
+# 16..., shell suave alto nível"). Blindly taking the first N words grabs
+# marketing fluff instead of the actual product, so look up a real product
+# noun first and only fall back to word-slicing if nothing matches.
+PRODUCT_NOUNS = [
+    ("saco de lixo", "saco de lixo"), ("reparador de pontas", "reparador de pontas"),
+    ("guarda-chuva", "guarda-chuva"), ("guarda chuva", "guarda-chuva"),
+    ("capa de celular", "capinha de celular"), ("capinha", "capinha de celular"), ("shell", "capinha de celular"),
+    ("tapete", "tapete"), ("umidificador", "umidificador"), ("organizador", "organizador"),
+    ("luminária", "luminária"), ("luminaria", "luminária"), ("suporte", "suporte"),
+    ("carregador", "carregador"), ("fone de ouvido", "fone de ouvido"), ("fone", "fone"),
+    ("relógio", "relógio"), ("relogio", "relógio"), ("pulseira", "pulseira"), ("colar", "colar"),
+    ("brinco", "brinco"), ("bolsa", "bolsa"), ("tênis", "tênis"), ("tenis", "tênis"),
+    ("sandália", "sandália"), ("sandalia", "sandália"), ("biquíni", "biquíni"), ("biquini", "biquíni"),
+    ("conjunto", "conjunto"), ("vestido", "vestido"), ("blusa", "blusa"), ("calça", "calça"),
+    ("gloss", "gloss labial"), ("batom", "batom"), ("sérum", "sérum"), ("serum", "sérum"),
+    ("hidratante", "hidratante"), ("máscara facial", "máscara facial"), ("máscara", "máscara"),
+    ("creme", "creme"), ("escova", "escova"), ("secador", "secador"), ("chapinha", "chapinha"),
+    ("esponja", "esponja"), ("perfume", "perfume"), ("brinquedo", "brinquedo"), ("almofada", "almofada"),
+]
+
+
 def short_name(title, maxwords=3):
+    t = title.lower()
+    for kw, label in PRODUCT_NOUNS:
+        if kw in t:
+            return label
     return " ".join(title.split()[:maxwords])
 
 
