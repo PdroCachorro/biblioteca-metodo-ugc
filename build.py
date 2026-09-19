@@ -1135,8 +1135,24 @@ JS = """
         btn.classList.add('copied');
         setTimeout(function(){ btn.innerHTML = old; btn.classList.remove('copied'); }, 1600);
       }
-      fetch(img.src).then(function(r){ return r.blob(); }).then(function(blob){
-        return navigator.clipboard.write([new ClipboardItem({ [blob.type]: blob })]);
+      function toPngBlob(blob){
+        return new Promise(function(resolve, reject){
+          var objectUrl = URL.createObjectURL(blob);
+          var im = new Image();
+          im.onload = function(){
+            var canvas = document.createElement('canvas');
+            canvas.width = im.naturalWidth;
+            canvas.height = im.naturalHeight;
+            canvas.getContext('2d').drawImage(im, 0, 0);
+            URL.revokeObjectURL(objectUrl);
+            canvas.toBlob(function(pngBlob){ pngBlob ? resolve(pngBlob) : reject(new Error('toBlob failed')); }, 'image/png');
+          };
+          im.onerror = reject;
+          im.src = objectUrl;
+        });
+      }
+      fetch(img.src).then(function(r){ return r.blob(); }).then(toPngBlob).then(function(pngBlob){
+        return navigator.clipboard.write([new ClipboardItem({ 'image/png': pngBlob })]);
       }).then(function(){ flash('&#10003;'); }).catch(function(){
         navigator.clipboard.writeText(img.src).then(function(){ flash('&#128279;'); }).catch(function(err){ console.error('copy image failed', err); });
       });
