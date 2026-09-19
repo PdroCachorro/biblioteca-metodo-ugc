@@ -750,13 +750,25 @@ CSS = """
   .fmt-tab.active{background:var(--green);color:var(--green-ink);border-color:var(--green);}
   .fmt-panel{display:none;}
   .fmt-panel.active{display:block;}
-  .fmt-row-wrap{display:flex;align-items:center;gap:8px;}
-  .fmt-row{display:flex;gap:16px;overflow-x:auto;padding:4px 4px 12px;scroll-snap-type:x proximity;scroll-behavior:smooth;flex:1 1 auto;min-width:0;scrollbar-width:none;-ms-overflow-style:none;}
+  .fmt-row-wrap{position:relative;max-width:920px;margin:0 auto;}
+  .fmt-row{display:flex;gap:16px;overflow-x:auto;padding:4px 4px 12px;scroll-snap-type:x proximity;width:max-content;max-width:100%;margin:0 auto;scrollbar-width:none;-ms-overflow-style:none;}
   .fmt-row::-webkit-scrollbar{display:none;}
-  .fmt-arrow{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--bg-card);color:var(--ink);font-size:20px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s ease,border-color .15s ease;}
+  .fmt-arrow{
+    position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:38px;height:38px;border-radius:50%;
+    border:1px solid var(--line);background:rgba(10,12,9,.85);color:var(--ink);font-size:20px;line-height:1;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px -8px rgba(0,0,0,.6);
+    transition:background .15s ease,border-color .15s ease;
+  }
   .fmt-arrow:hover{background:var(--green);color:var(--green-ink);border-color:var(--green);}
-  @media (max-width:640px){ .fmt-arrow{width:30px;height:30px;font-size:17px;} }
+  .fmt-arrow-left{left:-6px;}
+  .fmt-arrow-right{right:-6px;}
+  @keyframes rowNudge{0%{transform:translateX(0);}40%{transform:translateX(28px);}75%{transform:translateX(0);}100%{transform:translateX(0);}}
+  .fmt-row.nudge{animation:rowNudge 1600ms ease-in-out;}
   .fmt-card{flex:none;width:220px;scroll-snap-align:start;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--bg-card);}
+  @media (max-width:640px){
+    .fmt-arrow{display:none;}
+    .fmt-card{width:250px;}
+  }
   .fmt-thumb{aspect-ratio:9/16;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;}
   .fmt-thumb video{width:100%;height:100%;object-fit:cover;background:#000;}
   .fmt-thumb.placeholder{background:radial-gradient(circle at 50% 30%,rgba(255,200,69,.10),transparent 60%),#0f1310;}
@@ -1002,6 +1014,22 @@ JS = """
   updateCountdown();
   setInterval(updateCountdown, 1000);
 
+  function animateScrollLeft(row, delta){
+    var startX = row.scrollLeft;
+    var maxX = row.scrollWidth - row.clientWidth;
+    var endX = Math.max(0, Math.min(maxX, startX + delta));
+    var dist = endX - startX;
+    var duration = 380;
+    var startTime = null;
+    function ease(t){ return 1 - Math.pow(1 - t, 3); }
+    function step(ts){
+      if(!startTime) startTime = ts;
+      var progress = Math.min((ts - startTime) / duration, 1);
+      row.scrollLeft = startX + dist * ease(progress);
+      if(progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
   document.querySelectorAll('.fmt-arrow').forEach(function(btn){
     btn.addEventListener('click', function(){
       var row = btn.parentElement.querySelector('.fmt-row');
@@ -1009,8 +1037,23 @@ JS = """
       var dir = parseInt(btn.getAttribute('data-scroll'),10)||1;
       var cardEl = row.querySelector('.fmt-card');
       var step = (cardEl?cardEl.getBoundingClientRect().width:220)+16;
-      row.scrollBy({left: dir*step*2, behavior:'smooth'});
+      animateScrollLeft(row, dir*step*2);
     });
+  });
+  function nudgeActivePanel(){
+    if(window.matchMedia('(max-width:640px)').matches){
+      var row = document.querySelector('.fmt-panel.active .fmt-row');
+      if(row){
+        row.classList.remove('nudge');
+        void row.offsetWidth;
+        row.classList.add('nudge');
+      }
+    }
+  }
+  setTimeout(nudgeActivePanel, 900);
+  setInterval(nudgeActivePanel, 4500);
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){ setTimeout(nudgeActivePanel, 150); });
   });
   document.querySelectorAll('.btn-formato[data-card]').forEach(function(btn){
     btn.addEventListener('click', function(){
