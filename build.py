@@ -40,12 +40,28 @@ PROPS = {
     },
 }
 
+_ICON_SVG_OPEN = '<svg class="reqs-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
 REQS_ICONS = {
-    "model": ("\U0001f9cd‍♀️", "Foto da modelo"),
-    "scene": ("\U0001f5bc️", "Foto do cenário"),
-    "screenshot": ("\U0001f4f1", "Print do TikTok Shop (pra aparecer no celular)"),
-    "package": ("\U0001f4e6", "Foto do pacote TikTok Shop (fornecida abaixo)"),
-    "clothing": ("\U0001f455", "Foto da roupa/peça"),
+    "model": (
+        _ICON_SVG_OPEN + '<circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-4 4-6 8-6s8 2 8 6"></path></svg>',
+        "Foto da modelo",
+    ),
+    "scene": (
+        _ICON_SVG_OPEN + '<rect x="3" y="4" width="18" height="16" rx="2"></rect><circle cx="9" cy="10" r="2"></circle><path d="m21 16-5-5-4 4-3-3-6 6"></path></svg>',
+        "Foto do cenário",
+    ),
+    "screenshot": (
+        _ICON_SVG_OPEN + '<rect x="7" y="2" width="10" height="20" rx="2"></rect><path d="M11 18h2"></path></svg>',
+        "Print do TikTok Shop (pra aparecer no celular)",
+    ),
+    "package": (
+        _ICON_SVG_OPEN + '<path d="M21 8 12 3 3 8v8l9 5 9-5Z"></path><path d="M3 8l9 5 9-5"></path><path d="M12 13v8"></path></svg>',
+        "Foto do pacote TikTok Shop (fornecida abaixo)",
+    ),
+    "clothing": (
+        _ICON_SVG_OPEN + '<path d="M16 3 21 7l-3 3-2-1.5V21H8V8.5L6 10 3 7l5-4 1.5 1.5a2.5 2.5 0 0 0 5 0Z"></path></svg>',
+        "Foto da roupa/peça",
+    ),
 }
 
 SCENES = {
@@ -772,7 +788,7 @@ BODY = f"""<div class="top-nav">
   </div>
   <div class="rank-meta">
     <span>&Uacute;ltima coleta: {LAST_UPDATED}</span>
-    <span class="rank-next-pill">&#128337; Atualiza em <span class="rank-countdown" id="rank-countdown">--:--:--</span></span>
+    <span class="rank-next-pill"><svg class="rank-clock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg> Atualiza em <span class="rank-countdown" id="rank-countdown">--:--:--</span></span>
   </div>
   <div class="rank-filter-group">
     <span class="rank-filter-label">1. Escolha o ranking</span>
@@ -821,6 +837,9 @@ CSS = """
   .fmt-panel{display:none;}
   .fmt-panel.active{display:block;}
   .fmt-row-wrap{position:relative;max-width:920px;margin:0 auto;}
+  .fmt-row-wrap::before,.fmt-row-wrap::after{content:"";position:absolute;top:0;bottom:12px;width:32px;z-index:2;pointer-events:none;}
+  .fmt-row-wrap::before{left:0;background:linear-gradient(90deg,var(--bg),transparent);}
+  .fmt-row-wrap::after{right:0;background:linear-gradient(270deg,var(--bg),transparent);}
   .fmt-row{display:flex;gap:16px;overflow-x:auto;padding:4px 4px 12px;scroll-snap-type:x proximity;width:max-content;max-width:100%;margin:0 auto;scrollbar-width:none;-ms-overflow-style:none;}
   .fmt-row::-webkit-scrollbar{display:none;}
   .fmt-arrow{
@@ -849,8 +868,11 @@ CSS = """
   .btn-formato{appearance:none;border:none;cursor:pointer;width:100%;font-family:'Unbounded',sans-serif;font-weight:700;font-size:12.5px;background:var(--amber);color:var(--amber-ink);padding:11px 10px;border-radius:100px;transition:transform .15s ease,filter .15s ease;}
   .btn-formato:hover{transform:translateY(-1px);filter:brightness(1.06);}
   .btn-formato:disabled{background:var(--bg-raised);color:var(--ink-faint);cursor:not-allowed;}
-  .modal{display:none;position:fixed;inset:0;z-index:100;background:rgba(5,6,4,.82);align-items:center;justify-content:center;padding:24px;}
-  .modal.open{display:flex;}
+  .modal{display:flex;position:fixed;inset:0;z-index:100;background:rgba(5,6,4,.82);align-items:center;justify-content:center;padding:24px;
+    opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s ease;}
+  .modal.open{opacity:1;visibility:visible;pointer-events:auto;}
+  .modal-inner{transform:scale(.96);transition:transform .2s cubic-bezier(.23,1,.32,1);}
+  .modal.open .modal-inner{transform:scale(1);}
   .modal-inner{position:relative;max-width:640px;width:100%;max-height:86vh;overflow-y:auto;background:var(--bg-raised);border:1px solid var(--line);border-radius:20px;padding:32px;}
   .modal-close{position:absolute;top:16px;right:16px;background:none;border:none;color:var(--ink-dim);font-size:26px;line-height:1;cursor:pointer;}
   .modal-tag{font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--green);}
@@ -859,7 +881,8 @@ CSS = """
   .modal-reqs-label{display:block;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:10px;}
   .modal-reqs-row{display:flex;gap:8px;flex-wrap:wrap;}
   .reqs-chip{display:inline-flex;align-items:center;gap:6px;background:var(--bg-raised);border:1px solid var(--line);border-radius:100px;padding:6px 12px 6px 8px;font-size:12.5px;color:var(--ink-dim);}
-  .reqs-icon{font-size:15px;line-height:1;}
+  .reqs-icon{display:inline-flex;color:var(--green);}
+  .reqs-icon-svg{width:14px;height:14px;}
   .modal-note{font-size:12.5px;color:var(--amber);background:rgba(255,200,69,.08);border:1px dashed var(--amber);border-radius:10px;padding:9px 12px;margin-bottom:10px;}
   .modal-block{margin-bottom:22px;}
   .modal-block-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
@@ -883,7 +906,8 @@ CSS = """
   .top-nav-btn{appearance:none;border:1px solid var(--line);cursor:pointer;background:var(--bg-card);color:var(--ink-dim);font-family:'Unbounded',sans-serif;font-weight:700;font-size:13px;padding:12px 22px;border-radius:100px;transition:all .15s ease;}
   .top-nav-btn.active{background:var(--amber);color:var(--amber-ink);border-color:var(--amber);}
   .section{display:none;}
-  .section.active{display:block;}
+  .section.active{display:block;animation:section-fade .35s ease;}
+  @keyframes section-fade{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
   .rank-meta{
     display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;
     margin:-8px 0 26px;font-size:13px;color:var(--ink-dim);background:linear-gradient(90deg,var(--bg-card),var(--bg-raised));
@@ -893,6 +917,7 @@ CSS = """
     display:inline-flex;align-items:center;gap:10px;background:rgba(255,73,73,.12);
     border:1px solid rgba(255,73,73,.4);border-radius:100px;padding:8px 18px;
   }
+  .rank-clock-icon{width:16px;height:16px;flex:none;color:#ff5c5c;}
   .rank-countdown{color:#ff5c5c;font-weight:900;font-family:'JetBrains Mono',monospace;font-size:20px;letter-spacing:.02em;animation:rankPulse 2s ease-in-out infinite;}
   @keyframes rankPulse{0%,100%{opacity:1;}50%{opacity:.55;}}
   .rank-filter-group{margin-bottom:22px;}
@@ -954,6 +979,7 @@ CSS = """
   .rank-metric{font-size:10px;color:var(--ink-faint);background:var(--bg-raised);border:1px solid var(--line-soft);border-radius:100px;padding:3px 8px;}
   .rank-metric b{color:var(--ink-dim);font-weight:700;}
   .rank-modal-inner{max-width:640px;}
+  .rank-modal-inner h2{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word;}
   .rank-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
   .rank-gallery-item{position:relative;}
   .rank-gallery-item img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;border:1px solid var(--line);display:block;}
@@ -999,7 +1025,8 @@ CSS = """
   }
   .hl-mock-text{
     font-family:'Unbounded','Plus Jakarta Sans',sans-serif;font-weight:800;font-size:14px;line-height:1.3;color:#fff;
-    text-shadow:-1.5px -1.5px 0 #000,1.5px -1.5px 0 #000,-1.5px 1.5px 0 #000,1.5px 1.5px 0 #000,0 0 10px rgba(0,0,0,.5);
+    -webkit-text-stroke:1.5px #000;paint-order:stroke fill;
+    filter:drop-shadow(0 0 6px rgba(0,0,0,.5));
   }
   .hl-emoji{width:1.15em;height:1.15em;vertical-align:-0.2em;display:inline-block;}
   .hl-copy{
@@ -1202,6 +1229,12 @@ HTML = f"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Biblioteca TikTok Shop &mdash; M&eacute;todo UGC</title>
+<meta name="description" content="Biblioteca de formatos de v&iacute;deo UGC com IA e ranking Top 5 do TikTok Shop &mdash; M&eacute;todo UGC.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Biblioteca TikTok Shop &mdash; M&eacute;todo UGC">
+<meta property="og:description" content="Biblioteca de formatos de v&iacute;deo UGC com IA e ranking Top 5 do TikTok Shop.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230a0c09'/%3E%3Cpath d='M12 5v9m0 0 3.5-3.5M12 14l-3.5-3.5M6 17.5h12' stroke='%2335e17e' stroke-width='1.8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
 <style>{CSS}</style>
 </head>
