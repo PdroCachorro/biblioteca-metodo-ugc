@@ -31,952 +31,71 @@
   "vendas": {
    "todos": [
     {
-     "title": "Soutien Sem Alças de Silicone: Invisível, Respirável e Reutilizável | Perfeito para Vestidos de Festa",
-     "price": "R$ 14,97",
-     "store": "ULINK MALL",
-     "img": "images/products/06d6d4f7b59fbaa6.webp",
+     "title": "Reparador de Pontas Gloss com Silicones Ultra Luminosos Protege Contra Raios Solares e Anti-Frizz para Todos os Tipos de Cabelos Selando As Cutículas Brilho Alto Agressores Externos Textura Leve",
+     "price": "R$ 29,90",
+     "store": "Semélle",
+     "img": "images/products/1428b1da57540583.webp",
      "metrics": [
       [
        "Vendas/dia",
-       "5.4 mil"
+       "4.9 mil"
       ],
       [
        "Variação",
-       "75.11%"
+       "407.42%"
       ],
       [
        "Receita",
-       "R$82.1 mil"
+       "R$48.7 mil"
       ],
       [
        "GMV total",
-       "R$3.4 milhão"
+       "R$5.5 milhão"
       ]
      ],
      "detail": {
       "imgs": [
-       "images/products/06d6d4f7b59fbaa6.webp"
+       "images/products/1428b1da57540583.webp"
       ],
-      "rankRange": "1",
+      "rankRange": "2",
       "popularityIndex": "100",
-      "vendasTotais": "223.5 mil",
-      "gmvTotal": "R$3.4 milhão",
-      "numInfluencers": "2.8 mil",
-      "price": "R$ 14,97",
-      "frete": "From R$ 9,60",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2025-05-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1731363409967940920?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Froog-Legging Feminina Cintura Alta com Bolsos Laterais 100% não transparente— Yoga, Academia e gym Corrida",
-     "price": "R$ 79,99 - 249,99",
-     "store": "Froog.BR01",
-     "img": "images/products/db019536bff8d353.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "3.4 mil"
-      ],
-      [
-       "Variação",
-       "52.38%"
-      ],
-      [
-       "Receita",
-       "R$276.2 mil"
-      ],
-      [
-       "GMV total",
-       "R$5.2 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/db019536bff8d353.webp",
-       "images/products/e89672109ee9ad80.webp",
-       "images/products/3e22e1ae670830a1.webp",
-       "images/products/0106523ea6ffa99f.webp",
-       "images/products/b3edcef1776daea5.webp",
-       "images/products/a56501004a9b411c.webp",
-       "images/products/2255a2b4a0b93042.webp",
-       "images/products/666176c9464a760d.webp",
-       "images/products/5c8352df2633044b.webp"
-      ],
-      "rankRange": "23",
-      "popularityIndex": "100",
-      "vendasTotais": "126.1 mil",
-      "gmvTotal": "R$5.3 milhão",
-      "numInfluencers": "2.8 mil",
-      "price": "R$ 79,99 - 249,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2026-04-05"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1734884693606893257?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Saco de Lixo Lavanda Perfumado 34x38cm 3kg para Pia e Banheiro Neutraliza Odores Kit 40 80 120 ou 160 Sacos",
-     "price": "R$ 10,80",
-     "store": "Kiel Shop Armarinhos",
-     "img": "images/products/a668537aade82c39.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "2.9 mil"
-      ],
-      [
-       "Variação",
-       "187.02%"
-      ],
-      [
-       "Receita",
-       "R$31.5 mil"
-      ],
-      [
-       "GMV total",
-       "R$646.0 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/a668537aade82c39.webp"
-      ],
-      "rankRange": "17",
-      "popularityIndex": "100",
-      "vendasTotais": "55.4 mil",
-      "gmvTotal": "R$646.6 mil",
-      "numInfluencers": "1.7 mil",
-      "price": "R$ 10,80",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "6%",
-      "dataUpload": "2026-09-02"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737309673072002894?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Calça Jeans Feminina Cintura Alta Modelo Skinny Levanta Bumbum",
-     "price": "R$ 39,99",
-     "store": "Liz Confecções",
-     "img": "images/products/66d8d831d39820e7.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "2.8 mil"
-      ],
-      [
-       "Variação",
-       "-55.08%"
-      ],
-      [
-       "Receita",
-       "R$112.0 mil"
-      ],
-      [
-       "GMV total",
-       "R$1.6 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/66d8d831d39820e7.webp"
-      ],
-      "rankRange": "4",
-      "popularityIndex": "100",
-      "vendasTotais": "34.2 mil",
-      "gmvTotal": "R$1.7 milhão",
-      "numInfluencers": "912",
-      "price": "R$ 39,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-09-16"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737523979751032541?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Cinta Modeladora Feminina Redutora Abdominal/Afina a Cintura/Fitness",
-     "price": "R$ 55,00",
-     "store": "MOLLY MOLY",
-     "img": "images/products/76a701f020b9c6be.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "2.2 mil"
-      ],
-      [
-       "Variação",
-       "41.18%"
-      ],
-      [
-       "Receita",
-       "R$125.4 mil"
-      ],
-      [
-       "GMV total",
-       "R$5.6 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/76a701f020b9c6be.webp"
-      ],
-      "rankRange": "18",
-      "popularityIndex": "100",
-      "vendasTotais": "273.8 mil",
-      "gmvTotal": "R$5.6 milhão",
-      "numInfluencers": "6.4 mil",
-      "price": "R$ 55,00",
-      "frete": "From R$ 9,60",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2026-02-22"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1734367441228957676?region=BR&locale=en&source=agency"
-    }
-   ],
-   "roupas": [
-    {
-     "title": "Soutien Sem Alças de Silicone: Invisível, Respirável e Reutilizável | Perfeito para Vestidos de Festa",
-     "price": "R$ 14,97",
-     "store": "ULINK MALL",
-     "img": "images/products/06d6d4f7b59fbaa6.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "5.4 mil"
-      ],
-      [
-       "Variação",
-       "75.11%"
-      ],
-      [
-       "Receita",
-       "R$82.1 mil"
-      ],
-      [
-       "GMV total",
-       "R$3.4 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/06d6d4f7b59fbaa6.webp"
-      ],
-      "rankRange": "1",
-      "popularityIndex": "100",
-      "vendasTotais": "223.5 mil",
-      "gmvTotal": "R$3.4 milhão",
-      "numInfluencers": "2.8 mil",
-      "price": "R$ 14,97",
-      "frete": "From R$ 9,60",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2025-05-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1731363409967940920?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Calça Jeans Feminina Cintura Alta Modelo Skinny Levanta Bumbum",
-     "price": "R$ 39,99",
-     "store": "Liz Confecções",
-     "img": "images/products/66d8d831d39820e7.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "2.8 mil"
-      ],
-      [
-       "Variação",
-       "-55.08%"
-      ],
-      [
-       "Receita",
-       "R$112.0 mil"
-      ],
-      [
-       "GMV total",
-       "R$1.6 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/66d8d831d39820e7.webp"
-      ],
-      "rankRange": "4",
-      "popularityIndex": "100",
-      "vendasTotais": "34.2 mil",
-      "gmvTotal": "R$1.7 milhão",
-      "numInfluencers": "912",
-      "price": "R$ 39,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-09-16"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737523979751032541?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Cinta Modeladora Feminina Redutora Abdominal/Afina a Cintura/Fitness",
-     "price": "R$ 55,00",
-     "store": "MOLLY MOLY",
-     "img": "images/products/76a701f020b9c6be.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "2.2 mil"
-      ],
-      [
-       "Variação",
-       "41.18%"
-      ],
-      [
-       "Receita",
-       "R$125.4 mil"
-      ],
-      [
-       "GMV total",
-       "R$5.6 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/76a701f020b9c6be.webp"
-      ],
-      "rankRange": "18",
-      "popularityIndex": "100",
-      "vendasTotais": "273.8 mil",
-      "gmvTotal": "R$5.6 milhão",
-      "numInfluencers": "6.4 mil",
-      "price": "R$ 55,00",
-      "frete": "From R$ 9,60",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2026-02-22"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1734367441228957676?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Macacão Social Feminino Acinturado Tecido Duna Elegante Festa",
-     "price": "R$ 46,90",
-     "store": "Galan Modas",
-     "img": "images/products/fd2fd9e2be1ab314.jpg",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "1.4 mil"
-      ],
-      [
-       "Variação",
-       "55.59%"
-      ],
-      [
-       "Receita",
-       "R$65.7 mil"
-      ],
-      [
-       "GMV total",
-       "R$438.1 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/fd2fd9e2be1ab314.jpg"
-      ],
-      "rankRange": "66",
-      "popularityIndex": "78",
-      "vendasTotais": "7.5 mil",
-      "gmvTotal": "R$490.1 mil",
-      "numInfluencers": "298",
-      "price": "R$ 46,90",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2026-10-09"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737893421487720141?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Calça Jeans Feminina Wide Leg Cintura Alta 100% Jeans Sem Lycra Marmorizada Gaven Pantalona Boca Larga Premium Caimento Perfeito Empina Bumbum Elegante Estilosa Alta Qualidade Moda Feminina Look Sofisticado Roupas da Tendência Visual Moderno Street Confortável Versátil",
-     "price": "R$ 79,49",
-     "store": "Gaven Jeans",
-     "img": "images/products/99243dba359c4745.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "1.2 mil"
-      ],
-      [
-       "Variação",
-       "4.16%"
-      ],
-      [
-       "Receita",
-       "R$153.3 mil"
-      ],
-      [
-       "GMV total",
-       "R$12.5 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/99243dba359c4745.webp",
-       "images/products/fdcb143ce6f70ca4.webp",
-       "images/products/42c2fe30cccd66d7.webp",
-       "images/products/b275e73ba3cfc918.webp",
-       "images/products/f8f15c86a3dfe823.webp",
-       "images/products/cc4be4427d4987b6.webp",
-       "images/products/ef0dc84a1f9a5674.webp",
-       "images/products/a692deb6eadf6e47.webp",
-       "images/products/8ecb20dc1b728182.webp",
-       "images/products/0a32e4efab47ee1e.webp"
-      ],
-      "rankRange": "31",
-      "popularityIndex": "99",
-      "vendasTotais": "175.6 mil",
-      "gmvTotal": "R$12.6 milhão",
-      "numInfluencers": "14.6 mil",
-      "price": "R$ 79,49",
-      "frete": "From R$ 13,20",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "7%",
-      "dataUpload": "2025-07-14"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1731782218529670752?region=BR&locale=en&source=agency"
-    }
-   ],
-   "beleza": [
-    {
-     "title": "Kit Depilador Elétrico 4 em 1 Multifuncional Para Todas as Partes do Corpo Recarregável Tipo C Design Ergonômico e Confortável",
-     "price": "R$ 36,99",
-     "store": "HAOBI",
-     "img": "images/products/bb6e649233d5d53a.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "2.0 mil"
-      ],
-      [
-       "Variação",
-       "-45.06%"
-      ],
-      [
-       "Receita",
-       "R$125.3 mil"
-      ],
-      [
-       "GMV total",
-       "R$4.8 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/bb6e649233d5d53a.webp"
-      ],
-      "rankRange": "3",
-      "popularityIndex": "100",
-      "vendasTotais": "152.0 mil",
-      "gmvTotal": "R$4.8 milhão",
-      "numInfluencers": "5.6 mil",
-      "price": "R$ 36,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2026-06-29"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1736183075219736333?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "TOYADENT PASTA DE DENTE ULTRAVIOLETA Limpeza eficiente 0 Adicionar pasta de dente",
-     "price": "R$ 39,90 - 199,90",
-     "store": "TOYA ORALCARE",
-     "img": "images/products/25725fa0f649a83f.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "1.8 mil"
-      ],
-      [
-       "Variação",
-       "-56.04%"
-      ],
-      [
-       "Receita",
-       "R$75.2 mil"
-      ],
-      [
-       "GMV total",
-       "R$4.0 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/25725fa0f649a83f.webp"
-      ],
-      "rankRange": "7",
-      "popularityIndex": "100",
-      "vendasTotais": "201.4 mil",
-      "gmvTotal": "R$4.1 milhão",
-      "numInfluencers": "3.8 mil",
-      "price": "R$ 39,90 - 199,90",
-      "frete": "From R$ 10,80",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2025-12-16"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1733570427443447182?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Hidratação Capilar Ouro Marroquino Efeito Teia 500g com Ação Antifrizz c/ Óleos Milagrosos de Marula e Argan | Fina Maria Professional",
-     "price": "R$ 44,90",
-     "store": "Distribuidora Fina Maria",
-     "img": "images/products/ef1f5a3ca7942db5.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "1.8 mil"
-      ],
-      [
-       "Variação",
-       "-20.57%"
-      ],
-      [
-       "Receita",
-       "R$82.3 mil"
-      ],
-      [
-       "GMV total",
-       "R$3.2 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/ef1f5a3ca7942db5.webp",
-       "images/products/d70a2bb242575168.webp",
-       "images/products/98459c5ca9aceda1.webp",
-       "images/products/7013283d1a3741c8.webp",
-       "images/products/c05fb50c4eb6a0c4.webp",
-       "images/products/00d9a65398d17b9a.webp",
-       "images/products/454308b78fce2f9f.webp",
-       "images/products/71727b304e460c94.webp",
-       "images/products/f2e6398eef7e7714.webp",
-       "images/products/0430967394c7a878.webp"
-      ],
-      "rankRange": "40",
-      "popularityIndex": "92",
-      "vendasTotais": "84.9 mil",
-      "gmvTotal": "R$3.3 milhão",
-      "numInfluencers": "2.6 mil",
-      "price": "R$ 44,90",
-      "frete": "From R$ 13,00",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2026-02-09"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1734348471224861912?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Creme Gel Regenerador Facial Gota de Colágeno Kokeshi",
-     "price": "R$ 32,90",
-     "store": "KOKESHI COSMETICOS",
-     "img": "images/products/f6a51e6646ea8649.webp",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "1.6 mil"
-      ],
-      [
-       "Variação",
-       "57.24%"
-      ],
-      [
-       "Receita",
-       "R$55.0 mil"
-      ],
-      [
-       "GMV total",
-       "R$4.6 milhão"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/f6a51e6646ea8649.webp",
-       "images/products/688e959c4dc8ef18.jpg",
-       "images/products/5a1ee5f84758cd9b.jpg",
-       "images/products/14cb1974af199f89.jpg",
-       "images/products/c897114bc18b0f90.jpg",
-       "images/products/f0d24f7326c76022.jpg"
-      ],
-      "rankRange": "41",
-      "popularityIndex": "92",
-      "vendasTotais": "163.1 mil",
-      "gmvTotal": "R$4.6 milhão",
-      "numInfluencers": "4.6 mil",
-      "price": "R$ 32,90",
-      "frete": "From R$ 9,60",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2025-07-14"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1731591263577867539?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Depilador Feminino Elétrico 4 em 1 com Cabeças Removíveis Recarregável USB Removedor de Pelos Facial Corpo Axila Virilha Seguro e Suave",
-     "price": "R$29,99",
-     "store": "LUX AchaFábrica Loja",
-     "img": "images/products/1387154394c65cca.jpg",
-     "metrics": [
-      [
-       "Vendas/dia",
-       "1.4 mil"
-      ],
-      [
-       "Variação",
-       "-36.16%"
-      ],
-      [
-       "Receita",
-       "R$41.8 mil"
-      ],
-      [
-       "GMV total",
-       "R$851.5 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/1387154394c65cca.jpg"
-      ],
-      "rankRange": "10",
-      "popularityIndex": "100",
-      "vendasTotais": "32.8 mil",
-      "gmvTotal": "R$878.0 mil",
-      "numInfluencers": "756",
-      "price": "R$29,99",
+      "vendasTotais": "447.7 mil",
+      "gmvTotal": "R$5.7 milhão",
+      "numInfluencers": "17.6 mil",
+      "price": "R$ 29,90",
       "frete": "0",
       "tipoLogistica": "Logística oficial transfronteiriça",
       "comissao": "10%",
-      "dataUpload": "2026-09-12"
+      "dataUpload": "2025-12-18"
      },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737471248602400698?region=BR&locale=en&source=agency"
-    }
-   ]
-  },
-  "novos": {
-   "todos": [
-    {
-     "title": "Óculos Oncinha Fashion com Estampa Tartaruga – Envio Imediato!",
-     "price": "R$ 17,89",
-     "store": "compracertasshop",
-     "img": "images/products/923082e9d16872e5.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "830"
-      ],
-      [
-       "Receita 3d",
-       "R$13.3 mil"
-      ],
-      [
-       "Vendas totais",
-       "830"
-      ],
-      [
-       "GMV total",
-       "R$13.3 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/923082e9d16872e5.webp"
-      ],
-      "rankRange": "1983",
-      "popularityIndex": "30",
-      "vendasTotais": "830",
-      "gmvTotal": "R$13.3 mil",
-      "numInfluencers": "22",
-      "price": "R$ 17,89",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737865107449939501?region=BR&locale=en&source=agency"
+     "tiktok_url": "https://shop.tiktok.com/view/product/1731916815699052495?region=BR&locale=en&source=agency"
     },
     {
-     "title": "21 Potes Plásticos - Multiuso para Alimentos, Mantimento, Vasilha Livres De BPA e Herméticos",
-     "price": "R$ 49,90",
-     "store": "Utilarr",
-     "img": "images/products/b4f8bf25495e1afa.webp",
+     "title": "Deo Colônia Cascão 25 Ml - Jequiti",
+     "price": "R$ 18,20",
+     "store": "MEUCHECKOUT",
+     "img": "images/products/79edc541e1d46058.webp",
      "metrics": [
       [
-       "Vendas 3d",
-       "691"
+       "Vendas/dia",
+       "4.5 mil"
       ],
       [
-       "Receita 3d",
-       "R$34.4 mil"
+       "Variação",
+       "91600%"
       ],
       [
-       "Vendas totais",
-       "691"
+       "Receita",
+       "R$83.4 mil"
       ],
       [
        "GMV total",
-       "R$34.4 mil"
+       "R$137.0 mil"
       ]
      ],
      "detail": {
       "imgs": [
-       "images/products/b4f8bf25495e1afa.webp"
-      ],
-      "rankRange": "2554",
-      "popularityIndex": "30",
-      "vendasTotais": "691",
-      "gmvTotal": "R$34.4 mil",
-      "numInfluencers": "16",
-      "price": "R$ 49,90",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1738105297095198052?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "calça pantalona alfaiataria social para mulheres modernas e elegantes",
-     "price": "R$ 49,99",
-     "store": "bellestille-",
-     "img": "images/products/6c9381bb84200a0a.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "509"
-      ],
-      [
-       "Receita 3d",
-       "R$24.6 mil"
-      ],
-      [
-       "Vendas totais",
-       "509"
-      ],
-      [
-       "GMV total",
-       "R$24.6 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/6c9381bb84200a0a.webp"
-      ],
-      "rankRange": "3830",
-      "popularityIndex": "30",
-      "vendasTotais": "509",
-      "gmvTotal": "R$24.6 mil",
-      "numInfluencers": "3",
-      "price": "R$ 49,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737457585625269551?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Kit De Panelas Brasilia 8 Peças Antiaderente Teflon",
-     "price": "R$ 220,90",
-     "store": "GUIMARÃES Panelas",
-     "img": "images/products/1870331207e16212.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "394"
-      ],
-      [
-       "Receita 3d",
-       "R$87.0 mil"
-      ],
-      [
-       "Vendas totais",
-       "394"
-      ],
-      [
-       "GMV total",
-       "R$87.0 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/1870331207e16212.webp"
-      ],
-      "rankRange": "5k - 10k",
-      "popularityIndex": "30",
-      "vendasTotais": "1.6 mil",
-      "gmvTotal": "R$365.5 mil",
-      "numInfluencers": "53",
-      "price": "R$ 220,90",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1738101014717367474?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Kit 3 Toucas de Cetim Antifrizz com Faixa Larga Elástica para Dormir Cabelos Cacheados, Crespos e Ondulados",
-     "price": "R$ 12,63",
-     "store": "Livetto",
-     "img": "images/products/dde09929e7665d9a.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "218"
-      ],
-      [
-       "Receita 3d",
-       "R$2.7 mil"
-      ],
-      [
-       "Vendas totais",
-       "218"
-      ],
-      [
-       "GMV total",
-       "R$2.7 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/dde09929e7665d9a.webp"
-      ],
-      "rankRange": "10k - 20k",
-      "popularityIndex": "30",
-      "vendasTotais": "358",
-      "gmvTotal": "R$4.5 mil",
-      "numInfluencers": "23",
-      "price": "R$ 12,63",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1738085941421704859?region=BR&locale=en&source=agency"
-    }
-   ],
-   "roupas": [
-    {
-     "title": "calça pantalona alfaiataria social para mulheres modernas e elegantes",
-     "price": "R$ 49,99",
-     "store": "bellestille-",
-     "img": "images/products/6c9381bb84200a0a.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "509"
-      ],
-      [
-       "Receita 3d",
-       "R$24.6 mil"
-      ],
-      [
-       "Vendas totais",
-       "509"
-      ],
-      [
-       "GMV total",
-       "R$24.6 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/6c9381bb84200a0a.webp"
-      ],
-      "rankRange": "3830",
-      "popularityIndex": "30",
-      "vendasTotais": "509",
-      "gmvTotal": "R$24.6 mil",
-      "numInfluencers": "3",
-      "price": "R$ 49,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737457585625269551?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "[Modela o Corpo] Vestido Longo Casual Soltinho Lastex25041-2",
-     "price": "R$ 69,00",
-     "store": "jzzmodashop",
-     "img": "images/products/2538dd341c06cb34.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "201"
-      ],
-      [
-       "Receita 3d",
-       "R$13.8 mil"
-      ],
-      [
-       "Vendas totais",
-       "201"
-      ],
-      [
-       "GMV total",
-       "R$13.8 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/2538dd341c06cb34.webp"
-      ],
-      "rankRange": "10k - 20k",
-      "popularityIndex": "30",
-      "vendasTotais": "206",
-      "gmvTotal": "R$14.2 mil",
-      "numInfluencers": "7",
-      "price": "R$ 69,00",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1738086357132674471?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Conjunto Feminino Elegance Casaco Alongado Sem Manga com Zíper e Saia",
-     "price": "R$ 80,00",
-     "store": "MazuMilan",
-     "img": "images/products/2ecd0b9f47bec695.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "192"
-      ],
-      [
-       "Receita 3d",
-       "R$15.3 mil"
-      ],
-      [
-       "Vendas totais",
-       "258"
-      ],
-      [
-       "GMV total",
-       "R$20.6 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/2ecd0b9f47bec695.webp"
+       "images/products/79edc541e1d46058.webp"
       ],
       "rankRange": null,
       "popularityIndex": "Índice de popularidade do produto",
@@ -989,866 +108,80 @@
       "comissao": "Detalhes da loja",
       "dataUpload": "Preço:"
      },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1738089786288276938?region=BR&locale=en&source=agency"
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737041661102622597?region=BR&locale=en&source=agency"
     },
     {
-     "title": "Kit 3 Regatas Alcinha Femininas Básicas Lisas Viscose com Elastano Plus Size GG ao G5",
-     "price": "R$ 31,06",
-     "store": "MusesBr",
-     "img": "images/products/c4ef3445b8aa773e.webp",
+     "title": "Cinta Modeladora Zero Barriga Alta Compressão para Emagrecimento e Melhore de Postura",
+     "price": "R$ 16,99",
+     "store": "ROBERNAN LINGERIE",
+     "img": "images/products/e78db4b8135d7ddf.webp",
      "metrics": [
       [
-       "Vendas 3d",
-       "170"
+       "Vendas/dia",
+       "3.3 mil"
       ],
       [
-       "Receita 3d",
-       "R$5.7 mil"
+       "Variação",
+       "451.49%"
       ],
       [
-       "Vendas totais",
-       "170"
+       "Receita",
+       "R$56.7 mil"
       ],
       [
        "GMV total",
-       "R$5.7 mil"
+       "R$420.2 mil"
       ]
      ],
      "detail": {
       "imgs": [
-       "images/products/c4ef3445b8aa773e.webp"
+       "images/products/e78db4b8135d7ddf.webp"
       ],
-      "rankRange": "10k - 20k",
-      "popularityIndex": "30",
-      "vendasTotais": "172",
-      "gmvTotal": "R$5.8 mil",
-      "numInfluencers": "4",
-      "price": "R$ 31,06",
+      "rankRange": "22",
+      "popularityIndex": "97",
+      "vendasTotais": "26.2 mil",
+      "gmvTotal": "R$426.1 mil",
+      "numInfluencers": "376",
+      "price": "R$ 16,99",
       "frete": "0",
       "tipoLogistica": "Logística oficial transfronteiriça",
       "comissao": "-",
-      "dataUpload": "2026-10-21"
+      "dataUpload": "2026-05-14"
      },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737524227583149555?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "kit 3 ou 2 Regata Feminina Alcinha Suplex Premiun Forro Duplo Sem Transparencia Basica Elegante Moda Casual",
-     "price": "R$ 29,99",
-     "store": "Modas Rovimax",
-     "img": "images/products/ef9189b813c0fd60.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "156"
-      ],
-      [
-       "Receita 3d",
-       "R$10.4 mil"
-      ],
-      [
-       "Vendas totais",
-       "156"
-      ],
-      [
-       "GMV total",
-       "R$10.4 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/ef9189b813c0fd60.webp"
-      ],
-      "rankRange": "10k - 20k",
-      "popularityIndex": "30",
-      "vendasTotais": "405",
-      "gmvTotal": "R$17.9 mil",
-      "numInfluencers": "12",
-      "price": "R$ 29,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1738086481559389436?region=BR&locale=en&source=agency"
-    }
-   ],
-   "beleza": [
-    {
-     "title": "Kit 3 Toucas de Cetim Antifrizz com Faixa Larga Elástica para Dormir Cabelos Cacheados, Crespos e Ondulados",
-     "price": "R$ 12,63",
-     "store": "Livetto",
-     "img": "images/products/dde09929e7665d9a.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "218"
-      ],
-      [
-       "Receita 3d",
-       "R$2.7 mil"
-      ],
-      [
-       "Vendas totais",
-       "218"
-      ],
-      [
-       "GMV total",
-       "R$2.7 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/dde09929e7665d9a.webp"
-      ],
-      "rankRange": "10k - 20k",
-      "popularityIndex": "30",
-      "vendasTotais": "358",
-      "gmvTotal": "R$4.5 mil",
-      "numInfluencers": "23",
-      "price": "R$ 12,63",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1738085941421704859?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "F4 SHOP Lixador Elétrico para Pés com Tecnologia Derma VAC e Sucção de Células Mortas - Remove Calos e Rachaduras com 2 Refis de Lixa",
-     "price": "R$ 14,88",
-     "store": "F4 SHOP",
-     "img": "images/products/a4b26d9018d8ba4a.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "160"
-      ],
-      [
-       "Receita 3d",
-       "R$2.3 mil"
-      ],
-      [
-       "Vendas totais",
-       "418"
-      ],
-      [
-       "GMV total",
-       "R$6.2 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/a4b26d9018d8ba4a.webp"
-      ],
-      "rankRange": "10k - 20k",
-      "popularityIndex": "30",
-      "vendasTotais": "524",
-      "gmvTotal": "R$7.8 mil",
-      "numInfluencers": "3",
-      "price": "R$ 14,88",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737872679932298893?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Aparador Feminino 4 Em 1 Depilador Elétrico Portátil USB Recarregável Corpo Rosto Sobrancelhas Nariz Aparador Facial Corporal Cabeças Intercambiáveis Multiuso Kit Cuidados Pessoais Uso Diário Beleza Feminina",
-     "price": "R$ 30,98",
-     "store": "Urban Vision",
-     "img": "images/products/2bfc771e4fc72f69.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "160"
-      ],
-      [
-       "Receita 3d",
-       "R$11.2 mil"
-      ],
-      [
-       "Vendas totais",
-       "160"
-      ],
-      [
-       "GMV total",
-       "R$11.2 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/2bfc771e4fc72f69.webp"
-      ],
-      "rankRange": "10k - 20k",
-      "popularityIndex": "30",
-      "vendasTotais": "309",
-      "gmvTotal": "R$15.8 mil",
-      "numInfluencers": "11",
-      "price": "R$ 30,98",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737931027951813988?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Perfume Masculino 60ml Fragrância Intensa Sofisticada Alta Fixação Projeção Spray Original",
-     "price": "R$ 33,16",
-     "store": "VICEM SHOP",
-     "img": "images/products/7102a4b26bd6de57.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "158"
-      ],
-      [
-       "Receita 3d",
-       "R$5.2 mil"
-      ],
-      [
-       "Vendas totais",
-       "158"
-      ],
-      [
-       "GMV total",
-       "R$5.2 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/7102a4b26bd6de57.webp"
-      ],
-      "rankRange": "10k - 20k",
-      "popularityIndex": "30",
-      "vendasTotais": "158",
-      "gmvTotal": "R$5.2 mil",
-      "numInfluencers": "4",
-      "price": "R$ 33,16",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737990248159348528?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "KIT Especial 3 em 1-Escova New, Escova Retangular Orelhinha e Raquete Curvada- Kit Econômico",
-     "price": "R$ 14,99",
-     "store": "sorva",
-     "img": "images/products/ac41d1545d003748.webp",
-     "metrics": [
-      [
-       "Vendas 3d",
-       "101"
-      ],
-      [
-       "Receita 3d",
-       "R$1.5 mil"
-      ],
-      [
-       "Vendas totais",
-       "101"
-      ],
-      [
-       "GMV total",
-       "R$1.5 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/ac41d1545d003748.webp"
-      ],
-      "rankRange": "20k - 30k",
-      "popularityIndex": "30",
-      "vendasTotais": "105",
-      "gmvTotal": "R$1.5 mil",
-      "numInfluencers": "12",
-      "price": "R$ 14,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-10-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737879126494906269?region=BR&locale=en&source=agency"
-    }
-   ]
-  },
-  "video": {
-   "todos": [
-    {
-     "title": "Kit Coala Coleção de Lançamentos - Limpadores Perfumados Coala 500ml",
-     "price": "R$ 59,99",
-     "store": "Mariza",
-     "img": "images/products/a3e63f9ed2965716.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "3.9 mil"
-      ],
-      [
-       "GMV",
-       "R$131.4 mil"
-      ],
-      [
-       "Views",
-       "2.9 milhão"
-      ],
-      [
-       "Curtidas",
-       "15.4 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/a3e63f9ed2965716.webp"
-      ],
-      "rankRange": "43",
-      "popularityIndex": "90",
-      "vendasTotais": "13.5 mil",
-      "gmvTotal": "R$473.9 mil",
-      "numInfluencers": "891",
-      "price": "R$ 59,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "7%",
-      "dataUpload": "2026-10-01"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737774539097474453?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Kit Depilador Elétrico 4 em 1 Multifuncional Para Todas as Partes do Corpo Recarregável Tipo C Design Ergonômico e Confortável",
-     "price": "R$ 36,99",
-     "store": "✨ Aline Lidório ✨",
-     "img": "images/products/bb6e649233d5d53a.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "3.4 mil"
-      ],
-      [
-       "GMV",
-       "R$138.9 mil"
-      ],
-      [
-       "Views",
-       "8.7 milhão"
-      ],
-      [
-       "Curtidas",
-       "79.7 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/bb6e649233d5d53a.webp"
-      ],
-      "rankRange": "3",
-      "popularityIndex": "100",
-      "vendasTotais": "152.0 mil",
-      "gmvTotal": "R$4.8 milhão",
-      "numInfluencers": "5.6 mil",
-      "price": "R$ 36,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2026-06-29"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1736183075219736333?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "OralGos V34 Corretor de Cor dos Dentes,Remover manchas, iluminar os dentes e corrigir a cor dos dentes.",
-     "price": "R$ 69,90",
-     "store": "Matheus Recomenda",
-     "img": "images/products/d852b03da1f6db62.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "3.0 mil"
-      ],
-      [
-       "GMV",
-       "R$168.8 mil"
-      ],
-      [
-       "Views",
-       "4.2 milhão"
-      ],
-      [
-       "Curtidas",
-       "15.4 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/d852b03da1f6db62.webp"
-      ],
-      "rankRange": "39",
-      "popularityIndex": "93",
-      "vendasTotais": "11.6 mil",
-      "gmvTotal": "R$567.3 mil",
-      "numInfluencers": "262",
-      "price": "R$ 69,90",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2026-09-18"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737350522454247237?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Soutien Sem Alças de Silicone: Invisível, Respirável e Reutilizável | Perfeito para Vestidos de Festa",
-     "price": "R$ 14,97",
-     "store": "Suellen",
-     "img": "images/products/06d6d4f7b59fbaa6.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "2.5 mil"
-      ],
-      [
-       "GMV",
-       "R$44.3 mil"
-      ],
-      [
-       "Views",
-       "8.9 milhão"
-      ],
-      [
-       "Curtidas",
-       "61.2 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/06d6d4f7b59fbaa6.webp"
-      ],
-      "rankRange": "1",
-      "popularityIndex": "100",
-      "vendasTotais": "223.5 mil",
-      "gmvTotal": "R$3.4 milhão",
-      "numInfluencers": "2.8 mil",
-      "price": "R$ 14,97",
-      "frete": "From R$ 9,60",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2025-05-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1731363409967940920?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "TOYADENT PASTA DE DENTE ULTRAVIOLETA Limpeza eficiente 0 Adicionar pasta de dente",
-     "price": "R$ 39,90 - 199,90",
-     "store": "ujaozinn",
-     "img": "images/products/25725fa0f649a83f.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "2.1 mil"
-      ],
-      [
-       "GMV",
-       "R$63.3 mil"
-      ],
-      [
-       "Views",
-       "3.8 milhão"
-      ],
-      [
-       "Curtidas",
-       "17.2 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/25725fa0f649a83f.webp"
-      ],
-      "rankRange": "7",
-      "popularityIndex": "100",
-      "vendasTotais": "201.4 mil",
-      "gmvTotal": "R$4.1 milhão",
-      "numInfluencers": "3.8 mil",
-      "price": "R$ 39,90 - 199,90",
-      "frete": "From R$ 10,80",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2025-12-16"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1733570427443447182?region=BR&locale=en&source=agency"
-    }
-   ],
-   "roupas": [
-    {
-     "title": "Soutien Sem Alças de Silicone: Invisível, Respirável e Reutilizável | Perfeito para Vestidos de Festa",
-     "price": "R$ 14,97",
-     "store": "Suellen",
-     "img": "images/products/06d6d4f7b59fbaa6.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "2.5 mil"
-      ],
-      [
-       "GMV",
-       "R$44.3 mil"
-      ],
-      [
-       "Views",
-       "8.9 milhão"
-      ],
-      [
-       "Curtidas",
-       "61.2 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/06d6d4f7b59fbaa6.webp"
-      ],
-      "rankRange": "1",
-      "popularityIndex": "100",
-      "vendasTotais": "223.5 mil",
-      "gmvTotal": "R$3.4 milhão",
-      "numInfluencers": "2.8 mil",
-      "price": "R$ 14,97",
-      "frete": "From R$ 9,60",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2025-05-21"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1731363409967940920?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Calça Jeans Feminina Cintura Alta Modelo Skinny Levanta Bumbum",
-     "price": "R$ 39,99",
-     "store": "Yas Boutique",
-     "img": "images/products/66d8d831d39820e7.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "1.8 mil"
-      ],
-      [
-       "GMV",
-       "R$75.0 mil"
-      ],
-      [
-       "Views",
-       "7.1 milhão"
-      ],
-      [
-       "Curtidas",
-       "56.3 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/66d8d831d39820e7.webp"
-      ],
-      "rankRange": "4",
-      "popularityIndex": "100",
-      "vendasTotais": "34.2 mil",
-      "gmvTotal": "R$1.7 milhão",
-      "numInfluencers": "912",
-      "price": "R$ 39,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "-",
-      "dataUpload": "2026-09-16"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737523979751032541?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Cinta Modeladora 2 em 1 Shorts Espartilho 3 Fechos Alta Compressão",
-     "price": "R$34,88",
-     "store": "Mari ✩",
-     "img": "images/products/88b657438b464f4b.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "1.1 mil"
-      ],
-      [
-       "GMV",
-       "R$35.2 mil"
-      ],
-      [
-       "Views",
-       "781.0 mil"
-      ],
-      [
-       "Curtidas",
-       "6.3 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/88b657438b464f4b.webp",
-       "images/products/717722e4f3a17693.webp",
-       "images/products/e5e9a94bb4ee615d.webp",
-       "images/products/de46d0d52139c5e6.webp",
-       "images/products/97baacd785fccc20.webp",
-       "images/products/24ef36ebe7cb07d3.webp",
-       "images/products/04fcbfc6490af4fe.webp",
-       "images/products/e805099bde807b42.webp",
-       "images/products/91d773816ff1c47e.webp"
-      ],
-      "rankRange": "15",
-      "popularityIndex": "100",
-      "vendasTotais": "68.4 mil",
-      "gmvTotal": "R$1.9 milhão",
-      "numInfluencers": "2.2 mil",
-      "price": "R$34,88",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2026-04-27"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1735272641069614594?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Sutiã sexy sem costura com fecho frontal - sem armação confortável ideal para exercícios físicos e uso diário 9303",
-     "price": "R$ 39,99",
-     "store": "Lais Stefany",
-     "img": "images/products/f2a61dace6a9c655.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "1.0 mil"
-      ],
-      [
-       "GMV",
-       "R$66.8 mil"
-      ],
-      [
-       "Views",
-       "710.9 mil"
-      ],
-      [
-       "Curtidas",
-       "3.7 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/f2a61dace6a9c655.webp"
-      ],
-      "rankRange": "12",
-      "popularityIndex": "100",
-      "vendasTotais": "56.0 mil",
-      "gmvTotal": "R$2.5 milhão",
-      "numInfluencers": "865",
-      "price": "R$ 39,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10.5%",
-      "dataUpload": "2026-04-20"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1735157970990630041?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "Macacão Social Feminino Acinturado Tecido Duna Elegante Festa",
-     "price": "R$ 46,90",
-     "store": "deusinha.sz",
-     "img": "images/products/fd2fd9e2be1ab314.jpg",
-     "metrics": [
-      [
-       "Vendas",
-       "973"
-      ],
-      [
-       "GMV",
-       "R$54.5 mil"
-      ],
-      [
-       "Views",
-       "1.2 milhão"
-      ],
-      [
-       "Curtidas",
-       "18.4 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/fd2fd9e2be1ab314.jpg"
-      ],
-      "rankRange": "66",
-      "popularityIndex": "78",
-      "vendasTotais": "7.5 mil",
-      "gmvTotal": "R$490.1 mil",
-      "numInfluencers": "298",
-      "price": "R$ 46,90",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2026-10-09"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737893421487720141?region=BR&locale=en&source=agency"
-    }
-   ],
-   "beleza": [
-    {
-     "title": "Kit Depilador Elétrico 4 em 1 Multifuncional Para Todas as Partes do Corpo Recarregável Tipo C Design Ergonômico e Confortável",
-     "price": "R$ 36,99",
-     "store": "✨ Aline Lidório ✨",
-     "img": "images/products/bb6e649233d5d53a.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "3.4 mil"
-      ],
-      [
-       "GMV",
-       "R$138.9 mil"
-      ],
-      [
-       "Views",
-       "8.7 milhão"
-      ],
-      [
-       "Curtidas",
-       "79.7 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/bb6e649233d5d53a.webp"
-      ],
-      "rankRange": "3",
-      "popularityIndex": "100",
-      "vendasTotais": "152.0 mil",
-      "gmvTotal": "R$4.8 milhão",
-      "numInfluencers": "5.6 mil",
-      "price": "R$ 36,99",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "8%",
-      "dataUpload": "2026-06-29"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1736183075219736333?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "OralGos V34 Corretor de Cor dos Dentes,Remover manchas, iluminar os dentes e corrigir a cor dos dentes.",
-     "price": "R$ 69,90",
-     "store": "Matheus Recomenda",
-     "img": "images/products/d852b03da1f6db62.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "3.0 mil"
-      ],
-      [
-       "GMV",
-       "R$168.8 mil"
-      ],
-      [
-       "Views",
-       "4.2 milhão"
-      ],
-      [
-       "Curtidas",
-       "15.4 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/d852b03da1f6db62.webp"
-      ],
-      "rankRange": "39",
-      "popularityIndex": "93",
-      "vendasTotais": "11.6 mil",
-      "gmvTotal": "R$567.3 mil",
-      "numInfluencers": "262",
-      "price": "R$ 69,90",
-      "frete": "0",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2026-09-18"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1737350522454247237?region=BR&locale=en&source=agency"
-    },
-    {
-     "title": "TOYADENT PASTA DE DENTE ULTRAVIOLETA Limpeza eficiente 0 Adicionar pasta de dente",
-     "price": "R$ 39,90 - 199,90",
-     "store": "ujaozinn",
-     "img": "images/products/25725fa0f649a83f.webp",
-     "metrics": [
-      [
-       "Vendas",
-       "2.1 mil"
-      ],
-      [
-       "GMV",
-       "R$63.3 mil"
-      ],
-      [
-       "Views",
-       "3.8 milhão"
-      ],
-      [
-       "Curtidas",
-       "17.2 mil"
-      ]
-     ],
-     "detail": {
-      "imgs": [
-       "images/products/25725fa0f649a83f.webp"
-      ],
-      "rankRange": "7",
-      "popularityIndex": "100",
-      "vendasTotais": "201.4 mil",
-      "gmvTotal": "R$4.1 milhão",
-      "numInfluencers": "3.8 mil",
-      "price": "R$ 39,90 - 199,90",
-      "frete": "From R$ 10,80",
-      "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "10%",
-      "dataUpload": "2025-12-16"
-     },
-     "tiktok_url": "https://shop.tiktok.com/view/product/1733570427443447182?region=BR&locale=en&source=agency"
+     "tiktok_url": "https://shop.tiktok.com/view/product/1735166109174957350?region=BR&locale=en&source=agency"
     },
     {
      "title": "GOKOCO Escova modeladora de íons negativos de 38 mm – 9 ajustes de temperatura, liso ou cacheado, secagem rápida, tecnologia de aquecimento PTC duplo, tecnologia de aquecimento PTC/tecnologia de controle de temperatura NTC/revestimento cerâmico",
      "price": "R$ 179,00",
-     "store": "Alan Vivian Cabeleireiro Calvo",
+     "store": "GOKOCO Brasil",
      "img": "images/products/b75f8a94462e352f.webp",
      "metrics": [
       [
-       "Vendas",
-       "1.6 mil"
+       "Vendas/dia",
+       "3.0 mil"
       ],
       [
-       "GMV",
-       "R$291.9 mil"
+       "Variação",
+       "2171.43%"
       ],
       [
-       "Views",
-       "1.6 milhão"
+       "Receita",
+       "R$540.7 mil"
       ],
       [
-       "Curtidas",
-       "14.1 mil"
+       "GMV total",
+       "R$10.3 milhão"
       ]
      ],
      "detail": {
       "imgs": [
-       "images/products/b75f8a94462e352f.webp",
-       "images/products/d8cffdd77719d140.webp",
-       "images/products/deae14cda7c7edb4.webp",
-       "images/products/91d57ce2e6b58555.webp",
-       "images/products/d00ebd0c81e5664c.webp",
-       "images/products/2cc429272077d90d.webp",
-       "images/products/8057a3d4f98a4acf.webp",
-       "images/products/cb384d9b93f2688d.webp",
-       "images/products/d2374e833cffe784.webp"
+       "images/products/b75f8a94462e352f.webp"
       ],
-      "rankRange": "100",
-      "popularityIndex": "67",
-      "vendasTotais": "62.6 mil",
-      "gmvTotal": "R$10.3 milhão",
-      "numInfluencers": "6.2 mil",
+      "rankRange": "35",
+      "popularityIndex": "97",
+      "vendasTotais": "63.9 mil",
+      "gmvTotal": "R$10.5 milhão",
+      "numInfluencers": "6.3 mil",
       "price": "R$ 179,00",
       "frete": "0",
       "tipoLogistica": "Logística oficial transfronteiriça",
@@ -1858,10 +191,1422 @@
      "tiktok_url": "https://shop.tiktok.com/view/product/1734909824886146496?region=BR&locale=en&source=agency"
     },
     {
-     "title": "Hidrabene Protetor solar facial fps 70 Uniformizador",
-     "price": "R$ 36,90",
-     "store": "Edivania Bertolino",
-     "img": "images/products/3a299e11b248e91c.jpg",
+     "title": "Kit Bermudas Dry Fit em Poliamida com Elastano [ Loja ]",
+     "price": "R$ 20,99",
+     "store": "Delta Ecom",
+     "img": "images/products/0fc31f643037e1b7.jpg",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.6 mil"
+      ],
+      [
+       "Variação",
+       "1157.35%"
+      ],
+      [
+       "Receita",
+       "R$55.6 mil"
+      ],
+      [
+       "GMV total",
+       "R$543.1 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/0fc31f643037e1b7.jpg"
+      ],
+      "rankRange": "8",
+      "popularityIndex": "100",
+      "vendasTotais": "22.2 mil",
+      "gmvTotal": "R$573.1 mil",
+      "numInfluencers": "727",
+      "price": "R$ 20,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "15.5%",
+      "dataUpload": "2026-10-04"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737811812863608396?region=BR&locale=en&source=agency"
+    }
+   ],
+   "roupas": [
+    {
+     "title": "Cinta Modeladora Zero Barriga Alta Compressão para Emagrecimento e Melhore de Postura",
+     "price": "R$ 16,99",
+     "store": "ROBERNAN LINGERIE",
+     "img": "images/products/e78db4b8135d7ddf.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "3.3 mil"
+      ],
+      [
+       "Variação",
+       "451.49%"
+      ],
+      [
+       "Receita",
+       "R$56.7 mil"
+      ],
+      [
+       "GMV total",
+       "R$420.2 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/e78db4b8135d7ddf.webp"
+      ],
+      "rankRange": "22",
+      "popularityIndex": "97",
+      "vendasTotais": "26.2 mil",
+      "gmvTotal": "R$426.1 mil",
+      "numInfluencers": "376",
+      "price": "R$ 16,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-05-14"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1735166109174957350?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Camisola Feminina Bailarina com Calcinha e Detalhes em Renda para Mulheres Estilo Elegante",
+     "price": "R$ 29,99",
+     "store": "Lingerie_Express",
+     "img": "images/products/4f435ef5b33cb4c3.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.1 mil"
+      ],
+      [
+       "Variação",
+       "67.65%"
+      ],
+      [
+       "Receita",
+       "R$62.9 mil"
+      ],
+      [
+       "GMV total",
+       "R$8.6 milhão"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/4f435ef5b33cb4c3.webp",
+       "images/products/79353cc1e9907ab3.jpg",
+       "images/products/9a445d4147898d5c.jpg",
+       "images/products/cdf04d10341bb328.jpg",
+       "images/products/02a463bc87d9bdda.jpg",
+       "images/products/51c798e6668c6e37.jpg",
+       "images/products/17f4c6df594be1d8.jpg",
+       "images/products/8ca29d1db991b3b8.jpg",
+       "images/products/e7781611ef369681.jpg",
+       "images/products/05c87393fc83622a.webp"
+      ],
+      "rankRange": "16",
+      "popularityIndex": "100",
+      "vendasTotais": "312.0 mil",
+      "gmvTotal": "R$8.6 milhão",
+      "numInfluencers": "10.9 mil",
+      "price": "R$ 29,99",
+      "frete": "From R$ 9,60",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-08-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1731836463239693396?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Calça Pantalona Cintura Alta com Amarração Elegância e Conforto Marrante Feminina COD 182",
+     "price": "R$ 79,99",
+     "store": "Miss elk fashion",
+     "img": "images/products/8fc7ba814bb097ac.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.9 mil"
+      ],
+      [
+       "Variação",
+       "71.8%"
+      ],
+      [
+       "Receita",
+       "R$152.5 mil"
+      ],
+      [
+       "GMV total",
+       "R$10.4 milhão"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/8fc7ba814bb097ac.webp"
+      ],
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1734288351645239143?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Fita Adesiva Corporal Invisível 5 Metros Sustentação e Ajuste Resistente à Água",
+     "price": "R$ 10,99",
+     "store": "MOLLY MOLY",
+     "img": "images/products/94c189dfbb25e254.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.9 mil"
+      ],
+      [
+       "Variação",
+       "413.78%"
+      ],
+      [
+       "Receita",
+       "R$57.0 mil"
+      ],
+      [
+       "GMV total",
+       "R$1.4 milhão"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/94c189dfbb25e254.webp",
+       "images/products/438f3a061c9a3a83.webp",
+       "images/products/ab8dbad60ae51db2.webp",
+       "images/products/e92b78a0997e158a.webp",
+       "images/products/104fb6db0b53f108.webp",
+       "images/products/f3ed0d4aaa5c2e31.webp",
+       "images/products/29c5dda5aa4da1b8.webp",
+       "images/products/fe83a4399140a695.webp",
+       "images/products/3285e30616ce42bc.webp"
+      ],
+      "rankRange": "10",
+      "popularityIndex": "100",
+      "vendasTotais": "133.7 mil",
+      "gmvTotal": "R$1.5 milhão",
+      "numInfluencers": "1.9 mil",
+      "price": "R$ 10,99",
+      "frete": "From R$ 9,60",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2026-03-15"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1733992422303565804?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Calça Jeans Feminina Cintura Alta Modelo Skinny Levanta Bumbum",
+     "price": "R$ 39,99",
+     "store": "Liz Confecções",
+     "img": "images/products/66d8d831d39820e7.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "1.8 mil"
+      ],
+      [
+       "Variação",
+       "-35.21%"
+      ],
+      [
+       "Receita",
+       "R$72.6 mil"
+      ],
+      [
+       "GMV total",
+       "R$1.7 milhão"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/66d8d831d39820e7.webp"
+      ],
+      "rankRange": "3",
+      "popularityIndex": "100",
+      "vendasTotais": "36.1 mil",
+      "gmvTotal": "R$1.8 milhão",
+      "numInfluencers": "1.0 mil",
+      "price": "R$ 39,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-16"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737523979751032541?region=BR&locale=en&source=agency"
+    }
+   ],
+   "beleza": [
+    {
+     "title": "Reparador de Pontas Gloss com Silicones Ultra Luminosos Protege Contra Raios Solares e Anti-Frizz para Todos os Tipos de Cabelos Selando As Cutículas Brilho Alto Agressores Externos Textura Leve",
+     "price": "R$ 29,90",
+     "store": "Semélle",
+     "img": "images/products/1428b1da57540583.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "4.9 mil"
+      ],
+      [
+       "Variação",
+       "407.42%"
+      ],
+      [
+       "Receita",
+       "R$48.7 mil"
+      ],
+      [
+       "GMV total",
+       "R$5.5 milhão"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/1428b1da57540583.webp"
+      ],
+      "rankRange": "2",
+      "popularityIndex": "100",
+      "vendasTotais": "447.7 mil",
+      "gmvTotal": "R$5.7 milhão",
+      "numInfluencers": "17.6 mil",
+      "price": "R$ 29,90",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-12-18"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1731916815699052495?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Deo Colônia Cascão 25 Ml - Jequiti",
+     "price": "R$ 18,20",
+     "store": "MEUCHECKOUT",
+     "img": "images/products/79edc541e1d46058.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "4.5 mil"
+      ],
+      [
+       "Variação",
+       "91600%"
+      ],
+      [
+       "Receita",
+       "R$83.4 mil"
+      ],
+      [
+       "GMV total",
+       "R$137.0 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/79edc541e1d46058.webp"
+      ],
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737041661102622597?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "GOKOCO Escova modeladora de íons negativos de 38 mm – 9 ajustes de temperatura, liso ou cacheado, secagem rápida, tecnologia de aquecimento PTC duplo, tecnologia de aquecimento PTC/tecnologia de controle de temperatura NTC/revestimento cerâmico",
+     "price": "R$ 179,00",
+     "store": "GOKOCO Brasil",
+     "img": "images/products/b75f8a94462e352f.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "3.0 mil"
+      ],
+      [
+       "Variação",
+       "2171.43%"
+      ],
+      [
+       "Receita",
+       "R$540.7 mil"
+      ],
+      [
+       "GMV total",
+       "R$10.3 milhão"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/b75f8a94462e352f.webp"
+      ],
+      "rankRange": "35",
+      "popularityIndex": "97",
+      "vendasTotais": "63.9 mil",
+      "gmvTotal": "R$10.5 milhão",
+      "numInfluencers": "6.3 mil",
+      "price": "R$ 179,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2026-04-23"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1734909824886146496?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "RED FOUR Collagen Lift 30g – anti rugas Rejuvenesça sua pele todos os dias!",
+     "price": "R$ 29,90",
+     "store": "Belezafemininacosmeticos",
+     "img": "images/products/c610807e6df31df0.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.2 mil"
+      ],
+      [
+       "Variação",
+       "2853.95%"
+      ],
+      [
+       "Receita",
+       "R$22.2 mil"
+      ],
+      [
+       "GMV total",
+       "R$22.9 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/c610807e6df31df0.webp"
+      ],
+      "rankRange": "387",
+      "popularityIndex": "33",
+      "vendasTotais": "3.4 mil",
+      "gmvTotal": "R$55.1 mil",
+      "numInfluencers": "102",
+      "price": "R$ 29,90",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-23"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738131269566105208?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "TOYADENT PASTA DE DENTE ULTRAVIOLETA Limpeza eficiente 0 Adicionar pasta de dente",
+     "price": "R$ 39,90 - 199,90",
+     "store": "TOYA ORALCARE",
+     "img": "images/products/25725fa0f649a83f.webp",
+     "metrics": [
+      [
+       "Vendas/dia",
+       "2.1 mil"
+      ],
+      [
+       "Variação",
+       "15.26%"
+      ],
+      [
+       "Receita",
+       "R$86.7 mil"
+      ],
+      [
+       "GMV total",
+       "R$4.1 milhão"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/25725fa0f649a83f.webp"
+      ],
+      "rankRange": "5",
+      "popularityIndex": "100",
+      "vendasTotais": "203.3 mil",
+      "gmvTotal": "R$4.2 milhão",
+      "numInfluencers": "3.9 mil",
+      "price": "R$ 39,90 - 199,90",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-12-16"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1733570427443447182?region=BR&locale=en&source=agency"
+    }
+   ]
+  },
+  "novos": {
+   "todos": [
+    {
+     "title": "Kit Lava Roupas 5L + Amaciante 5L - Home Land",
+     "price": "R$ 99,99",
+     "store": "Homelandia",
+     "img": "images/products/45c0701b1a6d9a20.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "1.6 mil"
+      ],
+      [
+       "Receita 3d",
+       "R$165.1 mil"
+      ],
+      [
+       "Vendas totais",
+       "1.6 mil"
+      ],
+      [
+       "GMV total",
+       "R$165.1 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/45c0701b1a6d9a20.webp"
+      ],
+      "rankRange": "719",
+      "popularityIndex": "30",
+      "vendasTotais": "1.8 mil",
+      "gmvTotal": "R$185.0 mil",
+      "numInfluencers": "3",
+      "price": "R$ 99,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738126748393768773?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Cinta Modeladora Abdominal Ajustável Feminina Cintura Alta Faixa Redutora de Barriga Cinta Modeladora Invisível Ajustável Tecido Respirável Vazado Alta Elasticidade Confortável Pós-Parto Uso Diário Barbatanas Flexíveis Design Antienrolamento Compressão Regulável Afina a Cintura Suaviza a Barriga",
+     "price": "R$ 29,00",
+     "store": "PONTO DO SOL COMERCIO02",
+     "img": "images/products/9262857ecba365b4.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "1.1 mil"
+      ],
+      [
+       "Receita 3d",
+       "R$33.7 mil"
+      ],
+      [
+       "Vendas totais",
+       "1.4 mil"
+      ],
+      [
+       "GMV total",
+       "R$41.4 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/9262857ecba365b4.webp"
+      ],
+      "rankRange": "1232",
+      "popularityIndex": "30",
+      "vendasTotais": "1.7 mil",
+      "gmvTotal": "R$51.1 mil",
+      "numInfluencers": "23",
+      "price": "R$ 29,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738101744502605263?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Squishy Manteiga Anti Stress Slow Rising Brinquedo Sensorial Macio Alívio De Estresse E Ansiedade",
+     "price": "R$ 15,88",
+     "store": "Lucky Shop",
+     "img": "images/products/e779d8c8d57ebbbd.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "1.0 mil"
+      ],
+      [
+       "Receita 3d",
+       "R$16.4 mil"
+      ],
+      [
+       "Vendas totais",
+       "1.0 mil"
+      ],
+      [
+       "GMV total",
+       "R$16.6 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/e779d8c8d57ebbbd.webp"
+      ],
+      "rankRange": "1415",
+      "popularityIndex": "30",
+      "vendasTotais": "1.2 mil",
+      "gmvTotal": "R$18.7 mil",
+      "numInfluencers": "34",
+      "price": "R$ 15,88",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738123935535760880?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Smartwatch X22 2026 Mais Recente, 1,5 Polegadas, com Chamada Bluetooth e Funções Inteligentes",
+     "price": "R$ 83,00",
+     "store": "Vendas da loja:713",
+     "img": "images/products/b2d6c6bf642428b8.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "644"
+      ],
+      [
+       "Receita 3d",
+       "R$53.4 mil"
+      ],
+      [
+       "Vendas totais",
+       "695"
+      ],
+      [
+       "GMV total",
+       "R$57.6 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/b2d6c6bf642428b8.webp"
+      ],
+      "rankRange": "2922",
+      "popularityIndex": "30",
+      "vendasTotais": "912",
+      "gmvTotal": "R$75.7 mil",
+      "numInfluencers": "36",
+      "price": "R$ 83,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738102839173809646?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Mochila Esportiva Impermeável Portátil De Costas Tecido Oxford Alças Ajustáveis Múltiplos Compartimentos Resistente Várias Cores Disponíveis Para Trilha Camping Caminhada Praia e Transporte de Roupas Celular e Objetos Pessoais",
+     "price": "R$ 15,35",
+     "store": "JIESIPOTE",
+     "img": "images/products/71a3b7aa3549044b.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "568"
+      ],
+      [
+       "Receita 3d",
+       "R$8.7 mil"
+      ],
+      [
+       "Vendas totais",
+       "568"
+      ],
+      [
+       "GMV total",
+       "R$8.7 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/71a3b7aa3549044b.webp"
+      ],
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738095949172737332?region=BR&locale=en&source=agency"
+    }
+   ],
+   "roupas": [
+    {
+     "title": "Cinta Modeladora Abdominal Ajustável Feminina Cintura Alta Faixa Redutora de Barriga Cinta Modeladora Invisível Ajustável Tecido Respirável Vazado Alta Elasticidade Confortável Pós-Parto Uso Diário Barbatanas Flexíveis Design Antienrolamento Compressão Regulável Afina a Cintura Suaviza a Barriga",
+     "price": "R$ 29,00",
+     "store": "PONTO DO SOL COMERCIO02",
+     "img": "images/products/9262857ecba365b4.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "1.1 mil"
+      ],
+      [
+       "Receita 3d",
+       "R$33.7 mil"
+      ],
+      [
+       "Vendas totais",
+       "1.4 mil"
+      ],
+      [
+       "GMV total",
+       "R$41.4 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/9262857ecba365b4.webp"
+      ],
+      "rankRange": "1232",
+      "popularityIndex": "30",
+      "vendasTotais": "1.7 mil",
+      "gmvTotal": "R$51.1 mil",
+      "numInfluencers": "23",
+      "price": "R$ 29,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738101744502605263?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Saia Midi Evasê Feminina Acetinada Cintura Alta Crepe Amanda",
+     "price": "R$ 42,99",
+     "store": "AH modabelas",
+     "img": "images/products/42b46620f050d5c2.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "338"
+      ],
+      [
+       "Receita 3d",
+       "R$13.5 mil"
+      ],
+      [
+       "Vendas totais",
+       "409"
+      ],
+      [
+       "GMV total",
+       "R$16.3 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/42b46620f050d5c2.webp"
+      ],
+      "rankRange": "5k - 10k",
+      "popularityIndex": "30",
+      "vendasTotais": "409",
+      "gmvTotal": "R$16.3 mil",
+      "numInfluencers": "32",
+      "price": "R$ 42,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738109781638743071?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Kit 3 Blusas Femininas 100% Algodão Estampadas – Girassol, Margarida e Corações Moda Casual P M G GG",
+     "price": "R$ 49,99",
+     "store": "Vendas da loja:651",
+     "img": "images/products/c51998227cc6363e.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "283"
+      ],
+      [
+       "Receita 3d",
+       "R$14.1 mil"
+      ],
+      [
+       "Vendas totais",
+       "283"
+      ],
+      [
+       "GMV total",
+       "R$14.1 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/c51998227cc6363e.webp"
+      ],
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738108679131727226?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Calça Feminina Pantalona Wide Leg Serena Alfaiataria Cintura Alta Elegante Moda Casual",
+     "price": "R$ 37,23",
+     "store": "MimiFashionStore01",
+     "img": "images/products/9a2881311c2fa1e8.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "194"
+      ],
+      [
+       "Receita 3d",
+       "R$7.2 mil"
+      ],
+      [
+       "Vendas totais",
+       "194"
+      ],
+      [
+       "GMV total",
+       "R$7.2 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/9a2881311c2fa1e8.webp"
+      ],
+      "rankRange": "10k - 20k",
+      "popularityIndex": "30",
+      "vendasTotais": "232",
+      "gmvTotal": "R$8.6 mil",
+      "numInfluencers": "29",
+      "price": "R$ 37,23",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738126456925423064?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Conjunto Feminino Cropped e shorte Elegante para Festa Balada Verão",
+     "price": "R$ 79,00",
+     "store": "jzzmodashop",
+     "img": "images/products/84dfe3b776fef100.jpg",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "194"
+      ],
+      [
+       "Receita 3d",
+       "R$15.3 mil"
+      ],
+      [
+       "Vendas totais",
+       "353"
+      ],
+      [
+       "GMV total",
+       "R$27.8 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/84dfe3b776fef100.jpg"
+      ],
+      "rankRange": "10k - 20k",
+      "popularityIndex": "30",
+      "vendasTotais": "357",
+      "gmvTotal": "R$28.2 mil",
+      "numInfluencers": "24",
+      "price": "R$ 79,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "14%",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738108288632063399?region=BR&locale=en&source=agency"
+    }
+   ],
+   "beleza": [
+    {
+     "title": "Kerasys - Dr. Rooteer Anti Hair Loss - Shampoo 800ml Powdery Musk + Treatment 800ml Powdery Musk",
+     "price": "R$ 249,90",
+     "store": "elausabrasil",
+     "img": "images/products/ef092f6aa2bbba46.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "110"
+      ],
+      [
+       "Receita 3d",
+       "R$26.7 mil"
+      ],
+      [
+       "Vendas totais",
+       "166"
+      ],
+      [
+       "GMV total",
+       "R$39.8 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/ef092f6aa2bbba46.webp"
+      ],
+      "rankRange": "20k - 30k",
+      "popularityIndex": "30",
+      "vendasTotais": "259",
+      "gmvTotal": "R$63.1 mil",
+      "numInfluencers": "15",
+      "price": "R$ 249,90",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738123719100041164?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Perfume 1 Billion Eau de Parfum – 50 ml",
+     "price": "R$ 149,00",
+     "store": "Milestone Imports BR",
+     "img": "images/products/78c766c8d2551fce.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "83"
+      ],
+      [
+       "Receita 3d",
+       "R$12.2 mil"
+      ],
+      [
+       "Vendas totais",
+       "111"
+      ],
+      [
+       "GMV total",
+       "R$16.4 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/78c766c8d2551fce.webp"
+      ],
+      "rankRange": "20k - 30k",
+      "popularityIndex": "30",
+      "vendasTotais": "111",
+      "gmvTotal": "R$16.4 mil",
+      "numInfluencers": "1",
+      "price": "R$ 149,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738127691928208491?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Creme Facial Antirrugas e Firmador com Veneno de Abelha, Efeito Tensor Imediato, Hidratação Profunda para Skincare Diário",
+     "price": "R$ 28,99",
+     "store": "Beleza & Suave",
+     "img": "images/products/73f438a88757a9e0.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "69"
+      ],
+      [
+       "Receita 3d",
+       "R$1.9 mil"
+      ],
+      [
+       "Vendas totais",
+       "69"
+      ],
+      [
+       "GMV total",
+       "R$1.9 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/73f438a88757a9e0.webp"
+      ],
+      "rankRange": "30k - 40k",
+      "popularityIndex": "30",
+      "vendasTotais": "73",
+      "gmvTotal": "R$2.0 mil",
+      "numInfluencers": "2",
+      "price": "R$ 28,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738114258936497690?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Khadlaj Panache Angel Dust Perfume Feminino ORIGINAL COM ANVISA",
+     "price": "R$ 619,00",
+     "store": "Vivatti Perfumes",
+     "img": "images/products/b5129231ede5ff97.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "66"
+      ],
+      [
+       "Receita 3d",
+       "R$37.0 mil"
+      ],
+      [
+       "Vendas totais",
+       "66"
+      ],
+      [
+       "GMV total",
+       "R$37.0 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/b5129231ede5ff97.webp"
+      ],
+      "rankRange": "30k - 40k",
+      "popularityIndex": "30",
+      "vendasTotais": "82",
+      "gmvTotal": "R$46.9 mil",
+      "numInfluencers": "22",
+      "price": "R$ 619,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1738127745536919462?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Protetor Solar Facial Episol Fps 70 Tom 3 Médio Pele Morena",
+     "price": "R$ 75,98",
+     "store": "Drogaria Wancley",
+     "img": "images/products/4db858727bc35ca8.webp",
+     "metrics": [
+      [
+       "Vendas 3d",
+       "59"
+      ],
+      [
+       "Receita 3d",
+       "R$4.4 mil"
+      ],
+      [
+       "Vendas totais",
+       "59"
+      ],
+      [
+       "GMV total",
+       "R$4.4 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/4db858727bc35ca8.webp"
+      ],
+      "rankRange": "30k - 40k",
+      "popularityIndex": "30",
+      "vendasTotais": "63",
+      "gmvTotal": "R$4.7 mil",
+      "numInfluencers": "0",
+      "price": "R$ 75,98",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-10-22"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737308656734602883?region=BR&locale=en&source=agency"
+    }
+   ]
+  },
+  "video": {
+   "todos": [
+    {
+     "title": "Kit Coala Coleção de Lançamentos - Limpadores Perfumados Coala 500ml",
+     "price": "R$ 29,90",
+     "store": "Mariza",
+     "img": "images/products/a3e63f9ed2965716.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "3.0 mil"
+      ],
+      [
+       "GMV",
+       "R$102.0 mil"
+      ],
+      [
+       "Views",
+       "3.0 milhão"
+      ],
+      [
+       "Curtidas",
+       "15.9 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/a3e63f9ed2965716.webp"
+      ],
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737774539097474453?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "GOKOCO Escova modeladora de íons negativos de 38 mm – 9 ajustes de temperatura, liso ou cacheado, secagem rápida, tecnologia de aquecimento PTC duplo, tecnologia de aquecimento PTC/tecnologia de controle de temperatura NTC/revestimento cerâmico",
+     "price": "R$ 179,00",
+     "store": "Alan Vivian Cabeleireiro Calvo",
+     "img": "images/products/b75f8a94462e352f.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.8 mil"
+      ],
+      [
+       "GMV",
+       "R$512.3 mil"
+      ],
+      [
+       "Views",
+       "2.1 milhão"
+      ],
+      [
+       "Curtidas",
+       "20.4 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/b75f8a94462e352f.webp"
+      ],
+      "rankRange": "35",
+      "popularityIndex": "97",
+      "vendasTotais": "63.9 mil",
+      "gmvTotal": "R$10.5 milhão",
+      "numInfluencers": "6.3 mil",
+      "price": "R$ 179,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2026-04-23"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1734909824886146496?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "OralGos V34 Corretor de Cor dos Dentes,Remover manchas, iluminar os dentes e corrigir a cor dos dentes.",
+     "price": "R$ 69,90",
+     "store": "Matheus Recomenda",
+     "img": "images/products/d852b03da1f6db62.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.5 mil"
+      ],
+      [
+       "GMV",
+       "R$129.7 mil"
+      ],
+      [
+       "Views",
+       "2.7 milhão"
+      ],
+      [
+       "Curtidas",
+       "9.3 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/d852b03da1f6db62.webp"
+      ],
+      "rankRange": "31",
+      "popularityIndex": "100",
+      "vendasTotais": "12.6 mil",
+      "gmvTotal": "R$602.9 mil",
+      "numInfluencers": "272",
+      "price": "R$ 69,90",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2026-09-18"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737350522454247237?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "TOYADENT PASTA DE DENTE ULTRAVIOLETA Limpeza eficiente 0 Adicionar pasta de dente",
+     "price": "R$ 39,90 - 199,90",
+     "store": "Nat💋",
+     "img": "images/products/25725fa0f649a83f.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.4 mil"
+      ],
+      [
+       "GMV",
+       "R$75.5 mil"
+      ],
+      [
+       "Views",
+       "4.5 milhão"
+      ],
+      [
+       "Curtidas",
+       "22.9 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/25725fa0f649a83f.webp"
+      ],
+      "rankRange": "5",
+      "popularityIndex": "100",
+      "vendasTotais": "203.3 mil",
+      "gmvTotal": "R$4.2 milhão",
+      "numInfluencers": "3.9 mil",
+      "price": "R$ 39,90 - 199,90",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-12-16"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1733570427443447182?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Fita Adesiva de Vedação PVC 5M Impermeável Multiuso para Cozinha e Banheiro",
+     "price": "R$ 6,98",
+     "store": "valerio.vlogs",
+     "img": "images/products/ba403f4a64f00249.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.3 mil"
+      ],
+      [
+       "GMV",
+       "R$16.7 mil"
+      ],
+      [
+       "Views",
+       "1.5 milhão"
+      ],
+      [
+       "Curtidas",
+       "7.2 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/ba403f4a64f00249.webp",
+       "images/products/91d009461d325e71.webp",
+       "images/products/f469a53205e89edd.webp",
+       "images/products/0c4b95ce590fe983.webp",
+       "images/products/fceb65aa2474c5a9.webp",
+       "images/products/eb2f424d48223cd1.webp",
+       "images/products/bd5569d30430288f.webp",
+       "images/products/e2832184256831bc.webp",
+       "images/products/82d0d5b6dfa80281.webp"
+      ],
+      "rankRange": "7",
+      "popularityIndex": "100",
+      "vendasTotais": "92.0 mil",
+      "gmvTotal": "R$641.1 mil",
+      "numInfluencers": "1.3 mil",
+      "price": "R$ 6,98",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "8.5%",
+      "dataUpload": "2026-06-19"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1736030542580909455?region=BR&locale=en&source=agency"
+    }
+   ],
+   "roupas": [
+    {
+     "title": "Calça Jeans Feminina Cintura Alta Modelo Skinny Levanta Bumbum",
+     "price": "R$ 39,99",
+     "store": "Yas Boutique",
+     "img": "images/products/66d8d831d39820e7.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.1 mil"
+      ],
+      [
+       "GMV",
+       "R$87.7 mil"
+      ],
+      [
+       "Views",
+       "6.5 milhão"
+      ],
+      [
+       "Curtidas",
+       "54.3 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/66d8d831d39820e7.webp"
+      ],
+      "rankRange": "3",
+      "popularityIndex": "100",
+      "vendasTotais": "36.1 mil",
+      "gmvTotal": "R$1.8 milhão",
+      "numInfluencers": "1.0 mil",
+      "price": "R$ 39,99",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "-",
+      "dataUpload": "2026-09-16"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737523979751032541?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Soutien Sem Alças de Silicone: Invisível, Respirável e Reutilizável | Perfeito para Vestidos de Festa",
+     "price": "R$ 14,97",
+     "store": "Yas Albuq",
+     "img": "images/products/06d6d4f7b59fbaa6.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.0 mil"
+      ],
+      [
+       "GMV",
+       "R$35.1 mil"
+      ],
+      [
+       "Views",
+       "3.0 milhão"
+      ],
+      [
+       "Curtidas",
+       "14.7 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/06d6d4f7b59fbaa6.webp",
+       "images/products/aa9011c565597463.jpg",
+       "images/products/012cfe54cfbbc1f0.jpg"
+      ],
+      "rankRange": "1",
+      "popularityIndex": "100",
+      "vendasTotais": "228.5 mil",
+      "gmvTotal": "R$3.5 milhão",
+      "numInfluencers": "2.8 mil",
+      "price": "R$ 14,97",
+      "frete": "From R$ 9,60",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "8%",
+      "dataUpload": "2025-05-21"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1731363409967940920?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "SHINY DIARY Cinta Modeladora Dupla Camada com 6 Fileiras e Ajuste Confortável",
+     "price": "R$ 129,00",
+     "store": "Lanne_lopees",
+     "img": "images/products/b9f55aadaa6b4ddd.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "1.6 mil"
+      ],
+      [
+       "GMV",
+       "R$140.9 mil"
+      ],
+      [
+       "Views",
+       "1.4 milhão"
+      ],
+      [
+       "Curtidas",
+       "7.4 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/b9f55aadaa6b4ddd.webp",
+       "images/products/7dd0928a798e857f.webp",
+       "images/products/96eb60ccef42aec5.webp",
+       "images/products/d181debe8289a5b0.webp",
+       "images/products/801b2251306f934e.webp",
+       "images/products/8985b1260754b109.webp",
+       "images/products/7bf49df9d5665072.webp",
+       "images/products/9d8ef8185af66642.webp"
+      ],
+      "rankRange": "45",
+      "popularityIndex": "87",
+      "vendasTotais": "45.8 mil",
+      "gmvTotal": "R$1.9 milhão",
+      "numInfluencers": "540",
+      "price": "R$ 129,00",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "9%",
+      "dataUpload": "2026-05-21"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1735641783252386926?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Cinta Modeladora Abdominal Feminina com Colchetes Ajustáveis, Faixa para Cintura em Tecido Elástico com Painéis Respiráveis, Preta ou Bege Moldeadores",
+     "price": "R$ 21,98",
+     "store": "Ana",
+     "img": "images/products/8143a942c6e8e70d.webp",
      "metrics": [
       [
        "Vendas",
@@ -1869,38 +1614,278 @@
       ],
       [
        "GMV",
-       "R$51.4 mil"
+       "R$27.3 mil"
       ],
       [
        "Views",
-       "1.0 milhão"
+       "2.5 milhão"
       ],
       [
        "Curtidas",
-       "7.0 mil"
+       "15.4 mil"
       ]
      ],
      "detail": {
       "imgs": [
-       "images/products/3a299e11b248e91c.jpg",
-       "images/products/4b2cdfac563c1bb1.webp",
-       "images/products/02c7b7eb0f4e7b29.webp"
+       "images/products/8143a942c6e8e70d.webp"
       ],
-      "rankRange": "14",
-      "popularityIndex": "100",
-      "vendasTotais": "294.3 mil",
-      "gmvTotal": "R$8.4 milhão",
-      "numInfluencers": "14.4 mil",
-      "price": "R$ 36,90",
-      "frete": "From R$ 27,25",
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737541434723567214?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Macacão Social Feminino Acinturado Tecido Duna Elegante Festa",
+     "price": "R$ 46,90",
+     "store": "deusinha.sz",
+     "img": "images/products/fd2fd9e2be1ab314.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "1.2 mil"
+      ],
+      [
+       "GMV",
+       "R$58.9 mil"
+      ],
+      [
+       "Views",
+       "1.3 milhão"
+      ],
+      [
+       "Curtidas",
+       "19.3 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/fd2fd9e2be1ab314.jpg"
+      ],
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737893421487720141?region=BR&locale=en&source=agency"
+    }
+   ],
+   "beleza": [
+    {
+     "title": "GOKOCO Escova modeladora de íons negativos de 38 mm – 9 ajustes de temperatura, liso ou cacheado, secagem rápida, tecnologia de aquecimento PTC duplo, tecnologia de aquecimento PTC/tecnologia de controle de temperatura NTC/revestimento cerâmico",
+     "price": "R$ 179,00",
+     "store": "Alan Vivian Cabeleireiro Calvo",
+     "img": "images/products/b75f8a94462e352f.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.8 mil"
+      ],
+      [
+       "GMV",
+       "R$512.3 mil"
+      ],
+      [
+       "Views",
+       "2.1 milhão"
+      ],
+      [
+       "Curtidas",
+       "20.4 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/b75f8a94462e352f.webp"
+      ],
+      "rankRange": "35",
+      "popularityIndex": "97",
+      "vendasTotais": "63.9 mil",
+      "gmvTotal": "R$10.5 milhão",
+      "numInfluencers": "6.3 mil",
+      "price": "R$ 179,00",
+      "frete": "0",
       "tipoLogistica": "Logística oficial transfronteiriça",
-      "comissao": "12%",
-      "dataUpload": "2025-07-13"
+      "comissao": "10%",
+      "dataUpload": "2026-04-23"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1734909824886146496?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "OralGos V34 Corretor de Cor dos Dentes,Remover manchas, iluminar os dentes e corrigir a cor dos dentes.",
+     "price": "R$ 69,90",
+     "store": "Matheus Recomenda",
+     "img": "images/products/d852b03da1f6db62.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.5 mil"
+      ],
+      [
+       "GMV",
+       "R$129.7 mil"
+      ],
+      [
+       "Views",
+       "2.7 milhão"
+      ],
+      [
+       "Curtidas",
+       "9.3 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/d852b03da1f6db62.webp"
+      ],
+      "rankRange": "31",
+      "popularityIndex": "100",
+      "vendasTotais": "12.6 mil",
+      "gmvTotal": "R$602.9 mil",
+      "numInfluencers": "272",
+      "price": "R$ 69,90",
+      "frete": "0",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2026-09-18"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1737350522454247237?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "TOYADENT PASTA DE DENTE ULTRAVIOLETA Limpeza eficiente 0 Adicionar pasta de dente",
+     "price": "R$ 39,90 - 199,90",
+     "store": "Nat💋",
+     "img": "images/products/25725fa0f649a83f.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.4 mil"
+      ],
+      [
+       "GMV",
+       "R$75.5 mil"
+      ],
+      [
+       "Views",
+       "4.5 milhão"
+      ],
+      [
+       "Curtidas",
+       "22.9 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/25725fa0f649a83f.webp"
+      ],
+      "rankRange": "5",
+      "popularityIndex": "100",
+      "vendasTotais": "203.3 mil",
+      "gmvTotal": "R$4.2 milhão",
+      "numInfluencers": "3.9 mil",
+      "price": "R$ 39,90 - 199,90",
+      "frete": "From R$ 10,80",
+      "tipoLogistica": "Logística oficial transfronteiriça",
+      "comissao": "10%",
+      "dataUpload": "2025-12-16"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1733570427443447182?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Kit Depilador Elétrico 4 em 1 Multifuncional Para Todas as Partes do Corpo Recarregável Tipo C Design Ergonômico e Confortável",
+     "price": "R$ 59,99",
+     "store": "✨ Aline Lidório ✨",
+     "img": "images/products/bb6e649233d5d53a.webp",
+     "metrics": [
+      [
+       "Vendas",
+       "2.0 mil"
+      ],
+      [
+       "GMV",
+       "R$86.6 mil"
+      ],
+      [
+       "Views",
+       "9.0 milhão"
+      ],
+      [
+       "Curtidas",
+       "83.4 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/bb6e649233d5d53a.webp"
+      ],
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
+     },
+     "tiktok_url": "https://shop.tiktok.com/view/product/1736183075219736333?region=BR&locale=en&source=agency"
+    },
+    {
+     "title": "Hidrabene Protetor solar facial fps 70 Uniformizador",
+     "price": "R$ 36,90",
+     "store": "Andresa shop",
+     "img": "images/products/3a299e11b248e91c.jpg",
+     "metrics": [
+      [
+       "Vendas",
+       "1.4 mil"
+      ],
+      [
+       "GMV",
+       "R$68.5 mil"
+      ],
+      [
+       "Views",
+       "1.1 milhão"
+      ],
+      [
+       "Curtidas",
+       "7.2 mil"
+      ]
+     ],
+     "detail": {
+      "imgs": [
+       "images/products/3a299e11b248e91c.jpg"
+      ],
+      "rankRange": null,
+      "popularityIndex": "Índice de popularidade do produto",
+      "vendasTotais": "Índice de popularidade",
+      "gmvTotal": "Vendas totais",
+      "numInfluencers": "GMV total",
+      "price": "Tendência",
+      "frete": "Tipo de logística:",
+      "tipoLogistica": "-",
+      "comissao": "Detalhes da loja",
+      "dataUpload": "Preço:"
      },
      "tiktok_url": "https://shop.tiktok.com/view/product/1731665066105865445?region=BR&locale=en&source=agency"
     }
    ]
   }
  },
- "last_updated": "24/10/2026"
+ "last_updated": "25/10/2026"
 }
